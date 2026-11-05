@@ -10,6 +10,8 @@
             r.russian === records[i].russian && r.hebrew === records[i].hebrew &&
             /^audio\/[a-f0-9]{64}\.mp3$/.test(r.ru) && /^audio\/[a-f0-9]{64}\.mp3$/.test(r.he));
     let current = null;
+    if (valid) mode.value = 'files';
+    else mode.querySelector('option[value="files"]').disabled = true;
     if (!valid) info.textContent = 'Аудиобаза ещё не подготовлена. На компьютере запустите PREPARE_AUDIO_WINDOWS.cmd из архива.';
     else info.textContent = 'Аудиобаза готова: ' + records.length + ' записей. Фоновую работу проверьте на iPhone.';
     function abort() {
@@ -27,6 +29,12 @@
         get selected() { return mode.value === 'files'; },
         get ready() { return !!valid; },
         stop: abort,
+        prime: function () {
+            if (!valid || mode.value !== 'files' || current || audio.getAttribute('src')) return;
+            // Unlock this same media element during the user's microphone-button tap.
+            audio.src = 'data:audio/wav;base64,UklGRiYAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQIAAACAgA==';
+            try { const result = audio.play(); if (result && result.catch) result.catch(() => {}); } catch (_) {}
+        },
         play: function (state, done, failed) {
             abort();
             if (!valid) { failed('Аудиобаза не подготовлена.'); return; }
