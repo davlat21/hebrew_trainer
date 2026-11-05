@@ -14,9 +14,10 @@
     else mode.querySelector('option[value="files"]').disabled = true;
     if (!valid) info.textContent = 'Аудиобаза ещё не подготовлена. На компьютере запустите PREPARE_AUDIO_WINDOWS.cmd из архива.';
     else info.textContent = 'Аудиобаза готова: ' + records.length + ' записей. Фоновую работу проверьте на iPhone.';
-    function abort() {
+    function abort(reset = true) {
         current = null; audio.onended = audio.onerror = audio.onpause = null;
-        audio.pause(); audio.removeAttribute('src'); audio.load();
+        audio.pause();
+        if (reset) { audio.removeAttribute('src'); audio.load(); }
     }
     mode.addEventListener('change', function () {
         document.querySelector('[data-voice-command="END"]').click();
@@ -36,14 +37,13 @@
             try { const result = audio.play(); if (result && result.catch) result.catch(() => {}); } catch (_) {}
         },
         play: function (state, done, failed) {
-            abort();
+            abort(false);
             if (!valid) { failed('Аудиобаза не подготовлена.'); return; }
             const record = manifest.records[state.order[state.position]];
             const entry = {record, side: state.side, done, failed};
             current = entry;
             audio.src = state.side === 'russian' ? record.ru : record.he;
             audio.preload = 'auto';
-            try { if (navigator.audioSession) navigator.audioSession.type = 'playback'; } catch (_) {}
             audio.onended = function () {
                 if (current !== entry) return;
                 current = null; done();

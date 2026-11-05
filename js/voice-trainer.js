@@ -14,6 +14,18 @@
     let recognition = null, listening = false, starting = false, enabled = false, speaking = false;
     let pendingSpeech = null, timer = null, generation = 0, failures = 0;
     let speechTimer = null, currentUtterance = null, releaseTimer = null;
+    let input = null, micRequest = 0, recognitionTimer = null;
+    function setAudioMode(type) {
+        try { if (navigator.audioSession) navigator.audioSession.type = type; } catch (_) {}
+    }
+    function recognitionWatchdog(ms, message) {
+        clearTimeout(recognitionTimer);
+        recognitionTimer = setTimeout(() => {
+            if (!enabled || speaking) return;
+            stopMic();
+            sayStatus(message);
+        }, ms);
+    }
     const commands = new Set(['START', 'NEXT', 'NEW', 'MIX', 'BASE', 'END']);
     function decode(text) {
         const word = text.trim().toUpperCase().replace(/[.!?,;:]+$/g, '').trim();
@@ -43,20 +55,25 @@
     }
     function listen() {
         if (!enabled || speaking || listening || starting || !recognition) return;
-        try { if (navigator.audioSession) navigator.audioSession.type = 'play-and-record'; } catch (_) {}
+        setAudioMode('play-and-record');
+        recognitionWatchdog(8000, 'Safari не запустил распознавание. Проверьте, включена ли Siri и разрешён ли микрофон для сайта.');
         try { starting = true; recognition.start(); }
-        catch (error) { starting = false; enabled = false; mic.textContent = 'Включить микрофон'; sayStatus('Не удалось включить микрофон. Нажмите кнопку ещё раз.'); }
+        catch (error) { stopMic(); sayStatus('Не удалось запустить распознавание: ' + error.name + '. Включите микрофон снова.'); }
     }
     function stopMic() {
-        enabled = false; clearTimeout(timer); mic.textContent = 'Включить микрофон';
+        enabled = false; micRequest++;
+        clearTimeout(timer); clearTimeout(recognitionTimer);
+        mic.textContent = 'Включить микрофон';
         if (recognition && (listening || starting)) abortRecognition();
+        starting = listening = false;
+        if (input) { input.getTracks().forEach(track => track.stop()); input = null; }
+        setAudioMode('auto');
     }
     function speakCurrent(state) {
         generation++; clearTimeout(releaseTimer);
         const token = generation;
-        pendingSpeech = null; clearTimeout(speechTimer); setSpeaking(true);
+        pendingSpeech = null; clearTimeout(recognitionTimer); clearTimeout(speechTimer); setSpeaking(true);
         if (synth) synth.cancel();
-        if (window.RecordedTrainerAudio) window.RecordedTrainerAudio.stop();
         const run = function () {
             if (token !== generation) return;
             if (window.RecordedTrainerAudio && window.RecordedTrainerAudio.selected) {
@@ -64,6 +81,7 @@
                 clearTimeout(speechTimer);
                 sayStatus('Воспроизвожу MP3…');
                 window.dispatchEvent(new CustomEvent('trainer-speaking', {detail: {text: state.record[state.side], playing: true}}));
+                setAudioMode(enabled ? 'play-and-record' : 'playback');
                 window.RecordedTrainerAudio.play(state, function () {
                     if (token !== generation) return;
                     setSpeaking(false); sayStatus('Ожидаю NEXT.'); scheduleListen();
@@ -160,8 +178,15 @@
         recognition.continuous = false;
         recognition.interimResults = false;
         recognition.maxAlternatives = 3;
-        recognition.onstart = function () { starting = false; listening = true; if (speaking || !enabled) abortRecognition(); else sayStatus('Слушаю: START, NEXT, NEW, MIX, BASE, END'); };
-        recognition.onend = function () { starting = false; listening = false; if (pendingSpeech) flushPendingSpeech(); else scheduleListen(); };
+        recognition.onstart = function () {
+            starting = false; listening = true;
+            if (speaking || !enabled) abortRecognition();
+            else {
+                sayStatus('Слушаю: START, NEXT, NEW, MIX, BASE, END');
+                recognitionWatchdog(25000, 'Safari не вернул результат. Включите микрофон снова; если повторится, проверьте Siri и попробуйте без гарнитуры.');
+            }
+        };
+        recognition.onend = function () { clearTimeout(recognitionTimer); starting = false; listening = false; if (pendingSpeech) flushPendingSpeech(); else scheduleListen(); };
         recognition.onresult = function (event) {
             if (!enabled || speaking) return;
             for (let i = event.resultIndex; i < event.results.length; i++) {
@@ -181,9 +206,27 @@
             } else sayStatus('Ошибка распознавания. Пробую подключиться снова…');
         };
     } else { mic.disabled = true; sayStatus('Голосовые команды недоступны в этом браузере. Используйте кнопки.'); }
-    mic.addEventListener('click', function () {
-        if (enabled) { stopMic(); sayStatus('Микрофон выключен.'); }
-        else { if (window.RecordedTrainerAudio) window.RecordedTrainerAudio.prime(); enabled = true; failures = 0; mic.textContent = 'Выключить микрофон'; listen(); }
+    mic.addEventListener('click', async function () {
+        if (enabled) { stopMic(); sayStatus('Микрофон выключен.'); return; }
+        if (!recognition) return;
+        const request = ++micRequest;
+        enabled = true; failures = 0;
+        mic.textContent = 'Выключить микрофон';
+        sayStatus('Запрашиваю доступ к микрофону…');
+        if (window.RecordedTrainerAudio) window.RecordedTrainerAudio.prime();
+        setAudioMode('play-and-record');
+        try {
+            // Hold capture across short audio replies to keep WebKit's input session alive.
+            if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                const stream = await navigator.mediaDevices.getUserMedia({audio: true});
+                if (request !== micRequest) { stream.getTracks().forEach(track => track.stop()); return; }
+                input = stream;
+            }
+            listen();
+        } catch (error) {
+            if (request !== micRequest) return;
+            stopMic(); sayStatus('Микрофон недоступен (' + error.name + '). Проверьте разрешение для сайта.');
+        }
     });
     document.querySelectorAll('[data-voice-command]').forEach(button => button.addEventListener('click', () => command(button.dataset.voiceCommand)));
     window.addEventListener('pagehide', function () { if (window.RecordedTrainerAudio) window.RecordedTrainerAudio.stop(); generation++; clearTimeout(releaseTimer); clearTimeout(speechTimer); currentUtterance = null; pendingSpeech = null; setSpeaking(false); stopMic(); if (synth) synth.cancel(); });
