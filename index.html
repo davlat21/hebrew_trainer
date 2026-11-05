@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Мой словарь иврита
+    </title>
+
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/database.css">
+    <link rel="stylesheet" href="css/my-dictionary.css">
+
+
+
+
+</head>
+
+
+<body>
+
+
+    <h1>
+        Мой словарь иврита
+    </h1>
+
+
+    <div class="form">
+
+
+        <input id="hebrew" type="text" placeholder="Слово, фраза или предложение на иврите">
+
+
+        <input id="transcription" type="text" placeholder="Транскрипция">
+
+
+        <input id="russian" type="text" placeholder="Перевод на русский">
+
+
+        <div class="or">
+            или массовый / быстрый ввод
+        </div>
+
+
+        <textarea id="quickInput" rows="9" spellcheck="false" placeholder="Каждая новая строка = отдельная запись словаря.
+
+Например:
+
+אני רוצה ללמוד עברית | ani rotze lilmod ivrit | я хочу учить иврит
+מחר אני הולך לעבודה | mahar ani holeh la-avoda | завтра я иду на работу
+היום אני בבית | hayom ani babait | сегодня я дома
+
+Знак | необязателен, но для больших текстов обеспечивает точное разделение."></textarea>
+
+
+        <div class="quickInputHelp">
+
+            <strong>
+                Массовый ввод:
+            </strong>
+
+            <span>
+                каждая новая строка создаёт отдельную запись.
+            </span>
+
+            <span>
+                Для максимально точного разделения используй:
+            </span>
+
+            <code>
+                иврит | транскрипция | перевод
+            </code>
+
+        </div>
+
+
+        <button id="addButton" type="button">
+            Добавить в словарь
+        </button>
+
+
+        <div id="importMessage"></div>
+        <div id="databaseChoices" hidden aria-live="polite"></div>
+
+
+        <!-- ========================================= -->
+        <!-- ПРОВЕРКА ЯЗЫКА -->
+        <!-- ========================================= -->
+
+        <div id="correctionPanel" class="correctionPanel" hidden>
+
+            <div id="correctionTitle" class="correctionTitle">
+                Проверка
+            </div>
+
+
+            <div id="correctionOriginal" class="correctionBlock"></div>
+
+
+            <div id="correctionSuggested" class="correctionBlock"></div>
+
+
+            <div id="correctionChanges" class="correctionChanges"></div>
+
+
+            <div class="correctionButtons">
+
+
+                <button id="acceptCorrectionButton" type="button">
+                    Добавить исправленный вариант
+                </button>
+
+
+                <button id="keepOriginalButton" type="button">
+                    Оставить как введено
+                </button>
+
+
+                <button id="cancelCorrectionButton" type="button">
+                    Отмена
+                </button>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <section class="voiceTrainer" aria-labelledby="voiceTitle">
+        <h2 id="voiceTitle">Голосовое изучение слов</h2>
+        <p>Нажмите «Включить микрофон», разрешите доступ и скажите START. После озвучивания слова дождитесь надписи «Слушаю» и произнесите следующую команду.</p>
+        <button id="voiceMic" type="button">Включить микрофон</button>
+        <label for="audioMode">Способ озвучивания:</label>
+        <select id="audioMode">
+            <option value="speech">Обычный голос браузера (открытый экран)</option>
+            <option value="files">MP3-плеер для кнопки наушника</option>
+        </select>
+        <p id="audioFilesStatus" role="status"></p>
+        <audio id="recordedAudio" controls preload="none" aria-label="Аудиоплеер текущего слова"></audio>
+        <p>Для MP3-режима сначала подготовьте аудиофайлы на компьютере. Затем выберите этот режим, включите NEXT на наушнике и нажмите START. Голосовые команды при блокировке экрана не поддерживаются.</p>
+        <button id="voiceRepeat" type="button">Повторить слово</button>
+        <div class="headsetPanel">
+            <label><input id="headsetEnable" type="checkbox"> NEXT кнопкой Play/Pause на наушнике (эксперимент)</label>
+            <p id="headsetStatus" role="status">Управление наушником выключено.</p>
+            <p>Сначала нажмите START на странице, затем кнопку Play/Pause на наушнике. Если счётчик не меняется — браузер не передаёт нажатия сайту. Работа с заблокированным экраном не гарантируется.</p>
+        </div>
+        <div class="voiceCommands">
+            <button type="button" data-voice-command="START">START — начать</button>
+            <button type="button" data-voice-command="NEXT">NEXT — дальше</button>
+            <button type="button" data-voice-command="NEW">NEW — сначала</button>
+            <button type="button" data-voice-command="MIX">MIX — перемешать</button>
+            <button type="button" data-voice-command="BASE">BASE — исходный порядок</button>
+            <button type="button" data-voice-command="END">END — завершить</button>
+        </div>
+        <p id="voiceProgress">База: 1659 записей</p>
+        <div id="voiceWord" class="voiceWord">Нажмите или скажите START</div>
+        <p id="voiceStatus" role="status">Микрофон выключен.</p>
+        <details><summary>Как пользоваться</summary>
+            <p>START — первое слово на русском. NEXT — это слово на иврите; следующий NEXT — следующее слово на русском. NEW — сначала в текущем порядке. MIX — новый случайный порядок и первое слово на русском. BASE — исходный порядок и первое слово на русском. END — остановить озвучивание и выключить микрофон.</p>
+            <p>После END включите микрофон кнопкой для новых голосовых команд. Во время озвучивания доступна кнопка END. Для работы микрофона открывайте сайт по HTTPS или через localhost; может потребоваться интернет. Нужны русский голос и голос иврита на устройстве. Распознавание может передавать звук сервису браузера. Вся база доступна через «Мой словарь».</p>
+        </details>
+    </section>
+    <div class="listHeader">
+
+        <h2>
+            Мои слова
+        </h2>
+
+    </div>
+
+
+    <div class="bookmarkControls">
+        <button id="myDictionaryButton" type="button" aria-expanded="false" aria-controls="myDictionaryPanel">Мой словарь</button>
+
+
+        <button id="addBookmarkButton" type="button">
+            Сделать закладку
+        </button>
+
+
+        <button id="removeBookmarkButton" type="button">
+            Убрать закладку
+        </button>
+
+
+        <button id="editButton" type="button">
+            Редактировать
+        </button>
+
+
+        <button id="deleteModeButton" type="button">
+            Удалить
+        </button>
+
+
+        <button id="clearDictionaryButton" type="button">
+            Очистить весь словарь
+        </button>
+
+
+    </div>
+
+
+    <div id="deleteControls" class="deleteControls" hidden>
+
+
+        <div id="selectedCount" class="selectedCount">
+            Выбрано: 0
+        </div>
+
+
+        <button id="selectAllButton" type="button">
+            Выбрать все
+        </button>
+
+
+        <button id="deselectAllButton" type="button">
+            Снять выбор
+        </button>
+
+
+        <button id="deleteSelectedButton" type="button" class="deleteSelectedButton">
+            Удалить выбранные
+        </button>
+
+
+    </div>
+
+
+    <div id="bookmarkMessage"></div>
+
+
+    <section id="myDictionaryPanel" class="myDictionaryPanel" hidden aria-labelledby="myDictionaryTitle">
+        <h2 id="myDictionaryTitle">Мой словарь</h2>
+        <p id="myDictionaryCount" role="status"></p>
+        <div class="myDictionaryScroll">
+            <table class="myDictionaryTable">
+                <thead><tr><th scope="col">№</th><th scope="col">Иврит</th><th scope="col">Транскрипция</th><th scope="col">Перевод</th></tr></thead>
+                <tbody id="myDictionaryRows"></tbody>
+            </table>
+        </div>
+    </section>
+    <div id="wordList"></div>
+
+
+    <!-- ========================================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ========================================= -->
+
+
+    <!-- СОСТОЯНИЕ -->
+
+    <!-- Shared Hebrew/Russian word database -->
+    <script src="database/words.js"></script>
+    <script src="database/database.js"></script>
+
+    <script src="js/state.js"></script>
+
+
+    <!-- ЯЗЫКОВЫЕ ДАННЫЕ -->
+
+    <script src="js/data/russian-words.js"></script>
+
+    <script src="js/data/hebrew-transcriptions.js"></script>
+
+    <script src="js/data/language-corrections.js"></script>
+
+
+    <!-- ПАРСЕР -->
+
+    <script src="js/parser/alphabet.js"></script>
+
+    <script src="js/parser/learning.js"></script>
+
+    <script src="js/parser/phonetics.js"></script>
+
+    <script src="js/parser/segmentation.js"></script>
+
+    <script src="js/parser/confidence.js"></script>
+
+    <script src="js/parser/parser.js"></script>
+
+
+    <!-- НОВЫЙ ДВИЖОК ПРОИЗНОШЕНИЯ -->
+
+    <script src="js/parser/pronunciation.js"></script>
+
+
+    <!-- ПРОВЕРКА ЯЗЫКА -->
+
+    <script src="js/correction.js"></script>
+
+
+    <!-- СЛОВАРЬ -->
+
+    <script src="js/dictionary.js"></script>
+
+    <script src="js/database-import.js"></script>
+
+    <script src="js/import.js"></script>
+
+    <script src="js/ui.js"></script>
+
+
+    <!-- ИНТЕРФЕЙС ПРОВЕРКИ -->
+
+    <script src="js/correction-ui.js"></script>
+
+
+    <!-- ЗАПУСК -->
+
+    <script src="js/app.js"></script>
+
+
+    <!-- Отдельная база: Общие слова из Excel -->
+    <script src="database/general-words/words.js"></script>
+    <script src="database/general-words/database.js"></script>
+    <script src="js/my-dictionary.js"></script>
+    <script src="js/voice-trainer-core.js"></script>
+    <script src="audio/manifest.js"></script>
+    <script src="js/recorded-audio.js"></script>
+    <script src="js/voice-trainer.js"></script>
+    <script src="js/headset-controls.js"></script>
+</body>
+
+</html>

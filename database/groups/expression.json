@@ -1,0 +1,140 @@
+[
+  {
+    "hebrew": "(שֶל) אֶבֶן",
+    "transcription": "(шель) эвен",
+    "russian": "каменный (из камня)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "(שֶל) עֲרָפֶל",
+    "transcription": "(шель) арафель",
+    "russian": "туманный (окутанный туманом)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "יָכוֹל לִהיוֹת",
+    "transcription": "яхоль лиhйот",
+    "russian": "может (может быть)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "עִם זֹאת",
+    "transcription": "им зот",
+    "russian": "однако (тем не менее)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "בְּכָל זֹאת",
+    "transcription": "бехаль зот",
+    "russian": "однако (тем не менее)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "אוֹמנָם... אַך בְּכָל זֹאת",
+    "transcription": "омнам... ах бехаль зот",
+    "russian": "однако (тем не менее)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "אָמנָם... אַך בְּכָל זֹאת",
+    "transcription": "амнам... ах бехаль зот",
+    "russian": "однако (тем не менее)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "(שֶל) אֲווִיר",
+    "transcription": "(шель) авир",
+    "russian": "воздушный (относящийся к воздуху)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "מִפֶּה לָאוֹזֶן",
+    "transcription": "мипе лаозэн",
+    "russian": "по секрету",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "אֶחָד אֶחָד",
+    "transcription": "эхад эхад",
+    "russian": "по одному (друг за другом)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "עַד כַּמָה",
+    "transcription": "ад кама",
+    "russian": "как (до чего)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "בַּמָקוֹם",
+    "transcription": "бамаком",
+    "russian": "на (своём) месте",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "גַם יַחַד",
+    "transcription": "гам яхад",
+    "russian": "вместе",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "בִּכפִיפָה אַחַת",
+    "transcription": "бихфифа ахат",
+    "russian": "вместе",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "פֶּה-אֶחָד",
+    "transcription": "пе-эхад",
+    "russian": "единогласно",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "עַל דַעַת הַכּוֹל",
+    "transcription": "аль даат hаколь",
+    "russian": "единогласно",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "פֶּה אֶחָד",
+    "transcription": "пе эхад",
+    "russian": "единодушно",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "עֲלֵי אֲדָמוֹת",
+    "transcription": "алэй адамот",
+    "russian": "на земле (на свете)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "(שֶל) מִשפָּחָה",
+    "transcription": "(шель) мишпаха",
+    "russian": "семейный (относящийся к семье)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "בַּעַל-מִשפָּחָה",
+    "transcription": "бааль-мишпаха",
+    "russian": "семейный (имеющий семью)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "אִי-אֶפשָר",
+    "transcription": "и-эфшар",
+    "russian": "нельзя (нет возможности)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "בּוֹ בַּמָקוֹם",
+    "transcription": "бо бамаком",
+    "russian": "тут же",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "עַל הַמָקוֹם",
+    "transcription": "аль hамаком",
+    "russian": "тут же",
+    "partOfSpeech": "expression"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "hebrew": "פּלוֹנִי",
+    "transcription": "плони",
+    "russian": "некто",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "פּלוֹנִי-אַלמוֹנִי",
+    "transcription": "плони-альмони",
+    "russian": "некто",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֶחָד",
+    "transcription": "эхад",
+    "russian": "некто",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "כָּל",
+    "transcription": "коль",
+    "russian": "каждый (всякий)",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "כָּל אֶחָד",
+    "transcription": "коль эхад",
+    "russian": "каждый (любой человек)",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "כָּל אֶחָד וְאֶחָד",
+    "transcription": "коль эхад веэхад",
+    "russian": "каждый (любой человек)",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "כָּל",
+    "transcription": "коль",
+    "russian": "каждый (о времени)",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "מַה",
+    "transcription": "ма",
+    "russian": "как (в вопр. и воскл. оборотах)",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֲחָדִים",
+    "transcription": "ахадим",
+    "russian": "некоторые",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵיזֶה",
+    "transcription": "эйзэ",
+    "russian": "какой",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "מַה",
+    "transcription": "ма",
+    "russian": "какой",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵיזוֹ",
+    "transcription": "эйзо",
+    "russian": "какая",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵילוּ",
+    "transcription": "эйлу",
+    "russian": "какие",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵיזֶה",
+    "transcription": "эйзэ",
+    "russian": "какие",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵיזֶשֶהוּ",
+    "transcription": "эйзэшеhу",
+    "russian": "какой-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵיזֶה",
+    "transcription": "эйзэ",
+    "russian": "какой-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "כָּלשֶהוּ",
+    "transcription": "кальшеhу",
+    "russian": "какой-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵי אֵלוּ",
+    "transcription": "эй элу",
+    "russian": "какие-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵי אֵלֶה",
+    "transcription": "эй эле",
+    "russian": "какие-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵיזֶה",
+    "transcription": "эйзэ",
+    "russian": "какие-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵיזוֹ",
+    "transcription": "эйзо",
+    "russian": "какая-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵיזוֹשֶהִי",
+    "transcription": "эйзошеhи",
+    "russian": "какая-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "שוּם דָבָר",
+    "transcription": "шум давар",
+    "russian": "ничто (ничего)",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "כּלוּם",
+    "transcription": "клум",
+    "russian": "ничто (ничего)",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "לֹא כלוּם",
+    "transcription": "ло хлум",
+    "russian": "ничто (ничего)",
+    "partOfSpeech": "pronoun"
+  }
+]

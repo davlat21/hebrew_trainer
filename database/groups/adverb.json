@@ -1,0 +1,506 @@
+[
+  {
+    "hebrew": "פָּחוֹת",
+    "transcription": "пахот",
+    "russian": "минус (без чего-л.)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַגַב",
+    "transcription": "агав",
+    "russian": "кстати (заодно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "דֶרֶך אַגַב",
+    "transcription": "дэрэх агав",
+    "russian": "кстати (заодно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַגַב אוֹרחָה",
+    "transcription": "агав орха",
+    "russian": "кстати (заодно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בַּזמָן הַנָכוֹן",
+    "transcription": "базман hанахон",
+    "russian": "кстати (вовремя)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּעִיתוֹ",
+    "transcription": "беито",
+    "russian": "кстати (вовремя)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בַּמָקוֹם",
+    "transcription": "бамаком",
+    "russian": "кстати (уместно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְהֶיפֶך",
+    "transcription": "леhэфех",
+    "russian": "наоборот",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְהֶפֶך",
+    "transcription": "леhефех",
+    "russian": "наоборот",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "נַהֲפוֹך הוּא",
+    "transcription": "наhафох hу",
+    "russian": "наоборот",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַדְרַבָּה",
+    "transcription": "адераба",
+    "russian": "наоборот",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּרָצוֹן",
+    "transcription": "берацон",
+    "russian": "пожалуйста (при согласии)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּשִׂמחָה",
+    "transcription": "бесимха",
+    "russian": "пожалуйста (при согласии)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּלַהַט",
+    "transcription": "белаhат",
+    "russian": "страстно (с сильным чувством)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּפוֹעַל",
+    "transcription": "бефоаль",
+    "russian": "действительно (реально)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בֶּאֱמֶת",
+    "transcription": "беэмет",
+    "russian": "действительно (истинно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּתוֹקֶף",
+    "transcription": "бетокеф",
+    "russian": "действительно (в силе)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לַאֲשוּרוֹ",
+    "transcription": "лаашуро",
+    "russian": "верно (правильно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בִּמסִירוּת",
+    "transcription": "бимсирут",
+    "russian": "верно (преданно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּנֶאֱמָנוּת",
+    "transcription": "бенээманут",
+    "russian": "верно (преданно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "כַּנִראֶה",
+    "transcription": "каниръэ",
+    "russian": "верно (вероятно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֶל נָכוֹן",
+    "transcription": "эль нахон",
+    "russian": "верно (вероятно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּסֵתֶר",
+    "transcription": "бесэтэр",
+    "russian": "по секрету",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְבַד",
+    "transcription": "левад",
+    "russian": "один (в отдельности)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְבַדוֹ",
+    "transcription": "левадо",
+    "russian": "один (в отдельности)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּגַפּוֹ",
+    "transcription": "бегапо",
+    "russian": "один (в отдельности)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֵיך",
+    "transcription": "эйх",
+    "russian": "как (каким образом)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "כֵּיצַד",
+    "transcription": "кэцад",
+    "russian": "как (каким образом)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "יַחַד",
+    "transcription": "яхад",
+    "russian": "вместе",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּיַחַד",
+    "transcription": "беяхад",
+    "russian": "вместе",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּצַוותָא",
+    "transcription": "бецавта",
+    "russian": "вместе",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "יַחדָיו",
+    "transcription": "яхдав",
+    "russian": "вместе",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "מְאוֹד",
+    "transcription": "меод",
+    "russian": "очень",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "מְאֹד",
+    "transcription": "меод",
+    "russian": "очень",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "עַד מְאוֹד",
+    "transcription": "ад меод",
+    "russian": "очень",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "נוֹרָא",
+    "transcription": "нора",
+    "russian": "очень",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּגַאֲווָה",
+    "transcription": "бегаава",
+    "russian": "важно (величаво)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "חֲזָרָה",
+    "transcription": "хазара",
+    "russian": "назад (по месту)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בַּחֲזָרָה",
+    "transcription": "бахазара",
+    "russian": "назад (по месту)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֲחוֹרַנִית",
+    "transcription": "ахоранит",
+    "russian": "назад (по направлению)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אָחוֹרָה",
+    "transcription": "ахора",
+    "russian": "назад (по направлению)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְאָחוֹר",
+    "transcription": "леахор",
+    "russian": "назад (по направлению)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "חֲזָרָה",
+    "transcription": "хазара",
+    "russian": "обратно",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בַּחֲזָרָה",
+    "transcription": "бахазара",
+    "russian": "обратно",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אָחוֹרָה",
+    "transcription": "ахора",
+    "russian": "обратно",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְאָחוֹר",
+    "transcription": "леахор",
+    "russian": "обратно",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַחַר-כָּך",
+    "transcription": "ахар-ках",
+    "russian": "потом (позже)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְאַחַר מִכֵּן",
+    "transcription": "леахар микен",
+    "russian": "потом (позже)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַחֲרֵי-כֵן",
+    "transcription": "ахарэй-хен",
+    "russian": "потом (позже)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "מְאוּחָר יוֹתֵר",
+    "transcription": "меухар йотэр",
+    "russian": "потом (позже)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַחַר-כָּך",
+    "transcription": "ахар-ках",
+    "russian": "затем (потом, после этого)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַחֲרֵי-כֵן",
+    "transcription": "ахарэй-хен",
+    "russian": "затем (потом, после этого)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְאַחַר מִכֵּן",
+    "transcription": "леахар микен",
+    "russian": "затем (потом, после этого)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בָּאַחרוֹנָה",
+    "transcription": "баахрона",
+    "russian": "в последнее время",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לָאַחֲרוֹנָה",
+    "transcription": "лаахарона",
+    "russian": "в последнее время",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "מְאוּחָר",
+    "transcription": "меухар",
+    "russian": "поздно (по времени)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּאִיחוּר",
+    "transcription": "беихур",
+    "russian": "поздно (с опозданием)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "מוּקדָם",
+    "transcription": "мукдам",
+    "russian": "рано (по времени)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לִפנֵי הַמוֹעֵד",
+    "transcription": "лифнэй hамоэд",
+    "russian": "рано (преждевременно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לִפנֵי הַזמַן",
+    "transcription": "лифнэй hазман",
+    "russian": "рано (преждевременно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַחַר הַצָהֳרַיִים",
+    "transcription": "ахар hацаhораим",
+    "russian": "после обеда (днем, под вечер)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "מָחָר",
+    "transcription": "махар",
+    "russian": "завтра (на другой день)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לַמָחֳרָת",
+    "transcription": "ламахорат",
+    "russian": "завтра (на другой день)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "מָחֳרָתַיִים",
+    "transcription": "махоратаим",
+    "russian": "послезавтра",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְאַט",
+    "transcription": "леат",
+    "russian": "медленно (книжн.)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בַּעֲצַלתַיִים",
+    "transcription": "баацальтаим",
+    "russian": "медленно (книжн.)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַט",
+    "transcription": "ат",
+    "russian": "медленно (книжн.)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּאִיטִיוּת",
+    "transcription": "беитиют",
+    "russian": "не спеша",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְאַט",
+    "transcription": "леат",
+    "russian": "не спеша",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְאִיטוֹ",
+    "transcription": "леито",
+    "russian": "не спеша",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "פָּחוֹת",
+    "transcription": "пахот",
+    "russian": "без (за вычетом)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֵי-בָּזֶה",
+    "transcription": "эй-базэ",
+    "russian": "где (лит. редко)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֵיפֹה שֶהוּא",
+    "transcription": "эйфо шеhу",
+    "russian": "где-либо (о месте)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֵי-שָם",
+    "transcription": "эй-шам",
+    "russian": "где-либо (о месте)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֵיפֹה שֶהוּא",
+    "transcription": "эйфо шеhу",
+    "russian": "где-нибудь (о месте)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֵיפֹשֶהוּ",
+    "transcription": "эйфошеhу",
+    "russian": "где-нибудь (о месте)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֵיפֹה שֶהוּא",
+    "transcription": "эйфо шеhу",
+    "russian": "где-то (в каком-то месте)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּעֵרֶך",
+    "transcription": "беэрэх",
+    "russian": "где-то (приблизительно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֵיפֹה",
+    "transcription": "эйфо",
+    "russian": "где",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַך",
+    "transcription": "ах",
+    "russian": "только (едва)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "מִייָד",
+    "transcription": "мияд",
+    "russian": "тут же",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְאַלתַר",
+    "transcription": "леальтар",
+    "russian": "тут же",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "פֹּה",
+    "transcription": "по",
+    "russian": "тут (здесь)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "כָּאן",
+    "transcription": "кан",
+    "russian": "тут (здесь)",
+    "partOfSpeech": "adverb"
+  }
+]

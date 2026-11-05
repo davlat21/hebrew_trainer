@@ -1,0 +1,162 @@
+(function () {
+    'use strict';
+    const byId = id => document.getElementById(id);
+    const status = byId('voiceStatus'), card = byId('voiceWord'), detail = byId('voiceProgress');
+    const mic = byId('voiceMic');
+    if (!window.createVoiceTrainer || !window.GeneralHebrewRussianDatabase) {
+        status.textContent = 'Не удалось загрузить новую базу. Обновите страницу.';
+        mic.disabled = true;
+        return;
+    }
+    const trainer = window.createVoiceTrainer(window.GeneralHebrewRussianDatabase.getAll());
+    const synth = window.speechSynthesis;
+    const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    let recognition = null, listening = false, starting = false, enabled = false, speaking = false;
+    let pendingSpeech = null, timer = null, generation = 0, failures = 0;
+    let speechTimer = null, currentUtterance = null;
+    function setSpeaking(value) {
+        speaking = value;
+        if (!value) window.dispatchEvent(new CustomEvent('trainer-speaking', {detail: {playing: false}}));
+        document.querySelectorAll('[data-voice-command]').forEach(button => {
+            button.disabled = value && button.dataset.voiceCommand !== 'END';
+        });
+        byId('voiceRepeat').disabled = value;
+    }
+    const sayStatus = text => { status.textContent = text; };
+    function scheduleListen() {
+        clearTimeout(timer);
+        if (enabled && !speaking) timer = setTimeout(listen, 350);
+    }
+    function listen() {
+        if (!enabled || speaking || listening || starting || !recognition) return;
+        try { starting = true; recognition.start(); }
+        catch (error) { starting = false; enabled = false; mic.textContent = 'Включить микрофон'; sayStatus('Не удалось включить микрофон. Нажмите кнопку ещё раз.'); }
+    }
+    function stopMic() {
+        enabled = false; clearTimeout(timer); mic.textContent = 'Включить микрофон';
+        if (recognition && (listening || starting)) recognition.abort();
+    }
+    function speakCurrent(state) {
+        generation++;
+        const token = generation;
+        pendingSpeech = null; clearTimeout(speechTimer); setSpeaking(true);
+        if (synth) synth.cancel();
+        if (window.RecordedTrainerAudio) window.RecordedTrainerAudio.stop();
+        const run = function () {
+            if (token !== generation) return;
+            if (window.RecordedTrainerAudio && window.RecordedTrainerAudio.selected) {
+                // Do not impose the browser-speech watchdog on a real media element in the background.
+                clearTimeout(speechTimer);
+                sayStatus('Воспроизвожу MP3…');
+                window.dispatchEvent(new CustomEvent('trainer-speaking', {detail: {text: state.record[state.side], playing: true}}));
+                window.RecordedTrainerAudio.play(state, function () {
+                    if (token !== generation) return;
+                    setSpeaking(false); sayStatus('Ожидаю NEXT.'); scheduleListen();
+                }, function (message) {
+                    if (token !== generation) return;
+                    setSpeaking(false); sayStatus(message); scheduleListen();
+                });
+                return;
+            }
+            if (!synth || !window.SpeechSynthesisUtterance) {
+                clearTimeout(speechTimer); setSpeaking(false); sayStatus('Озвучивание недоступно в этом браузере.'); scheduleListen(); return;
+            }
+            const utterance = new window.SpeechSynthesisUtterance(state.record[state.side]);
+            currentUtterance = utterance;
+            utterance.lang = state.side === 'russian' ? 'ru-RU' : 'he-IL';
+            const prefix = state.side === 'russian' ? 'ru' : 'he';
+            const voice = synth.getVoices().find(v => v.lang.toLowerCase().startsWith(prefix) || (prefix === 'he' && v.lang.toLowerCase().startsWith('iw')));
+            if (voice) utterance.voice = voice;
+            utterance.rate = 0.85;
+            sayStatus('Произношу слово…');
+            window.dispatchEvent(new CustomEvent('trainer-speaking', {detail: {text: utterance.text, playing: true}}));
+            utterance.onend = function () {
+                if (token !== generation) return;
+                clearTimeout(speechTimer); currentUtterance = null;
+                window.dispatchEvent(new CustomEvent('trainer-speaking', {detail: {playing: false}}));
+                setSpeaking(false);
+                sayStatus(enabled ? 'Ожидаю команду…' : 'Микрофон выключен. Можно использовать кнопки.');
+                scheduleListen();
+            };
+            utterance.onerror = function () {
+                if (token !== generation) return;
+                clearTimeout(speechTimer); currentUtterance = null;
+                window.dispatchEvent(new CustomEvent('trainer-speaking', {detail: {playing: false}}));
+                setSpeaking(false);
+                sayStatus('Не удалось озвучить слово. Проверьте наличие русского голоса и голоса иврита на устройстве.');
+                scheduleListen();
+            };
+            try { synth.speak(utterance); }
+            catch (error) { utterance.onerror(); }
+        };
+        // Recover if a browser never emits recognition.onend or utterance.onend.
+        speechTimer = setTimeout(function () {
+            if (token !== generation) return;
+            generation++; pendingSpeech = null; currentUtterance = null;
+            setSpeaking(false); stopMic(); if (synth) synth.cancel();
+            sayStatus('Озвучивание не завершилось. Нажмите «Повторить слово»; микрофон можно включить снова.');
+        }, 30000);
+        // Wait for microphone shutdown so synthesized speech cannot become a command.
+        if (recognition && (listening || starting)) { pendingSpeech = run; recognition.abort(); }
+        else run();
+    }
+    function command(name) {
+        window.dispatchEvent(new CustomEvent('trainer-command', {detail: {name}}));
+        if (speaking && name !== 'END') return;
+        let state;
+        try { state = trainer.command(name); } catch (error) { sayStatus(error.message); return; }
+        if (name === 'END') {
+            generation++; clearTimeout(speechTimer); currentUtterance = null; setSpeaking(false); pendingSpeech = null;
+            stopMic(); if (synth) synth.cancel(); if (window.RecordedTrainerAudio) window.RecordedTrainerAudio.stop(); sayStatus('Занятие завершено.'); return;
+        }
+        if (!state.active) {
+            sayStatus(state.position === state.count - 1 ? 'Все слова пройдены. NEW — начать заново.' : 'Скажите START или нажмите START.');
+            return;
+        }
+        card.textContent = state.record[state.side]; card.lang = state.side === 'russian' ? 'ru' : 'he'; card.dir = state.side === 'russian' ? 'ltr' : 'rtl';
+        detail.textContent = (state.position + 1) + ' / ' + state.count + ' · ' + (state.side === 'russian' ? 'Русский' : 'Иврит');
+        speakCurrent(state);
+    }
+    window.addEventListener('headset-next', function () {
+        let result;
+        if (speaking) result = 'busy';
+        else if (!trainer.snapshot().active) result = 'idle';
+        else {
+            command('NEXT');
+            result = trainer.snapshot().active ? 'accepted' : 'finished';
+        }
+        window.dispatchEvent(new CustomEvent('headset-result', {detail: {result}}));
+    });
+    byId('voiceRepeat').addEventListener('click', function () {
+        const state = trainer.snapshot();
+        if (state.active && !speaking) speakCurrent(state);
+        else if (!state.active) sayStatus('Сначала нажмите START.');
+    });
+    if (Recognition) {
+        recognition = new Recognition(); recognition.lang = 'en-US'; recognition.continuous = true; recognition.interimResults = false;
+        recognition.onstart = function () { starting = false; listening = true; if (speaking || !enabled) recognition.abort(); else sayStatus('Слушаю: START, NEXT, NEW, MIX, BASE, END'); };
+        recognition.onend = function () { starting = false; listening = false; const run = pendingSpeech; pendingSpeech = null; if (run) run(); else scheduleListen(); };
+        recognition.onresult = function (event) {
+            if (!enabled || speaking) return;
+            for (let i = event.resultIndex; i < event.results.length; i++) {
+                if (!event.results[i].isFinal) continue;
+                const text = event.results[i][0].transcript.trim().toUpperCase().replace(/[.!?,]/g, '');
+                if (['START','NEXT','NEW','MIX','BASE','END'].includes(text)) { failures = 0; command(text); break; }
+                sayStatus('Не распознана команда: ' + text + '. Повторите одну из шести команд.');
+            }
+        };
+        recognition.onerror = function (event) {
+            if (event.error === 'aborted') return;
+            if (event.error === 'no-speech') return;
+            if (['not-allowed','service-not-allowed','audio-capture'].includes(event.error) || ++failures >= 3) {
+                stopMic(); sayStatus('Микрофон недоступен. Проверьте разрешение, подключение и открытие сайта по HTTPS. Кнопки доступны.');
+            } else sayStatus('Ошибка распознавания. Пробую подключиться снова…');
+        };
+    } else { mic.disabled = true; sayStatus('Голосовые команды недоступны в этом браузере. Используйте кнопки.'); }
+    mic.addEventListener('click', function () {
+        if (enabled) { stopMic(); sayStatus('Микрофон выключен.'); }
+        else { enabled = true; failures = 0; mic.textContent = 'Выключить микрофон'; listen(); }
+    });
+    document.querySelectorAll('[data-voice-command]').forEach(button => button.addEventListener('click', () => command(button.dataset.voiceCommand)));
+    window.addEventListener('pagehide', function () { if (window.RecordedTrainerAudio) window.RecordedTrainerAudio.stop(); generation++; clearTimeout(speechTimer); currentUtterance = null; pendingSpeech = null; setSpeaking(false); stopMic(); if (synth) synth.cancel(); });
+})();

@@ -1,0 +1,1310 @@
+[
+  {
+    "hebrew": "אָבַד",
+    "transcription": "авад",
+    "russian": "пропадать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "יָרַד לְטִמיוֹן",
+    "transcription": "ярад летимйон",
+    "russian": "пропадать (о вложенных средствах, стараниях)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָבַד",
+    "transcription": "авад",
+    "russian": "теряться (пропадать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הָלַך לְאִיבּוּד",
+    "transcription": "hалах леибуд",
+    "russian": "теряться (пропадать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הָיָה בִּמבוּכָה",
+    "transcription": "hая бимвуха",
+    "russian": "теряться (лишаться уверенности)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נָבוֹך",
+    "transcription": "навох",
+    "russian": "теряться (лишаться уверенности)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיבֵּד עֶשתוֹנוֹת",
+    "transcription": "ибед эштонот",
+    "russian": "теряться (лишаться уверенности)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָבַד",
+    "transcription": "авад",
+    "russian": "гибнуть (подвергаться уничтожению)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִספָּה",
+    "transcription": "ниспа",
+    "russian": "гибнуть (подвергаться уничтожению)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "מֵת",
+    "transcription": "мет",
+    "russian": "гибнуть (умирать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיבֵּד",
+    "transcription": "ибед",
+    "russian": "терять (по небрежности; переставать обладать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַבֵּד",
+    "transcription": "hитъабед",
+    "russian": "покончить с собой",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שָלַח יָד בְּנַפשוֹ",
+    "transcription": "шалах яд бенафшо",
+    "russian": "покончить с собой",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיבֵּד עַצמוֹ לַדַעַת",
+    "transcription": "ибед ацмо ладаат",
+    "russian": "покончить с собой",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "דָאַב",
+    "transcription": "даав",
+    "russian": "скорбеть",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַבֵּל",
+    "transcription": "hитъабель",
+    "russian": "скорбеть",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קוֹנֵן",
+    "transcription": "конэн",
+    "russian": "оплакивать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַבֵּל",
+    "transcription": "hитъабель",
+    "russian": "оплакивать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "בִּיכָּה",
+    "transcription": "бика",
+    "russian": "оплакивать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַבֵּן",
+    "transcription": "hитъабен",
+    "russian": "каменеть",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הָיָה לְאֶבֶן",
+    "transcription": "hая леэвен",
+    "russian": "каменеть",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתקַשָה כְּאֶבֶן",
+    "transcription": "hиткаша кеэвен",
+    "russian": "каменеть",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתגָרֵם",
+    "transcription": "hитгарэм",
+    "russian": "окостенеть (о хряще)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נֶאֱבַק",
+    "transcription": "нээвак",
+    "russian": "бороться (о преодолении препятствий)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "לָחַם",
+    "transcription": "лахам",
+    "russian": "бороться (о преодолении препятствий)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִלחַם",
+    "transcription": "нильхам",
+    "russian": "бороться (о преодолении препятствий)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַבֵּק",
+    "transcription": "hитъабек",
+    "russian": "бороться (спорт)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתגוֹשֵש",
+    "transcription": "hитгошеш",
+    "russian": "бороться (спорт)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיגֵד",
+    "transcription": "игед",
+    "russian": "объединять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחֵד",
+    "transcription": "ихед",
+    "russian": "объединять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "לִיכֵּד",
+    "transcription": "ликед",
+    "russian": "объединять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קָשַר",
+    "transcription": "кашар",
+    "russian": "связывать (завязывать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קִישֵר בֵּין",
+    "transcription": "кишер бэн",
+    "russian": "связывать (соединять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "כָּרַך",
+    "transcription": "карах",
+    "russian": "связывать (соединять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיגֵד",
+    "transcription": "игед",
+    "russian": "связывать (соединять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חִיבֵּר",
+    "transcription": "хибер",
+    "russian": "связывать (соединять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "כָּבַל",
+    "transcription": "каваль",
+    "russian": "связывать (лишать свободы действий)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָסַר",
+    "transcription": "асар",
+    "russian": "связывать (лишать свободы действий)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִגבִּיל",
+    "transcription": "hигбиль",
+    "russian": "связывать (лишать свободы действий)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַחֵד",
+    "transcription": "hитъахед",
+    "russian": "объединяться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתחַבֵּר",
+    "transcription": "hитхабер",
+    "russian": "объединяться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "עָקַף",
+    "transcription": "акаф",
+    "russian": "обходить (стороной; обгонять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "עָבַר",
+    "transcription": "авар",
+    "russian": "обходить (стороной; обгонять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיגֵף",
+    "transcription": "игеф",
+    "russian": "обходить (с фланга)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִקִיף",
+    "transcription": "hикиф",
+    "russian": "обходить (вокруг)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָגַר",
+    "transcription": "агар",
+    "russian": "запасать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "עִיתֵד",
+    "transcription": "итэд",
+    "russian": "запасать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חָסַך",
+    "transcription": "хасах",
+    "russian": "запасать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "צָבַר",
+    "transcription": "цавар",
+    "russian": "накапливать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָגַר",
+    "transcription": "агар",
+    "russian": "накапливать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "לָחַץ",
+    "transcription": "лахац",
+    "russian": "сжимать (стискивать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "כִּיווֵץ",
+    "transcription": "кивец",
+    "russian": "сжимать (стискивать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קָפַץ",
+    "transcription": "кафац",
+    "russian": "сжимать (губы, кулак)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קָמַץ",
+    "transcription": "камац",
+    "russian": "сжимать (губы, кулак)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קִיצֵר",
+    "transcription": "кицер",
+    "russian": "сжимать (сокращать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "תִמצֵת",
+    "transcription": "тимцет",
+    "russian": "сжимать (сокращать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "תִימצֵת",
+    "transcription": "тимцет",
+    "russian": "сжимать (сокращать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַגרֵף",
+    "transcription": "hитъагрэф",
+    "russian": "боксировать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִידָה",
+    "transcription": "ида",
+    "russian": "испарять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִייֵד",
+    "transcription": "иед",
+    "russian": "испарять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַדָה",
+    "transcription": "hитъада",
+    "russian": "испаряться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתנַדֵף",
+    "transcription": "hитнадэф",
+    "russian": "испаряться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶאֱדִים",
+    "transcription": "hеэдим",
+    "russian": "краснеть (становиться краснее)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַדֵם",
+    "transcription": "hитъадэм",
+    "russian": "краснеть (становиться краснее)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִסמִיק",
+    "transcription": "hисмик",
+    "russian": "краснеть (покрываться румянцем от смущения)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָהַב",
+    "transcription": "аhав",
+    "russian": "любить (испытывать любовь)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חִיבֵּב",
+    "transcription": "хибев",
+    "russian": "любить (иметь пристрастие)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶעֱדִיף",
+    "transcription": "hеэдиф",
+    "russian": "любить (иметь пристрастие)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַהֵב",
+    "transcription": "hитъаhев",
+    "russian": "влюбляться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָהַד",
+    "transcription": "аhад",
+    "russian": "симпатизировать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חִיבֵּב",
+    "transcription": "хибев",
+    "russian": "симпатизировать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִזדַהָה עִם",
+    "transcription": "hиздаhа им",
+    "russian": "сочувствовать (поддерживать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִשתַתֵף בְּצַעֲרוֹ (שֶל)",
+    "transcription": "hиштатэф бецааро (шель)",
+    "russian": "сочувствовать (соболезновать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "כָּאַב אֶת כְּאֵבוֹ (שֶל)",
+    "transcription": "каав эт кеэво (шель)",
+    "russian": "сочувствовать (соболезновать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַווָה",
+    "transcription": "hитъава",
+    "russian": "возжелать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חָשַק",
+    "transcription": "хашак",
+    "russian": "возжелать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חָמַד",
+    "transcription": "хамад",
+    "russian": "возжелать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "רָצָה",
+    "transcription": "раца",
+    "russian": "пожелать (захотеть)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "בִּיקֵש",
+    "transcription": "бикеш",
+    "russian": "пожелать (захотеть)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחֵל",
+    "transcription": "ихель",
+    "russian": "пожелать (кому-л. чего-л.)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "רָץ",
+    "transcription": "рац",
+    "russian": "бежать (двигаться бегом)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "בָּרַח",
+    "transcription": "барах",
+    "russian": "бежать (убежать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נָשָׂא רַגלָיו",
+    "transcription": "наса раглав",
+    "russian": "бежать (убежать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "עָבַר",
+    "transcription": "авар",
+    "russian": "бежать (о времени)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "זָרַם",
+    "transcription": "зарам",
+    "russian": "бежать (о времени)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "מִיהֵר",
+    "transcription": "миhер",
+    "russian": "спешить",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִזדָרֵז",
+    "transcription": "hиздарэз",
+    "russian": "спешить",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָץ רָץ",
+    "transcription": "ац рац",
+    "russian": "спешить",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "זֵירֵז",
+    "transcription": "зэрэз",
+    "russian": "ускорять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֵאִיץ",
+    "transcription": "hеиц",
+    "russian": "ускорять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "זָהַר",
+    "transcription": "заhар",
+    "russian": "светиться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קָרַן",
+    "transcription": "каран",
+    "russian": "светиться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִסבִּיר",
+    "transcription": "hисбир",
+    "russian": "разъяснять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִבהִיר",
+    "transcription": "hивhир",
+    "russian": "разъяснять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "פֵּירֵש",
+    "transcription": "пэрэш",
+    "russian": "разъяснять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "בֵּיאֵר",
+    "transcription": "бээр",
+    "russian": "разъяснять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הָיָה",
+    "transcription": "hая",
+    "russian": "быть",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חָרַב",
+    "transcription": "харав",
+    "russian": "иссякать (об источнике)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִגמַר",
+    "transcription": "нигмар",
+    "russian": "иссякать (заканчиваться)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָזַל",
+    "transcription": "азаль",
+    "russian": "иссякать (заканчиваться)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִגמַר",
+    "transcription": "нигмар",
+    "russian": "кончаться (завершаться чем-л.)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִסתַייֵם",
+    "transcription": "hистаем",
+    "russian": "кончаться (завершаться чем-л.)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָזַל",
+    "transcription": "азаль",
+    "russian": "кончаться (иссякать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיזֵן",
+    "transcription": "изэн",
+    "russian": "уравновешивать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיזֵן",
+    "transcription": "изэн",
+    "russian": "сбалансировать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִקשִיב",
+    "transcription": "hикшив",
+    "russian": "слушать (направлять слух на что-л.)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶאֱזִין",
+    "transcription": "hеэзин",
+    "russian": "слушать (направлять слух на что-л.)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שָמַע",
+    "transcription": "шама",
+    "russian": "слушать (направлять слух на что-л.)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִשמַע",
+    "transcription": "нишма",
+    "russian": "слушать (следовать советам)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שָמַע בְּקוֹל",
+    "transcription": "шама беколь",
+    "russian": "слушать (следовать советам)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִקשִיב",
+    "transcription": "hикшив",
+    "russian": "слушать (следовать советам)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָזַר",
+    "transcription": "азар",
+    "russian": "опоясывать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חָגַר",
+    "transcription": "хагар",
+    "russian": "опоясывать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חָגַר",
+    "transcription": "хагар",
+    "russian": "подпоясывать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָזַר",
+    "transcription": "азар",
+    "russian": "подпоясывать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַזֵר",
+    "transcription": "hитъазэр",
+    "russian": "подпоясываться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִמתַח",
+    "transcription": "нимтах",
+    "russian": "подтянуться (натянуться)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "עָשָׂה מְתִיחוֹת",
+    "transcription": "аса метихот",
+    "russian": "подтянуться (на руках, спорт.)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִשתַפֵּר",
+    "transcription": "hиштапер",
+    "russian": "подтянуться (улучшиться)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתחַזֵק",
+    "transcription": "hитхазэк",
+    "russian": "укрепиться (стать крепче)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתגַבֵּר",
+    "transcription": "hитгабер",
+    "russian": "укрепиться (стать крепче)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתבַּסֵס",
+    "transcription": "hитбасэс",
+    "russian": "укрепиться (стать крепче)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַזֵר",
+    "transcription": "hитъазэр",
+    "russian": "укрепиться (стать крепче)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתבַּצֵר",
+    "transcription": "hитбацер",
+    "russian": "укрепиться (построить укрепления)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתהַדֵק",
+    "transcription": "hитhадэк",
+    "russian": "укрепиться (о связях)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קִיבֵּל",
+    "transcription": "кибель",
+    "russian": "принимать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נָטַל",
+    "transcription": "наталь",
+    "russian": "принимать (лекарства)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נָקַט",
+    "transcription": "накат",
+    "russian": "принимать (меры)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "יִילֵד",
+    "transcription": "йийлед",
+    "russian": "принимать (ребёнка)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חִיבֵּר",
+    "transcription": "хибер",
+    "russian": "соединять (в одно целое)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחָה",
+    "transcription": "иха",
+    "russian": "соединять (в одно целое)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִידֵק",
+    "transcription": "hидэк",
+    "russian": "соединять (скреплять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיגֵד",
+    "transcription": "игед",
+    "russian": "соединять (скреплять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "צִימֵד",
+    "transcription": "цимед",
+    "russian": "соединять (сочетать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִרכִּיב",
+    "transcription": "hиркив",
+    "russian": "составлять (соединять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חִיבֵּר",
+    "transcription": "хибер",
+    "russian": "составлять (соединять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "צֵירֵף",
+    "transcription": "цэрэф",
+    "russian": "составлять (соединять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִיסֵחַ",
+    "transcription": "нисэах",
+    "russian": "составлять (документ, письмо)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִיסַח",
+    "transcription": "нисах",
+    "russian": "составлять (документ, письмо)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "עָרַך",
+    "transcription": "арах",
+    "russian": "составлять (документ, письмо)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָסַף",
+    "transcription": "асаф",
+    "russian": "составлять (собирать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "תָפַר",
+    "transcription": "тафар",
+    "russian": "сшивать (иглой)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחָה",
+    "transcription": "иха",
+    "russian": "сшивать (иглой)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִידֵק",
+    "transcription": "hидэк",
+    "russian": "сшивать (бумаги)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִכלִיב",
+    "transcription": "hихлив",
+    "russian": "сшивать (бумаги)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שִידֵך",
+    "transcription": "шидэх",
+    "russian": "сшивать (бумаги)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַחָה",
+    "transcription": "hитъаха",
+    "russian": "срастаться (о костях, тканях)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶחזִיק",
+    "transcription": "hехзик",
+    "russian": "держать (взять в руки)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָחַז",
+    "transcription": "ахаз",
+    "russian": "держать (хватать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶחזִיק",
+    "transcription": "hехзик",
+    "russian": "держать (хватать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶחזִיק",
+    "transcription": "hехзик",
+    "russian": "держать (удерживать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶחזִיק",
+    "transcription": "hехзик",
+    "russian": "держать (иметь в хозяйстве)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִספִּיק",
+    "transcription": "hиспик",
+    "russian": "хватать (быть достаточным, сов. хватить)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "תָפַשׂ",
+    "transcription": "тафас",
+    "russian": "хватать (схватывать, сов. схватить)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "תָפַס",
+    "transcription": "тафас",
+    "russian": "хватать (схватывать, сов. схватить)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חָטַף",
+    "transcription": "хатаф",
+    "russian": "хватать (схватывать, сов. схватить)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִשתַלֵט עַל",
+    "transcription": "hишталет аль",
+    "russian": "овладевать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָחַז",
+    "transcription": "ахаз",
+    "russian": "овладевать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתייַשֵב",
+    "transcription": "hитйашев",
+    "russian": "селиться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתנַחֵל",
+    "transcription": "hитнахель",
+    "russian": "селиться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִשתַקֵעַ",
+    "transcription": "hиштакеа",
+    "russian": "селиться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתבַּסֵס",
+    "transcription": "hитбасэс",
+    "russian": "обосновываться (подкрепляться аргументами)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "רָצָה",
+    "transcription": "раца",
+    "russian": "желать (хотеть)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "בִּיקֵש",
+    "transcription": "бикеш",
+    "russian": "желать (хотеть)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שִיקֵף",
+    "transcription": "шикеф",
+    "russian": "выражать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "בִּיטֵא",
+    "transcription": "битэ",
+    "russian": "выражать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִבִּיעַ",
+    "transcription": "hибиа",
+    "russian": "выражать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חִיווָה",
+    "transcription": "хива",
+    "russian": "выражать (мнение)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִחסֵן",
+    "transcription": "ихсэн",
+    "russian": "складировать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחסֵן",
+    "transcription": "ихсэн",
+    "russian": "складировать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שָמַר עַל",
+    "transcription": "шамар аль",
+    "russian": "хранить",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שִימֵר",
+    "transcription": "шимер",
+    "russian": "хранить",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחֵר",
+    "transcription": "ихер",
+    "russian": "опаздывать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתעַכֵּב",
+    "transcription": "hитъакев",
+    "russian": "задерживаться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחֵר",
+    "transcription": "ихер",
+    "russian": "задерживаться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתמַהמֵהַּ",
+    "transcription": "hитмаhмеhּа",
+    "russian": "задерживаться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "בּוֹשֵש לָבוֹא",
+    "transcription": "бошеш лаво",
+    "russian": "задерживаться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחֵר (אֶת הַמוֹעֵד)",
+    "transcription": "ихер (эт hамоэд)",
+    "russian": "опоздать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֵאֵט",
+    "transcription": "hеэт",
+    "russian": "замедлять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֵאִיט",
+    "transcription": "hеит",
+    "russian": "замедлять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִייֵם",
+    "transcription": "ием",
+    "russian": "угрожать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "ההִפחִיד",
+    "transcription": "hhифхид",
+    "russian": "пугать (вызывать испуг, чувство страха)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶחרִיד",
+    "transcription": "hехрид",
+    "russian": "пугать (вызывать испуг, чувство страха)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִבהִיל",
+    "transcription": "hивhиль",
+    "russian": "пугать (вызывать испуг, чувство страха)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִשלִים מַעֲרֶכֶת",
+    "transcription": "hишлим маарэхет",
+    "russian": "комплектовать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קִיבֵּץ",
+    "transcription": "кибец",
+    "russian": "комплектовать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִכזֵב",
+    "transcription": "ихзэв",
+    "russian": "разочаровать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיכזֵב",
+    "transcription": "ихзэв",
+    "russian": "разочаровать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִכזִיב",
+    "transcription": "hихзив",
+    "russian": "разочаровать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַכזֵב",
+    "transcription": "hитъахзэв",
+    "russian": "разочароваться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָכַל",
+    "transcription": "ахаль",
+    "russian": "есть (кушать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שָׂרַף",
+    "transcription": "сараф",
+    "russian": "сжигать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חִיסֵל",
+    "transcription": "хисэль",
+    "russian": "уничтожать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִכחִיד",
+    "transcription": "hиххид",
+    "russian": "уничтожать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִכּחִיד",
+    "transcription": "hикхид",
+    "russian": "уничтожать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִשמִיד",
+    "transcription": "hишмид",
+    "russian": "уничтожать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "עִיכֵּל",
+    "transcription": "икель",
+    "russian": "переваривать (в желудке)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיכֵּל",
+    "transcription": "икель",
+    "russian": "разъедать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶאֱכִיל",
+    "transcription": "hеэхиль",
+    "russian": "кормить (давать есть)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֵזִין",
+    "transcription": "hезин",
+    "russian": "кормить (давать есть)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִכלֵס",
+    "transcription": "ихлес",
+    "russian": "заселять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיכלֵס",
+    "transcription": "ихлес",
+    "russian": "заселять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "יִישֵב",
+    "transcription": "йийшев",
+    "russian": "заселять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נָתַן",
+    "transcription": "натан",
+    "russian": "предоставлять (давать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶעֱנִיק",
+    "transcription": "hеэник",
+    "russian": "предоставлять (давать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶעֱמִיד לִרשוּת",
+    "transcription": "hеэмид лиршут",
+    "russian": "предоставлять (давать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִפשֵר",
+    "transcription": "ифшер",
+    "russian": "предоставлять (позволять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיפשֵר",
+    "transcription": "ифшер",
+    "russian": "предоставлять (позволять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הוֹלִיך",
+    "transcription": "hолих",
+    "russian": "сводить (отводить)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "לִיווָה",
+    "transcription": "лива",
+    "russian": "сводить (отводить)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִפגִיש",
+    "transcription": "hифгиш",
+    "russian": "сводить (сближать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֵסִיר",
+    "transcription": "hесир",
+    "russian": "сводить (выводить, убирать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִכרִיחַ",
+    "transcription": "hихриах",
+    "russian": "заставлять (принуждать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִילֵץ",
+    "transcription": "илец",
+    "russian": "заставлять (принуждать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָנַס",
+    "transcription": "анас",
+    "russian": "заставлять (принуждать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "תָפַס",
+    "transcription": "тафас",
+    "russian": "заставлять (чем-л. всю площадь)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "מִילֵא",
+    "transcription": "миле",
+    "russian": "заставлять (чем-л. всю площадь)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִילתֵר",
+    "transcription": "ильтэр",
+    "russian": "импровизировать",
+    "partOfSpeech": "verb"
+  }
+]

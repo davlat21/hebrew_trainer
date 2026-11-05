@@ -1,0 +1,44 @@
+[
+  {
+    "hebrew": "אֶחָד",
+    "transcription": "эхад",
+    "russian": "один (число, цифра)",
+    "partOfSpeech": "numeral"
+  },
+  {
+    "hebrew": "אַחַת",
+    "transcription": "ахат",
+    "russian": "один (число, цифра)",
+    "partOfSpeech": "numeral"
+  },
+  {
+    "hebrew": "אַחַד עָשָׂר",
+    "transcription": "ахад асар",
+    "russian": "одиннадцать",
+    "partOfSpeech": "numeral"
+  },
+  {
+    "hebrew": "אַחַת עֶשׂרֵה",
+    "transcription": "ахат эсрэ",
+    "russian": "одиннадцать",
+    "partOfSpeech": "numeral"
+  },
+  {
+    "hebrew": "אֲחָדִים",
+    "transcription": "ахадим",
+    "russian": "несколько",
+    "partOfSpeech": "numeral"
+  },
+  {
+    "hebrew": "מִספָּר",
+    "transcription": "миспар",
+    "russian": "несколько",
+    "partOfSpeech": "numeral"
+  },
+  {
+    "hebrew": "כַּמָה",
+    "transcription": "кама",
+    "russian": "несколько",
+    "partOfSpeech": "numeral"
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "hebrew": "מִדֵי",
+    "transcription": "мидэй",
+    "russian": "каждый (о времени)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "כְּ-",
+    "transcription": "ке-",
+    "russian": "как (подобно)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "כְּמוֹ",
+    "transcription": "кемо",
+    "russian": "как (подобно)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "כְּפִי",
+    "transcription": "кефи",
+    "russian": "как (согласно)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "עַל",
+    "transcription": "аль",
+    "russian": "на (сверху на чём-л.)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "עֲלֵי",
+    "transcription": "алэй",
+    "russian": "на (сверху на чём-л.)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בְּ-",
+    "transcription": "бе-",
+    "russian": "на (где-л.)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לְ-",
+    "transcription": "ле-",
+    "russian": "на (куда-л.)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לְשֵם",
+    "transcription": "лешем",
+    "russian": "на (для)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בִּשבִיל",
+    "transcription": "бишвиль",
+    "russian": "на (для)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "עֲבוּר",
+    "transcription": "авур",
+    "russian": "на (для)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לְמַעַן",
+    "transcription": "лемаан",
+    "russian": "на (для)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בִּכדֵי",
+    "transcription": "бихдэй",
+    "russian": "на (для)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "כְּדֵי",
+    "transcription": "кедэй",
+    "russian": "на (для)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "תוֹך כְּדֵי",
+    "transcription": "тох кедэй",
+    "russian": "на (во время)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "פֶּר",
+    "transcription": "пер",
+    "russian": "на (количество на единицу)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "עַל יַד",
+    "transcription": "аль яд",
+    "russian": "при (около)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לְיַד",
+    "transcription": "леяд",
+    "russian": "при (около)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "אֵצֶל",
+    "transcription": "эцель",
+    "russian": "при (около)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בִּפנֵי-",
+    "transcription": "бифнэй-",
+    "russian": "при (в присутствии)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בְּנוֹכְחוּת",
+    "transcription": "бенохехут",
+    "russian": "при (в присутствии)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "תַחַת",
+    "transcription": "тахат",
+    "russian": "при (в условиях)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בּ-",
+    "transcription": "б-",
+    "russian": "при (в условиях)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "ל-",
+    "transcription": "ле-",
+    "russian": "при (в условиях)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "אַחֲרֵי",
+    "transcription": "ахарэй",
+    "russian": "после (предлог)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לְאַחַר",
+    "transcription": "леахар",
+    "russian": "после (предлог)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בְּמֶשֶך",
+    "transcription": "бемешех",
+    "russian": "за (в течение, во время)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "תוֹך",
+    "transcription": "тох",
+    "russian": "за (в течение, во время)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בְּעַד",
+    "transcription": "беад",
+    "russian": "за (в пользу)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "ב-",
+    "transcription": "в-",
+    "russian": "в",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "ל-",
+    "transcription": "ле-",
+    "russian": "в",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בְּתוֹך",
+    "transcription": "бетох",
+    "russian": "в",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לְתוֹך",
+    "transcription": "летох",
+    "russian": "в",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "ל-",
+    "transcription": "ле-",
+    "russian": "в (по направлению)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "אֶל",
+    "transcription": "эль",
+    "russian": "в (по направлению)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בּלִי",
+    "transcription": "бли",
+    "russian": "без (указывает на отсутствие)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לְלֹא",
+    "transcription": "лело",
+    "russian": "без (указывает на отсутствие)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בְּלֹא",
+    "transcription": "бело",
+    "russian": "без (указывает на отсутствие)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בְּאֶפֶס-",
+    "transcription": "беэфес-",
+    "russian": "без (указывает на отсутствие)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בִּלעֲדֵי",
+    "transcription": "билъадэй",
+    "russian": "без (указывает на отсутствие)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לְ-",
+    "transcription": "ле-",
+    "russian": "к (направление)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "כּלַפֵּי",
+    "transcription": "клапэй",
+    "russian": "к (направление)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "אֶל",
+    "transcription": "эль",
+    "russian": "к (кому-л. — ко мне, к тебе, к нему)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לִידֵי",
+    "transcription": "лидэй",
+    "russian": "к (до)",
+    "partOfSpeech": "preposition"
+  }
+]

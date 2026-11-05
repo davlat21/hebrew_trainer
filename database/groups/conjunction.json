@@ -1,0 +1,140 @@
+[
+  {
+    "hebrew": "אֲבָל",
+    "transcription": "аваль",
+    "russian": "но (однако)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אַך",
+    "transcription": "ах",
+    "russian": "но (однако)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אוּלָם",
+    "transcription": "улам",
+    "russian": "но (однако)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "בּרַם",
+    "transcription": "брам",
+    "russian": "но (однако)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אֲבָל",
+    "transcription": "аваль",
+    "russian": "однако (но)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אַך",
+    "transcription": "ах",
+    "russian": "однако (но)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אוּלָם",
+    "transcription": "улам",
+    "russian": "однако (но)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אֶלָא שֶ-",
+    "transcription": "эла ше-",
+    "russian": "однако (но)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "כְּפִי שֶ-",
+    "transcription": "кефи ше-",
+    "russian": "как (согласно)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "כְּשֶ-",
+    "transcription": "кеше-",
+    "russian": "как (когда)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אוֹ",
+    "transcription": "о",
+    "russian": "или (противопоставление)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "וְאִילוּ",
+    "transcription": "веилу",
+    "russian": "а (тогда как)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "בְּרֶגַע שֶ-",
+    "transcription": "берэга ше-",
+    "russian": "только (едва)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אִם",
+    "transcription": "им",
+    "russian": "если",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "בְּמִידָה וְ-",
+    "transcription": "бемида ве-",
+    "russian": "если",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "בְּאִם",
+    "transcription": "беим",
+    "russian": "если (офиц.)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "לוּ",
+    "transcription": "лу",
+    "russian": "если бы",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אִילוּ",
+    "transcription": "илу",
+    "russian": "если бы",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "לַמרוֹת שֶ-",
+    "transcription": "ламрот ше-",
+    "russian": "хотя",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אַף שֶ-",
+    "transcription": "аф ше-",
+    "russian": "хотя",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אַף-עַל-פִּי שֶ-",
+    "transcription": "аф-аль-пи ше-",
+    "russian": "хотя",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אַף כִּי",
+    "transcription": "аф ки",
+    "russian": "хотя",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אִם כִּי",
+    "transcription": "им ки",
+    "russian": "хотя",
+    "partOfSpeech": "conjunction"
+  }
+]

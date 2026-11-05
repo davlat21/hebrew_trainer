@@ -1,0 +1,3 @@
+#databaseChoices { margin: 12px 0; padding: 12px; border: 1px solid #bbb; border-radius: 8px; }
+#databaseChoices[hidden] { display: none; }
+#databaseChoices button { display: block; width: 100%; margin: 8px 0; padding: 12px; text-align: start; cursor: pointer; }

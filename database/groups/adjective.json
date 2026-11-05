@@ -1,0 +1,704 @@
+[
+  {
+    "hebrew": "אַבָּהִי",
+    "transcription": "абаhи",
+    "russian": "отцовский",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָבוּד",
+    "transcription": "авуд",
+    "russian": "пропавший",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אוֹבֵד",
+    "transcription": "овед",
+    "russian": "пропавший",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נוֹאָש",
+    "transcription": "ноаш",
+    "russian": "безнадёжный (не дающий надежд на улучшение)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "חֲסַר סִיכּוּי",
+    "transcription": "хасар сикуй",
+    "russian": "безнадёжный (не дающий надежд на улучшение)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָבוּד",
+    "transcription": "авуд",
+    "russian": "потерянный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אוּמלָל",
+    "transcription": "умлаль",
+    "russian": "несчастный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מִסכֵּן",
+    "transcription": "мискен",
+    "russian": "несчастный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נָבוֹך",
+    "transcription": "навох",
+    "russian": "растерянный (смущённый)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָבֵל",
+    "transcription": "авель",
+    "russian": "скорбящий",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַבנִי",
+    "transcription": "авни",
+    "russian": "каменный (из камня)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּבָּק",
+    "transcription": "меубак",
+    "russian": "пыльный (покрытый, пропитанный пылью)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָבִיך",
+    "transcription": "авих",
+    "russian": "пыльный (воздух)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּבָּק",
+    "transcription": "меубак",
+    "russian": "запылённый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מַתאִים",
+    "transcription": "матъим",
+    "russian": "кстати (уместно)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּרגָן",
+    "transcription": "меурган",
+    "russian": "организованный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "עַרפִילִי",
+    "transcription": "арфили",
+    "russian": "туманный (окутанный туманом)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְעוּרפָּל",
+    "transcription": "меурпаль",
+    "russian": "туманный (окутанный туманом)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "עַרפִילִי",
+    "transcription": "арфили",
+    "russian": "туманный (мутный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "קֵהֶה",
+    "transcription": "кеhе",
+    "russian": "туманный (мутный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נִימוּסִי",
+    "transcription": "нимуси",
+    "russian": "вежливый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְנוּמָס",
+    "transcription": "менумас",
+    "russian": "вежливый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָדִיב",
+    "transcription": "адив",
+    "russian": "вежливый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָדִיש",
+    "transcription": "адиш",
+    "russian": "равнодушный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "שווֵה-נֶפֶש",
+    "transcription": "шве-нэфеш",
+    "russian": "равнодушный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "פָּסִיבִי",
+    "transcription": "пасиви",
+    "russian": "инертный (безынициативный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָדִיש",
+    "transcription": "адиш",
+    "russian": "инертный (безынициативный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אִינֶרטִי",
+    "transcription": "инэрти",
+    "russian": "инертный (газ)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָדִיש",
+    "transcription": "адиш",
+    "russian": "инертный (газ)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָדוֹם",
+    "transcription": "адом",
+    "russian": "красный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אֲדַמדַם",
+    "transcription": "адамдам",
+    "russian": "красноватый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַדמוּמִי",
+    "transcription": "адмуми",
+    "russian": "красноватый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַדמוֹנִי",
+    "transcription": "адмони",
+    "russian": "рыжий (о волосах)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "גִ'ינגִ'י",
+    "transcription": "джинджи",
+    "russian": "рыжий (о волосах)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "עָצוּם",
+    "transcription": "ацум",
+    "russian": "могучий",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַדִיר",
+    "transcription": "адир",
+    "russian": "могучий",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "כַּבִּיר",
+    "transcription": "кабир",
+    "russian": "могучий",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "רַב-אוֹן",
+    "transcription": "рав-он",
+    "russian": "могучий",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "חָזָק",
+    "transcription": "хазак",
+    "russian": "сильный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָהוּב",
+    "transcription": "аhув",
+    "russian": "любимый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "חָבִיב",
+    "transcription": "хавив",
+    "russian": "любимый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוֹהָב",
+    "transcription": "меоhав",
+    "russian": "влюблённый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נֶחמָד",
+    "transcription": "нэхмад",
+    "russian": "симпатичный (о человеке)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "סִימפָּתִי",
+    "transcription": "симпати",
+    "russian": "симпатичный (о человеке)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "חָמוּד",
+    "transcription": "хамуд",
+    "russian": "симпатичный (о человеке)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נָעִים",
+    "transcription": "наим",
+    "russian": "симпатичный (о человеке)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נֶחמָד",
+    "transcription": "нэхмад",
+    "russian": "симпатичный (о предмете)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נָכוֹן",
+    "transcription": "нахон",
+    "russian": "верно (правильно)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נְכוֹנָה",
+    "transcription": "нехона",
+    "russian": "верно (правильно)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אֲווִירִי",
+    "transcription": "авири",
+    "russian": "воздушный (относящийся к воздуху)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַוורִירִי",
+    "transcription": "аврири",
+    "russian": "воздушный (очень лёгкий)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "קַל",
+    "transcription": "каль",
+    "russian": "лёгкий (без труда)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "קַל",
+    "transcription": "каль",
+    "russian": "лёгкий (по весу)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַוורִירִי",
+    "transcription": "аврири",
+    "russian": "лёгкий (воздушный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְרוּפרָף",
+    "transcription": "меруфраф",
+    "russian": "лёгкий (поверхностный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "צָלוּל",
+    "transcription": "цалуль",
+    "russian": "прозрачный (о воздухе, воде)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "צַח",
+    "transcription": "цах",
+    "russian": "прозрачный (о воздухе, воде)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "בָּרוּר",
+    "transcription": "барур",
+    "russian": "прозрачный (явный, легко понимаемый)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "שָקוּף",
+    "transcription": "шакуф",
+    "russian": "прозрачный (тонкий, сквозной)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַוורִירִי",
+    "transcription": "аврири",
+    "russian": "прозрачный (тонкий, сквозной)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּורָר",
+    "transcription": "меуврар",
+    "russian": "проветренный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אֶזרָחִי",
+    "transcription": "эзрахи",
+    "russian": "гражданский (невоенный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "יָחִיד",
+    "transcription": "яхид",
+    "russian": "один (в отдельности)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "בּוֹדֵד",
+    "transcription": "бодэд",
+    "russian": "один (в отдельности)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְלוּכָּד",
+    "transcription": "мелукад",
+    "russian": "единый (нераздельный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְשוּתָף",
+    "transcription": "мешутаф",
+    "russian": "единый (общий)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָחִיד",
+    "transcription": "ахид",
+    "russian": "единый (одинаковый)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "הוֹמוֹגֶנִי",
+    "transcription": "hомогени",
+    "russian": "однородный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָחִיד",
+    "transcription": "ахид",
+    "russian": "однородный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "תָפוּר",
+    "transcription": "тафур",
+    "russian": "сшитый (пошитый)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּחֶה",
+    "transcription": "меухе",
+    "russian": "сшитый (вместе)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָחוּי",
+    "transcription": "ахуй",
+    "russian": "сшитый (вместе)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּחֶה",
+    "transcription": "меухе",
+    "russian": "сросшийся",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְחוּבָּר",
+    "transcription": "мехубар",
+    "russian": "слитный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָחוּז",
+    "transcription": "ахуз",
+    "russian": "охваченный (схваченный, одержимый)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "לָפוּת",
+    "transcription": "лафут",
+    "russian": "охваченный (схваченный, одержимый)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אֲחוּז-",
+    "transcription": "ахуз-",
+    "russian": "одержимый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אוֹבּסֶסִיבִי",
+    "transcription": "обсэсиви",
+    "russian": "одержимый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מִשפַּחתִי",
+    "transcription": "мишпахти",
+    "russian": "семейный (относящийся к семье)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "חָשוּב",
+    "transcription": "хашув",
+    "russian": "важно (ему)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַחֵר",
+    "transcription": "ахер",
+    "russian": "другой (иной)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "סוֹפִי",
+    "transcription": "софи",
+    "russian": "последний (окончательный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "חָדִיש",
+    "transcription": "хадиш",
+    "russian": "последний (новейший)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְעוּדכָּן",
+    "transcription": "меудкан",
+    "russian": "последний (новейший)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "(הַ)קוֹדֵם",
+    "transcription": "(а)кодэм",
+    "russian": "последний (предыдущий)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּחָר",
+    "transcription": "меухар",
+    "russian": "поздний",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אִיטִי",
+    "transcription": "ити",
+    "russian": "медленный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "זַחלָנִי",
+    "transcription": "захлани",
+    "russian": "медлительный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "שָהוּי",
+    "transcription": "шаhуй",
+    "russian": "медлительный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מַפחִיד",
+    "transcription": "мафхид",
+    "russian": "страшный (наводящий страх)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נוֹרָא",
+    "transcription": "нора",
+    "russian": "страшный (наводящий страх)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָיוֹם",
+    "transcription": "айом",
+    "russian": "страшный (наводящий страх)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אֵימתָנִי",
+    "transcription": "эймтани",
+    "russian": "страшный (наводящий страх)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נוֹרָאִי",
+    "transcription": "нораи",
+    "russian": "страшный (наводящий страх)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נוֹרָא",
+    "transcription": "нора",
+    "russian": "ужасный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָיוֹם וְנוֹרָא",
+    "transcription": "айом венора",
+    "russian": "ужасный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נוֹרָאִי",
+    "transcription": "нораи",
+    "russian": "ужасный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מַחרִיד",
+    "transcription": "махрид",
+    "russian": "ужасный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְזַעֲזֵעַ",
+    "transcription": "мезаазэа",
+    "russian": "ужасный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָסוּר",
+    "transcription": "асур",
+    "russian": "нельзя (запрещается)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אִישִי",
+    "transcription": "иши",
+    "russian": "личный (персональный; присущий кому-либо)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "פּרָטִי",
+    "transcription": "прати",
+    "russian": "личный (собственный; связанный с частной жизнью)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "פָּעִיל",
+    "transcription": "паиль",
+    "russian": "активный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַקטִיבִי",
+    "transcription": "активи",
+    "russian": "активный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מָלֵא",
+    "transcription": "мале",
+    "russian": "заполненный (полный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְמוּלָא",
+    "transcription": "мемула",
+    "russian": "заполненный (о бланке и т.п.)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּכזָב",
+    "transcription": "меухзав",
+    "russian": "разочарованный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָכִיל",
+    "transcription": "ахиль",
+    "russian": "съедобный (годный в пищу)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "רָאוּי לַאֲכִילָה",
+    "transcription": "рауй лаахила",
+    "russian": "съедобный (годный в пищу)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְיוּשָב",
+    "transcription": "мейушав",
+    "russian": "населённый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּכלָס",
+    "transcription": "меухлас",
+    "russian": "населённый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּכלָס",
+    "transcription": "меухлас",
+    "russian": "заселённый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְיוּשָב",
+    "transcription": "мейушав",
+    "russian": "заселённый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "כָּפוּי",
+    "transcription": "кафуй",
+    "russian": "вынужденный (не добровольный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָנוּס",
+    "transcription": "анус",
+    "russian": "вынужденный (не добровольный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּלָץ",
+    "transcription": "меулац",
+    "russian": "вынужденный (не добровольный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּלָץ",
+    "transcription": "меулац",
+    "russian": "вымученный (через силу)",
+    "partOfSpeech": "adjective"
+  }
+]

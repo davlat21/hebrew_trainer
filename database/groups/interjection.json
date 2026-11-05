@@ -1,0 +1,38 @@
+[
+  {
+    "hebrew": "בְּבַקָשָה",
+    "transcription": "бевакаша",
+    "russian": "пожалуйста (при просьбе)",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "hebrew": "בְּבַקָשָה מִמךָ",
+    "transcription": "бевакаша мимха",
+    "russian": "пожалуйста (при просьбе)",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "hebrew": "בְּטוּבךָ",
+    "transcription": "бетувха",
+    "russian": "пожалуйста (при просьбе)",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "hebrew": "תפָאדַל",
+    "transcription": "тфадаль",
+    "russian": "пожалуйста (при просьбе)",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "hebrew": "בְּבַקָשָה",
+    "transcription": "бевакаша",
+    "russian": "пожалуйста (при согласии)",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "hebrew": "כֵּן הַמְפַקֵד!",
+    "transcription": "кен hамефакед!",
+    "russian": "есть (ответ на команду)",
+    "partOfSpeech": "interjection"
+  }
+]

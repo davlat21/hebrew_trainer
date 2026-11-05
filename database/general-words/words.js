@@ -1,0 +1,8297 @@
+window.GENERAL_HEBREW_RUSSIAN_WORDS = [
+  {
+    "hebrew": "חיוך",
+    "transcription": "хиух",
+    "russian": "Улыбка"
+  },
+  {
+    "hebrew": "חוף",
+    "transcription": "Хоф",
+    "russian": "Берег"
+  },
+  {
+    "hebrew": "מיץ",
+    "transcription": "Миц",
+    "russian": "Сок"
+  },
+  {
+    "hebrew": "מורים",
+    "transcription": "Морим",
+    "russian": "Учителя"
+  },
+  {
+    "hebrew": "אבא",
+    "transcription": "Аба",
+    "russian": "Папа"
+  },
+  {
+    "hebrew": "אב",
+    "transcription": "Ав",
+    "russian": "Отец"
+  },
+  {
+    "hebrew": "סבא",
+    "transcription": "Саба",
+    "russian": "Дедушка"
+  },
+  {
+    "hebrew": "סבתא",
+    "transcription": "Савта",
+    "russian": "Бабушка"
+  },
+  {
+    "hebrew": "בת",
+    "transcription": "Бат",
+    "russian": "Дочь"
+  },
+  {
+    "hebrew": "אח",
+    "transcription": "Ах",
+    "russian": "Брат"
+  },
+  {
+    "hebrew": "חתן",
+    "transcription": "Хатан",
+    "russian": "Жених"
+  },
+  {
+    "hebrew": "כלה",
+    "transcription": "Кала",
+    "russian": "Невеста"
+  },
+  {
+    "hebrew": "בעל",
+    "transcription": "Бааль",
+    "russian": "Муж, супруг, хозяин"
+  },
+  {
+    "hebrew": "כן",
+    "transcription": "Кэн",
+    "russian": "Да"
+  },
+  {
+    "hebrew": "ו",
+    "transcription": "Вэ",
+    "russian": "И"
+  },
+  {
+    "hebrew": "ילד",
+    "transcription": "Йэлэд",
+    "russian": "Мальчик"
+  },
+  {
+    "hebrew": "גבר",
+    "transcription": "Гэвэр",
+    "russian": "Мужчина"
+  },
+  {
+    "hebrew": "כלב",
+    "transcription": "Кэлэв",
+    "russian": "Собака"
+  },
+  {
+    "hebrew": "חדר",
+    "transcription": "Хэдэр",
+    "russian": "Комната"
+  },
+  {
+    "hebrew": "ספר",
+    "transcription": "Сэфэр",
+    "russian": "Книга"
+  },
+  {
+    "hebrew": "בית ספר",
+    "transcription": "Бэйт сэфэр",
+    "russian": "Школа"
+  },
+  {
+    "hebrew": "לא",
+    "transcription": "Ло",
+    "russian": "Нет"
+  },
+  {
+    "hebrew": "או",
+    "transcription": "О",
+    "russian": "Или"
+  },
+  {
+    "hebrew": "דוד",
+    "transcription": "Дод",
+    "russian": "Дядя"
+  },
+  {
+    "hebrew": "דודה",
+    "transcription": "Дода",
+    "russian": "Тетя"
+  },
+  {
+    "hebrew": "אחות",
+    "transcription": "Ахот",
+    "russian": "Сестра"
+  },
+  {
+    "hebrew": "בוקר",
+    "transcription": "Бокэр",
+    "russian": "Утро"
+  },
+  {
+    "hebrew": "טוב",
+    "transcription": "Тов",
+    "russian": "Добрый"
+  },
+  {
+    "hebrew": "עובד",
+    "transcription": "Овэд",
+    "russian": "Работаю"
+  },
+  {
+    "hebrew": "עם",
+    "transcription": "Им",
+    "russian": "С"
+  },
+  {
+    "hebrew": "אם",
+    "transcription": "Им",
+    "russian": "Если"
+  },
+  {
+    "hebrew": "אימא",
+    "transcription": "Има",
+    "russian": "Мама"
+  },
+  {
+    "hebrew": "אישה",
+    "transcription": "Иша",
+    "russian": "Жена"
+  },
+  {
+    "hebrew": "קיר",
+    "transcription": "Кир",
+    "russian": "Стена"
+  },
+  {
+    "hebrew": "עיר",
+    "transcription": "Ир",
+    "russian": "Город"
+  },
+  {
+    "hebrew": "עברית",
+    "transcription": "Иврит",
+    "russian": "Иврит"
+  },
+  {
+    "hebrew": "ישראל",
+    "transcription": "Йисраэль",
+    "russian": "Израиль"
+  },
+  {
+    "hebrew": "שיר",
+    "transcription": "Шир",
+    "russian": "Песня"
+  },
+  {
+    "hebrew": "שוק",
+    "transcription": "Шук",
+    "russian": "Рынок"
+  },
+  {
+    "hebrew": "חנות",
+    "transcription": "Ханут",
+    "russian": "Магазин"
+  },
+  {
+    "hebrew": "בחור",
+    "transcription": "Бахур",
+    "russian": "Парень"
+  },
+  {
+    "hebrew": "בחורה",
+    "transcription": "Бахура",
+    "russian": "Девушка"
+  },
+  {
+    "hebrew": "שיעור",
+    "transcription": "Шиур",
+    "russian": "Урок"
+  },
+  {
+    "hebrew": "אולפן",
+    "transcription": "Ульпан",
+    "russian": "Курсы иврита"
+  },
+  {
+    "hebrew": "חתול",
+    "transcription": "Хатуль",
+    "russian": "Кот"
+  },
+  {
+    "hebrew": "שולחן",
+    "transcription": "Шульхан",
+    "russian": "Стол"
+  },
+  {
+    "hebrew": "ביתוח",
+    "transcription": "Битуах",
+    "russian": "Страховка"
+  },
+  {
+    "hebrew": "משפחה",
+    "transcription": "Мишпаха",
+    "russian": "Семья"
+  },
+  {
+    "hebrew": "חורים",
+    "transcription": "Хорим",
+    "russian": "Родители"
+  },
+  {
+    "hebrew": "ילדה",
+    "transcription": "Йалда",
+    "russian": "Девочка"
+  },
+  {
+    "hebrew": "בבקשה",
+    "transcription": "Бэвэкаша",
+    "russian": "Пожалуйста"
+  },
+  {
+    "hebrew": "בסדר",
+    "transcription": "Бэсэдэр",
+    "russian": "В порядке"
+  },
+  {
+    "hebrew": "לדבר",
+    "transcription": "Лэдабэр",
+    "russian": "Разговаривать"
+  },
+  {
+    "hebrew": "לשאול",
+    "transcription": "Лишьоль",
+    "russian": "Спрашивать"
+  },
+  {
+    "hebrew": "מורה",
+    "transcription": "Морэ",
+    "russian": "Учитель"
+  },
+  {
+    "hebrew": "מורה",
+    "transcription": "Мора",
+    "russian": "Учительница"
+  },
+  {
+    "hebrew": "התקווה",
+    "transcription": "hатиква",
+    "russian": "Надежда"
+  },
+  {
+    "hebrew": "עכשיו",
+    "transcription": "Ахшав",
+    "russian": "Сейчас"
+  },
+  {
+    "hebrew": "סתיו",
+    "transcription": "Став",
+    "russian": "Осень"
+  },
+  {
+    "hebrew": "זה",
+    "transcription": "Зэ",
+    "russian": "Это, этот мужской род"
+  },
+  {
+    "hebrew": "זאת",
+    "transcription": "Зот",
+    "russian": "Это, эта женский род"
+  },
+  {
+    "hebrew": "אלה",
+    "transcription": "Элэ",
+    "russian": "Это , множественное число"
+  },
+  {
+    "hebrew": "קרובים",
+    "transcription": "Кровим",
+    "russian": "Родственники"
+  },
+  {
+    "hebrew": "חברים",
+    "transcription": "Хавэрим",
+    "russian": "Друзья"
+  },
+  {
+    "hebrew": "שכנים",
+    "transcription": "Шхэнаим",
+    "russian": "Соседи"
+  },
+  {
+    "hebrew": "אנשים",
+    "transcription": "Анашим",
+    "russian": "Люди"
+  },
+  {
+    "hebrew": "שלום",
+    "transcription": "Шалом",
+    "russian": "Привет"
+  },
+  {
+    "hebrew": "הנה",
+    "transcription": "Хинэ",
+    "russian": "Вот"
+  },
+  {
+    "hebrew": "שלי",
+    "transcription": "Шэли",
+    "russian": "Мой, моя, мои"
+  },
+  {
+    "hebrew": "מי",
+    "transcription": "Ми",
+    "russian": "Кто"
+  },
+  {
+    "hebrew": "עלוה",
+    "transcription": "Олэ",
+    "russian": "Репатриант"
+  },
+  {
+    "hebrew": "עולה",
+    "transcription": "Ола",
+    "russian": "Репатриантка"
+  },
+  {
+    "hebrew": "רופא",
+    "transcription": "Рофэ",
+    "russian": "Врач"
+  },
+  {
+    "hebrew": "רופאה",
+    "transcription": "Рофья",
+    "russian": "Врач женщина"
+  },
+  {
+    "hebrew": "מזכיר",
+    "transcription": "Мазкир",
+    "russian": "Секретарь"
+  },
+  {
+    "hebrew": "מזכורה",
+    "transcription": "Мазкира",
+    "russian": "Секретарь женщина"
+  },
+  {
+    "hebrew": "פקוד",
+    "transcription": "Пакид",
+    "russian": "Служащий"
+  },
+  {
+    "hebrew": "פקידה",
+    "transcription": "Пкида",
+    "russian": "Служащая"
+  },
+  {
+    "hebrew": "מוכר",
+    "transcription": "Мохэр",
+    "russian": "Продавец"
+  },
+  {
+    "hebrew": "מוכרת",
+    "transcription": "Мохэрэт",
+    "russian": "Продавщица"
+  },
+  {
+    "hebrew": "נהג",
+    "transcription": "Нахаг",
+    "russian": "Водитель"
+  },
+  {
+    "hebrew": "נהגת",
+    "transcription": "Наhэгэт",
+    "russian": "Водитель женщина"
+  },
+  {
+    "hebrew": "מחנך",
+    "transcription": "Мэханэх",
+    "russian": "Воспитатель"
+  },
+  {
+    "hebrew": "מהנכת",
+    "transcription": "Мэханэхэт",
+    "russian": "Воспитательница"
+  },
+  {
+    "hebrew": "מהנדס",
+    "transcription": "Мэхандэс",
+    "russian": "Инженер"
+  },
+  {
+    "hebrew": "מהנדסת",
+    "transcription": "Мэхандэсэт",
+    "russian": "Инженерша"
+  },
+  {
+    "hebrew": "מנהל",
+    "transcription": "Мэнаhэль",
+    "russian": "Управляющий"
+  },
+  {
+    "hebrew": "מנהלת",
+    "transcription": "Мэнаhэлэт",
+    "russian": "Управляющая"
+  },
+  {
+    "hebrew": "כלכלן",
+    "transcription": "Калькэлан",
+    "russian": "Экономист"
+  },
+  {
+    "hebrew": "כלכלנית",
+    "transcription": "Калькэланит",
+    "russian": "Экономист женщина"
+  },
+  {
+    "hebrew": "טבח",
+    "transcription": "Табах",
+    "russian": "Повар"
+  },
+  {
+    "hebrew": "טבחית",
+    "transcription": "Табахит",
+    "russian": "Повариха"
+  },
+  {
+    "hebrew": "מלצר",
+    "transcription": "Мэльцар",
+    "russian": "Официант"
+  },
+  {
+    "hebrew": "מלצרית",
+    "transcription": "Мэльцарит",
+    "russian": "Официантка"
+  },
+  {
+    "hebrew": "תייר",
+    "transcription": "Тайар",
+    "russian": "Турист"
+  },
+  {
+    "hebrew": "תיירית",
+    "transcription": "Тайарит",
+    "russian": "Туристка"
+  },
+  {
+    "hebrew": "סתודנט",
+    "transcription": "Студэнт",
+    "russian": "Студент"
+  },
+  {
+    "hebrew": "סתודנטית",
+    "transcription": "Студэнтит",
+    "russian": "Студентка"
+  },
+  {
+    "hebrew": "נעים מאוד",
+    "transcription": "Наим мэод",
+    "russian": "Приятно очень"
+  },
+  {
+    "hebrew": "מאין",
+    "transcription": "Мэайин",
+    "russian": "Откуда?"
+  },
+  {
+    "hebrew": "מאיפה",
+    "transcription": "Мээйфо",
+    "russian": "Откуда?"
+  },
+  {
+    "hebrew": "לאן",
+    "transcription": "Лэан",
+    "russian": "Куда?"
+  },
+  {
+    "hebrew": "ים",
+    "transcription": "Ям",
+    "russian": "Море"
+  },
+  {
+    "hebrew": "פארק",
+    "transcription": "Парк",
+    "russian": "Парк"
+  },
+  {
+    "hebrew": "קולנוע",
+    "transcription": "Кольноа",
+    "russian": "Кинотеатр"
+  },
+  {
+    "hebrew": "מסעדה",
+    "transcription": "Мисьада",
+    "russian": "Ресторан"
+  },
+  {
+    "hebrew": "בית קפה",
+    "transcription": "Бэт кафэ",
+    "russian": "Кафе"
+  },
+  {
+    "hebrew": "בית ספר",
+    "transcription": "Бэт сэфэр",
+    "russian": "Школа"
+  },
+  {
+    "hebrew": "בית",
+    "transcription": "Баит",
+    "russian": "Дом"
+  },
+  {
+    "hebrew": "עבודה",
+    "transcription": "Авода",
+    "russian": "Работа"
+  },
+  {
+    "hebrew": "בנק",
+    "transcription": "Банк",
+    "russian": "Банк"
+  },
+  {
+    "hebrew": "דואר",
+    "transcription": "Доар",
+    "russian": "Почта"
+  },
+  {
+    "hebrew": "קניון",
+    "transcription": "Канйон",
+    "russian": "Торговый центр"
+  },
+  {
+    "hebrew": "שירותים",
+    "transcription": "Шэрутим",
+    "russian": "Туалет"
+  },
+  {
+    "hebrew": "מרפאה",
+    "transcription": "Мирпаа",
+    "russian": "Поликлиника"
+  },
+  {
+    "hebrew": "קופת חולים",
+    "transcription": "Купат холим",
+    "russian": "Больничгая касса"
+  },
+  {
+    "hebrew": "בית חולים",
+    "transcription": "Бэт холим",
+    "russian": "Больница"
+  },
+  {
+    "hebrew": "בית מרקחת",
+    "transcription": "Бэт мирккхат",
+    "russian": "Аптека"
+  },
+  {
+    "hebrew": "רכבת",
+    "transcription": "Ракэвэт",
+    "russian": "Поезд"
+  },
+  {
+    "hebrew": "תחנה",
+    "transcription": "Тахана",
+    "russian": "Остановка"
+  },
+  {
+    "hebrew": "תחנת רכבת",
+    "transcription": "Таханат ракэвэт",
+    "russian": "Вокзал"
+  },
+  {
+    "hebrew": "שדה תעופה",
+    "transcription": "Сдэ тэуфа",
+    "russian": "Аэропорт"
+  },
+  {
+    "hebrew": "מטוס",
+    "transcription": "Матос",
+    "russian": "Самолет"
+  },
+  {
+    "hebrew": "מונית",
+    "transcription": "Монит",
+    "russian": "Такси"
+  },
+  {
+    "hebrew": "אוטובוס",
+    "transcription": "Отобус",
+    "russian": "Автобус"
+  },
+  {
+    "hebrew": "מכונית",
+    "transcription": "Мэхонит",
+    "russian": "Машина"
+  },
+  {
+    "hebrew": "לי",
+    "transcription": "Ли",
+    "russian": "Мне, у меня"
+  },
+  {
+    "hebrew": "לך",
+    "transcription": "Леха",
+    "russian": "Тебе, у тебя (м.р)"
+  },
+  {
+    "hebrew": "לך",
+    "transcription": "Лах",
+    "russian": "Тебе, у тебя ( ж.р)"
+  },
+  {
+    "hebrew": "לו",
+    "transcription": "Ло",
+    "russian": "Ему, у него"
+  },
+  {
+    "hebrew": "לה",
+    "transcription": "Ла",
+    "russian": "Ей, у нее"
+  },
+  {
+    "hebrew": "לנו",
+    "transcription": "Лану",
+    "russian": "Нам, нас"
+  },
+  {
+    "hebrew": "לכם",
+    "transcription": "Лахэм",
+    "russian": "Вам, у вас (м.р)"
+  },
+  {
+    "hebrew": "לכן",
+    "transcription": "Лахэн",
+    "russian": "Вам, у вас (ж.р)"
+  },
+  {
+    "hebrew": "להם",
+    "transcription": "Лаhэм",
+    "russian": "Им, у них (м.р)"
+  },
+  {
+    "hebrew": "להן",
+    "transcription": "Лаhэн",
+    "russian": "Им, у них (ж.р)"
+  },
+  {
+    "hebrew": "ילדים",
+    "transcription": "Йэладим",
+    "russian": "Дети"
+  },
+  {
+    "hebrew": "הולך",
+    "transcription": "Холэх",
+    "russian": "Иду (м.р)"
+  },
+  {
+    "hebrew": "הולכת",
+    "transcription": "Холэхэт",
+    "russian": "Иду (ж.р)"
+  },
+  {
+    "hebrew": "הולכים",
+    "transcription": "Хольхим",
+    "russian": "Идут (м.р)"
+  },
+  {
+    "hebrew": "הולכות",
+    "transcription": "Хольхот",
+    "russian": "Идут (ж.р)"
+  },
+  {
+    "hebrew": "איפה",
+    "transcription": "Эйфо",
+    "russian": "Где?"
+  },
+  {
+    "hebrew": "ב",
+    "transcription": "Б",
+    "russian": "В"
+  },
+  {
+    "hebrew": "אצטדיון",
+    "transcription": "Ицтадион",
+    "russian": "Стадион"
+  },
+  {
+    "hebrew": "אימון",
+    "transcription": "Имун",
+    "russian": "Тренировка"
+  },
+  {
+    "hebrew": "ריצה",
+    "transcription": "Рица",
+    "russian": "Пробежка"
+  },
+  {
+    "hebrew": "ריקודים",
+    "transcription": "Рикудим",
+    "russian": "Танцы"
+  },
+  {
+    "hebrew": "תערוכה",
+    "transcription": "Тааруха",
+    "russian": "Выставка"
+  },
+  {
+    "hebrew": "קונצרט",
+    "transcription": "Концэрт",
+    "russian": "Концерт"
+  },
+  {
+    "hebrew": "הצגה",
+    "transcription": "haцага",
+    "russian": "Спектакль"
+  },
+  {
+    "hebrew": "היום",
+    "transcription": "hайом",
+    "russian": "Сегодня"
+  },
+  {
+    "hebrew": "כאן, פה",
+    "transcription": "Кан, по",
+    "russian": "Здесь, тут"
+  },
+  {
+    "hebrew": "לכאן, לפה",
+    "transcription": "Лэкан, лэпо",
+    "russian": "Сюда"
+  },
+  {
+    "hebrew": "מכאן, מפה",
+    "transcription": "Микан, мипо",
+    "russian": "Отсюда"
+  },
+  {
+    "hebrew": "שם",
+    "transcription": "Шам",
+    "russian": "Там"
+  },
+  {
+    "hebrew": "לשם",
+    "transcription": "Лэшам",
+    "russian": "Туда"
+  },
+  {
+    "hebrew": "משם",
+    "transcription": "Мишам",
+    "russian": "Оттуда"
+  },
+  {
+    "hebrew": "עומד",
+    "transcription": "Омэд",
+    "russian": "Стоит"
+  },
+  {
+    "hebrew": "פרח",
+    "transcription": "Пэрах",
+    "russian": "Цветок"
+  },
+  {
+    "hebrew": "תיק",
+    "transcription": "Тик",
+    "russian": "Сумка"
+  },
+  {
+    "hebrew": "שפתון",
+    "transcription": "Сфатон",
+    "russian": "Помада"
+  },
+  {
+    "hebrew": "של מי?",
+    "transcription": "Шэль ми?",
+    "russian": "Чей? Чья? Чьи?"
+  },
+  {
+    "hebrew": "חתול",
+    "transcription": "Хатуль",
+    "russian": "Кот"
+  },
+  {
+    "hebrew": "זמן",
+    "transcription": "Зман",
+    "russian": "Время"
+  },
+  {
+    "hebrew": "חיים",
+    "transcription": "Хаим",
+    "russian": "Жизнь"
+  },
+  {
+    "hebrew": "רגע",
+    "transcription": "Рэга",
+    "russian": "Момент, мнгновение"
+  },
+  {
+    "hebrew": "שנייה",
+    "transcription": "Шнийа",
+    "russian": "Секунда"
+  },
+  {
+    "hebrew": "דקה",
+    "transcription": "Дака",
+    "russian": "Минута"
+  },
+  {
+    "hebrew": "שעה",
+    "transcription": "Шаа",
+    "russian": "Час"
+  },
+  {
+    "hebrew": "רבע",
+    "transcription": "Рэва",
+    "russian": "Четверть"
+  },
+  {
+    "hebrew": "חצי",
+    "transcription": "Хэци",
+    "russian": "Половина"
+  },
+  {
+    "hebrew": "יממה",
+    "transcription": "Йэмама",
+    "russian": "Сутки"
+  },
+  {
+    "hebrew": "יום",
+    "transcription": "Йом",
+    "russian": "День"
+  },
+  {
+    "hebrew": "שבוע",
+    "transcription": "Шавуа",
+    "russian": "Неделя"
+  },
+  {
+    "hebrew": "הבא",
+    "transcription": "ha-ба",
+    "russian": "Следующая"
+  },
+  {
+    "hebrew": "שעבר",
+    "transcription": "Шэ-авар",
+    "russian": "Прошлая, предидущая"
+  },
+  {
+    "hebrew": "חודש",
+    "transcription": "Ходэш",
+    "russian": "Месяц"
+  },
+  {
+    "hebrew": "שנה",
+    "transcription": "Шана",
+    "russian": "Год"
+  },
+  {
+    "hebrew": "חורף",
+    "transcription": "Хорэф",
+    "russian": "Зима"
+  },
+  {
+    "hebrew": "אביב",
+    "transcription": "Авив",
+    "russian": "Весна"
+  },
+  {
+    "hebrew": "קיצ",
+    "transcription": "Каиц",
+    "russian": "Лето"
+  },
+  {
+    "hebrew": "היום",
+    "transcription": "Хайом",
+    "russian": "Сегодня"
+  },
+  {
+    "hebrew": "מחר",
+    "transcription": "Махар",
+    "russian": "Завтра"
+  },
+  {
+    "hebrew": "מחרתיים",
+    "transcription": "Махоратаим",
+    "russian": "Послезавтра"
+  },
+  {
+    "hebrew": "אתמול",
+    "transcription": "Этмоль",
+    "russian": "Вчера"
+  },
+  {
+    "hebrew": "שלשום",
+    "transcription": "Шильшом",
+    "russian": "Позавчера"
+  },
+  {
+    "hebrew": "עתיד",
+    "transcription": "Атид",
+    "russian": "Будущее"
+  },
+  {
+    "hebrew": "הווה",
+    "transcription": "Ховэ",
+    "russian": "Настоящее время"
+  },
+  {
+    "hebrew": "עבר",
+    "transcription": "Авар",
+    "russian": "Прошлое"
+  },
+  {
+    "hebrew": "צהריים",
+    "transcription": "Цахораим",
+    "russian": "Полдень"
+  },
+  {
+    "hebrew": "ערב",
+    "transcription": "Эрэв",
+    "russian": "Вечер"
+  },
+  {
+    "hebrew": "חצות",
+    "transcription": "Хацот",
+    "russian": "Полночь"
+  },
+  {
+    "hebrew": "לילה",
+    "transcription": "Лайла",
+    "russian": "Ночь"
+  },
+  {
+    "hebrew": "רחוב",
+    "transcription": "Рэхов",
+    "russian": "Улица"
+  },
+  {
+    "hebrew": "להיתראות",
+    "transcription": "Лехитраот",
+    "russian": "Досвидания"
+  },
+  {
+    "hebrew": "נקודה",
+    "transcription": "Нэкуда",
+    "russian": "Точка"
+  },
+  {
+    "hebrew": "כיתה",
+    "transcription": "Кита",
+    "russian": "Класс"
+  },
+  {
+    "hebrew": "מקרר",
+    "transcription": "Мэкарэр",
+    "russian": "Холодильник"
+  },
+  {
+    "hebrew": "מזגן",
+    "transcription": "Мазган",
+    "russian": "Кондиционер"
+  },
+  {
+    "hebrew": "מחשב",
+    "transcription": "Махшэв",
+    "russian": "Компьютер"
+  },
+  {
+    "hebrew": "מחסן",
+    "transcription": "Махсан",
+    "russian": "Склад"
+  },
+  {
+    "hebrew": "אזור",
+    "transcription": "Эзор",
+    "russian": "Район"
+  },
+  {
+    "hebrew": "ארנק",
+    "transcription": "Арнак",
+    "russian": "Кошелек"
+  },
+  {
+    "hebrew": "פטיש",
+    "transcription": "Патиш",
+    "russian": "Молоток"
+  },
+  {
+    "hebrew": "תמונה",
+    "transcription": "Тикна",
+    "russian": "Картина"
+  },
+  {
+    "hebrew": "אחיינית",
+    "transcription": "Ахйанит",
+    "russian": "Племянница"
+  },
+  {
+    "hebrew": "מחברת",
+    "transcription": "Махберет",
+    "russian": "Тетрадь"
+  },
+  {
+    "hebrew": "ספה",
+    "transcription": "Сапа",
+    "russian": "Диван"
+  },
+  {
+    "hebrew": "תקרה",
+    "transcription": "Тикра",
+    "russian": "Потолок"
+  },
+  {
+    "hebrew": "מתנה",
+    "transcription": "Матана",
+    "russian": "Подарок"
+  },
+  {
+    "hebrew": "קומה",
+    "transcription": "Кома",
+    "russian": "Этаж"
+  },
+  {
+    "hebrew": "מעלית",
+    "transcription": "Маалит",
+    "russian": "Лифт"
+  },
+  {
+    "hebrew": "מרפסת",
+    "transcription": "Мирпжсэт",
+    "russian": "Балкон"
+  },
+  {
+    "hebrew": "מקלחת",
+    "transcription": "Миклахат",
+    "russian": "Душ"
+  },
+  {
+    "hebrew": "חנות",
+    "transcription": "Ханут",
+    "russian": "Магазин"
+  },
+  {
+    "hebrew": "בקבוק",
+    "transcription": "Бакбук",
+    "russian": "Бутылка"
+  },
+  {
+    "hebrew": "תנור",
+    "transcription": "Танур",
+    "russian": "Плита"
+  },
+  {
+    "hebrew": "סיר",
+    "transcription": "Сир",
+    "russian": "Кастрюля"
+  },
+  {
+    "hebrew": "ספל",
+    "transcription": "Сэфэль",
+    "russian": "Чашка"
+  },
+  {
+    "hebrew": "מדף",
+    "transcription": "Мадаф",
+    "russian": "Полка"
+  },
+  {
+    "hebrew": "סדין",
+    "transcription": "Садин",
+    "russian": "Простыня"
+  },
+  {
+    "hebrew": "כורסה",
+    "transcription": "Курса",
+    "russian": "Кресло"
+  },
+  {
+    "hebrew": "שמיכה",
+    "transcription": "Смиха",
+    "russian": "Одеяло"
+  },
+  {
+    "hebrew": "מגבת",
+    "transcription": "Магэвэт",
+    "russian": "Полотенце"
+  },
+  {
+    "hebrew": "בניין",
+    "transcription": "Биньян",
+    "russian": "Здание"
+  },
+  {
+    "hebrew": "איזה",
+    "transcription": "Эйзэ",
+    "russian": "Какой?"
+  },
+  {
+    "hebrew": "איזו",
+    "transcription": "Эйзо?",
+    "russian": "Какая?"
+  },
+  {
+    "hebrew": "אילו",
+    "transcription": "Эйлу",
+    "russian": "Какие?"
+  },
+  {
+    "hebrew": "חדש",
+    "transcription": "Ходаш",
+    "russian": "Новый"
+  },
+  {
+    "hebrew": "יפה",
+    "transcription": "Яфэ",
+    "russian": "Красивый"
+  },
+  {
+    "hebrew": "נקי",
+    "transcription": "Наки",
+    "russian": "Чистый"
+  },
+  {
+    "hebrew": "פנוי",
+    "transcription": "Пануй",
+    "russian": "Свободный"
+  },
+  {
+    "hebrew": "ישנ",
+    "transcription": "Яшан",
+    "russian": "Старый"
+  },
+  {
+    "hebrew": "צעיר",
+    "transcription": "Цаир",
+    "russian": "Молодой"
+  },
+  {
+    "hebrew": "זקו",
+    "transcription": "Закэн",
+    "russian": "Пожилой"
+  },
+  {
+    "hebrew": "גדול",
+    "transcription": "Гадоль",
+    "russian": "Большой"
+  },
+  {
+    "hebrew": "קטן",
+    "transcription": "Катан",
+    "russian": "Маленький"
+  },
+  {
+    "hebrew": "חזק",
+    "transcription": "Хазак",
+    "russian": "Сильный"
+  },
+  {
+    "hebrew": "חלש",
+    "transcription": "Халаш",
+    "russian": "Слабый"
+  },
+  {
+    "hebrew": "קל",
+    "transcription": "Каль",
+    "russian": "Легкий (по весу)"
+  },
+  {
+    "hebrew": "כבד",
+    "transcription": "Кавэд",
+    "russian": "Тяжелый (по весу)"
+  },
+  {
+    "hebrew": "קל",
+    "transcription": "Каль",
+    "russian": "Легкий, простой"
+  },
+  {
+    "hebrew": "קשה",
+    "transcription": "Кашэ",
+    "russian": "Тоудно, тяжело"
+  },
+  {
+    "hebrew": "רחוק",
+    "transcription": "Рахок",
+    "russian": "Далекий"
+  },
+  {
+    "hebrew": "קרוב",
+    "transcription": "Каров",
+    "russian": "Близкий"
+  },
+  {
+    "hebrew": "ארוך",
+    "transcription": "Арох",
+    "russian": "Длинный"
+  },
+  {
+    "hebrew": "קצר",
+    "transcription": "Кацар",
+    "russian": "Короткий"
+  },
+  {
+    "hebrew": "גבוה",
+    "transcription": "Гавоха",
+    "russian": "Высокий"
+  },
+  {
+    "hebrew": "נמוך",
+    "transcription": "Намух",
+    "russian": "Низкий"
+  },
+  {
+    "hebrew": "טוב",
+    "transcription": "Тов",
+    "russian": "Хороший"
+  },
+  {
+    "hebrew": "רע",
+    "transcription": "Ра",
+    "russian": "Плохой"
+  },
+  {
+    "hebrew": "מכוער",
+    "transcription": "Мэхоар",
+    "russian": "Уродливый"
+  },
+  {
+    "hebrew": "נקי",
+    "transcription": "Наки",
+    "russian": "Чистый"
+  },
+  {
+    "hebrew": "מלוכלך",
+    "transcription": "Мэлухлах",
+    "russian": "Грязный"
+  },
+  {
+    "hebrew": "פתוח",
+    "transcription": "Патуах",
+    "russian": "Открытый"
+  },
+  {
+    "hebrew": "סגור",
+    "transcription": "Сагур",
+    "russian": "Закрытый"
+  },
+  {
+    "hebrew": "תפוס",
+    "transcription": "Тафус",
+    "russian": "Занятый"
+  },
+  {
+    "hebrew": "מלא",
+    "transcription": "Малэ",
+    "russian": "Полный"
+  },
+  {
+    "hebrew": "ריק",
+    "transcription": "Рэйк",
+    "russian": "Пустой"
+  },
+  {
+    "hebrew": "נדיב",
+    "transcription": "Надив",
+    "russian": "Щедрый"
+  },
+  {
+    "hebrew": "קמצני",
+    "transcription": "Кумцани",
+    "russian": "Скупой"
+  },
+  {
+    "hebrew": "חכם",
+    "transcription": "Хахам",
+    "russian": "Умный"
+  },
+  {
+    "hebrew": "טיפש",
+    "transcription": "Типэш",
+    "russian": "Глупый"
+  },
+  {
+    "hebrew": "שמח",
+    "transcription": "Самэах",
+    "russian": "Радостный"
+  },
+  {
+    "hebrew": "עצוב",
+    "transcription": "Ацув",
+    "russian": "Грустный"
+  },
+  {
+    "hebrew": "שבע",
+    "transcription": "Савэа",
+    "russian": "Сытый"
+  },
+  {
+    "hebrew": "רעב",
+    "transcription": "Раэв",
+    "russian": "Голодный"
+  },
+  {
+    "hebrew": "בריא",
+    "transcription": "Бари",
+    "russian": "Здоровый"
+  },
+  {
+    "hebrew": "חולה",
+    "transcription": "Холэ",
+    "russian": "Больной"
+  },
+  {
+    "hebrew": "יבש",
+    "transcription": "Явэш",
+    "russian": "Сухой"
+  },
+  {
+    "hebrew": "לח",
+    "transcription": "Лах",
+    "russian": "Влажный"
+  },
+  {
+    "hebrew": "חם",
+    "transcription": "Хам",
+    "russian": "Жаркий"
+  },
+  {
+    "hebrew": "קר",
+    "transcription": "Кар",
+    "russian": "Холодный"
+  },
+  {
+    "hebrew": "יקר",
+    "transcription": "Якар",
+    "russian": "Дорогой"
+  },
+  {
+    "hebrew": "זול",
+    "transcription": "Золь",
+    "russian": "Дешевый"
+  },
+  {
+    "hebrew": "עשיר",
+    "transcription": "Ашир",
+    "russian": "Богатый"
+  },
+  {
+    "hebrew": "רש",
+    "transcription": "Раш",
+    "russian": "Бедный"
+  },
+  {
+    "hebrew": "אמיתי",
+    "transcription": "Амити",
+    "russian": "Настоящий"
+  },
+  {
+    "hebrew": "חשוב",
+    "transcription": "Хашув",
+    "russian": "Важный"
+  },
+  {
+    "hebrew": "משכיל",
+    "transcription": "Маскиль",
+    "russian": "Образованный"
+  },
+  {
+    "hebrew": "בטוח",
+    "transcription": "Батуах",
+    "russian": "Уверенный"
+  },
+  {
+    "hebrew": "מנוסה",
+    "transcription": "Мэнусэ",
+    "russian": "Опытный"
+  },
+  {
+    "hebrew": "נכונ",
+    "transcription": "Нахон",
+    "russian": "Правильный"
+  },
+  {
+    "hebrew": "מיוחד",
+    "transcription": "Мэйухад",
+    "russian": "Особенный"
+  },
+  {
+    "hebrew": "מפורסם",
+    "transcription": "Мэфурсам",
+    "russian": "Знаменитый"
+  },
+  {
+    "hebrew": "מעניין",
+    "transcription": "Мэанйэн",
+    "russian": "Интересный"
+  },
+  {
+    "hebrew": "משעמם",
+    "transcription": "Мэшамэм",
+    "russian": "Скучный"
+  },
+  {
+    "hebrew": "עליז",
+    "transcription": "Ализ",
+    "russian": "Веселый"
+  },
+  {
+    "hebrew": "מאושר",
+    "transcription": "Мэушар",
+    "russian": "Счастливый"
+  },
+  {
+    "hebrew": "מרוצה",
+    "transcription": "Мэруцэ",
+    "russian": "Довольный"
+  },
+  {
+    "hebrew": "נהדר",
+    "transcription": "Нэхэдар",
+    "russian": "Прекрасный"
+  },
+  {
+    "hebrew": "נחמד",
+    "transcription": "Нэхмад",
+    "russian": "Милый"
+  },
+  {
+    "hebrew": "נעים",
+    "transcription": "Наим",
+    "russian": "Приятный"
+  },
+  {
+    "hebrew": "טרי",
+    "transcription": "Тари",
+    "russian": "Свежий"
+  },
+  {
+    "hebrew": "טעים",
+    "transcription": "Таим",
+    "russian": "Вкусный"
+  },
+  {
+    "hebrew": "מתוק",
+    "transcription": "Маток",
+    "russian": "Сладкий"
+  },
+  {
+    "hebrew": "מר",
+    "transcription": "Мар",
+    "russian": "Горький"
+  },
+  {
+    "hebrew": "חמוצ",
+    "transcription": "Хамуц",
+    "russian": "Кислый"
+  },
+  {
+    "hebrew": "מלוח",
+    "transcription": "Малуах",
+    "russian": "Соленый"
+  },
+  {
+    "hebrew": "חריף",
+    "transcription": "Хариф",
+    "russian": "Острый (вкус)"
+  },
+  {
+    "hebrew": "תפל",
+    "transcription": "Тафэль",
+    "russian": "Безвкусный"
+  },
+  {
+    "hebrew": "רך",
+    "transcription": "Рах",
+    "russian": "Мягкий"
+  },
+  {
+    "hebrew": "נוזלי",
+    "transcription": "Нозли",
+    "russian": "Жидкий"
+  },
+  {
+    "hebrew": "מוצק",
+    "transcription": "Муцак",
+    "russian": "Твердый"
+  },
+  {
+    "hebrew": "מהיר",
+    "transcription": "Махир",
+    "russian": "Быстрый"
+  },
+  {
+    "hebrew": "איטי",
+    "transcription": "Ити",
+    "russian": "Медленный"
+  },
+  {
+    "hebrew": "רחב",
+    "transcription": "Рахав",
+    "russian": "Широкий"
+  },
+  {
+    "hebrew": "צר",
+    "transcription": "Цар",
+    "russian": "Узкий"
+  },
+  {
+    "hebrew": "נוח",
+    "transcription": "Ноах",
+    "russian": "Удобный"
+  },
+  {
+    "hebrew": "עומד",
+    "transcription": "Омэд",
+    "russian": "Стоит"
+  },
+  {
+    "hebrew": "אומר",
+    "transcription": "Омэр",
+    "russian": "Говорит"
+  },
+  {
+    "hebrew": "חושב",
+    "transcription": "Хошэв",
+    "russian": "Думает"
+  },
+  {
+    "hebrew": "יודע",
+    "transcription": "Йодэа",
+    "russian": "Знает"
+  },
+  {
+    "hebrew": "שומע",
+    "transcription": "Шомэа",
+    "russian": "Слышит"
+  },
+  {
+    "hebrew": "מה",
+    "transcription": "Ма",
+    "russian": "Что"
+  },
+  {
+    "hebrew": "לחם",
+    "transcription": "Лэхэм",
+    "russian": "Хлеб"
+  },
+  {
+    "hebrew": "מי",
+    "transcription": "Ми",
+    "russian": "Кто"
+  },
+  {
+    "hebrew": "כותב",
+    "transcription": "Котэв",
+    "russian": "Пишет"
+  },
+  {
+    "hebrew": "משרד",
+    "transcription": "Мисрад",
+    "russian": "Офис"
+  },
+  {
+    "hebrew": "יפרון",
+    "transcription": "Ипарон",
+    "russian": "Карандаш"
+  },
+  {
+    "hebrew": "עט",
+    "transcription": "Эт",
+    "russian": "Ручка"
+  },
+  {
+    "hebrew": "דרך",
+    "transcription": "Дэрэх",
+    "russian": "Дорога"
+  },
+  {
+    "hebrew": "מדרגות",
+    "transcription": "Мадрэгот",
+    "russian": "Лестница"
+  },
+  {
+    "hebrew": "רגל",
+    "transcription": "Рэгэль",
+    "russian": "Нога"
+  },
+  {
+    "hebrew": "מוקדם",
+    "transcription": "Мукдам",
+    "russian": "Рано"
+  },
+  {
+    "hebrew": "מאוחר",
+    "transcription": "Мэухар",
+    "russian": "Поздно"
+  },
+  {
+    "hebrew": "בי",
+    "transcription": "Би",
+    "russian": "Во мне, мною (м.р)"
+  },
+  {
+    "hebrew": "בך",
+    "transcription": "Бэха",
+    "russian": "В тебе, тобою (м.р)"
+  },
+  {
+    "hebrew": "בך",
+    "transcription": "Бах",
+    "russian": "В тебе, тобою (ж.р.)"
+  },
+  {
+    "hebrew": "בו",
+    "transcription": "Бо",
+    "russian": "В нем, им"
+  },
+  {
+    "hebrew": "בה",
+    "transcription": "Ба",
+    "russian": "В ней, ею"
+  },
+  {
+    "hebrew": "בנו",
+    "transcription": "Бану",
+    "russian": "В нас, нами"
+  },
+  {
+    "hebrew": "בכם",
+    "transcription": "Бахэм",
+    "russian": "В вас, вами (м.р)"
+  },
+  {
+    "hebrew": "בכן",
+    "transcription": "Бахэн",
+    "russian": "В вас, вами (ж.р)"
+  },
+  {
+    "hebrew": "בהם",
+    "transcription": "Баhэм",
+    "russian": "В них, ими (м.р.)"
+  },
+  {
+    "hebrew": "בהן",
+    "transcription": "Баhэн",
+    "russian": "В них, ими (ж.р)"
+  },
+  {
+    "hebrew": "אחת",
+    "transcription": "Ахат",
+    "russian": "1 (ж.р)"
+  },
+  {
+    "hebrew": "שמיים",
+    "transcription": "Штайм",
+    "russian": "2"
+  },
+  {
+    "hebrew": "שלוש",
+    "transcription": "Шалош",
+    "russian": "3"
+  },
+  {
+    "hebrew": "ארבע",
+    "transcription": "Арба",
+    "russian": "4"
+  },
+  {
+    "hebrew": "חמש",
+    "transcription": "Хамэш",
+    "russian": "5"
+  },
+  {
+    "hebrew": "שש",
+    "transcription": "Шэг",
+    "russian": "6"
+  },
+  {
+    "hebrew": "שבע",
+    "transcription": "Шэва",
+    "russian": "7"
+  },
+  {
+    "hebrew": "שמונה",
+    "transcription": "Шмонэ",
+    "russian": "8"
+  },
+  {
+    "hebrew": "תשע",
+    "transcription": "Тэша",
+    "russian": "9"
+  },
+  {
+    "hebrew": "עשר",
+    "transcription": "Эсэр",
+    "russian": "10"
+  },
+  {
+    "hebrew": "אחת עשרה",
+    "transcription": "Ахат эсрэ",
+    "russian": "11"
+  },
+  {
+    "hebrew": "שתים עשרה",
+    "transcription": "Штэйм эсрэ",
+    "russian": "12"
+  },
+  {
+    "hebrew": "שלוש עשרה",
+    "transcription": "Шлош эсрэ",
+    "russian": "13"
+  },
+  {
+    "hebrew": "ארבע עשרה",
+    "transcription": "Арба эсрэ",
+    "russian": "14"
+  },
+  {
+    "hebrew": "חמש עשרה",
+    "transcription": "Хамэш эсрэ",
+    "russian": "15"
+  },
+  {
+    "hebrew": "שש עשרה",
+    "transcription": "Шэш эсрэ",
+    "russian": "16"
+  },
+  {
+    "hebrew": "שבע עשרה",
+    "transcription": "Шва эсрэ",
+    "russian": "17"
+  },
+  {
+    "hebrew": "שמונה עשרה",
+    "transcription": "Шмонэ эсрэ",
+    "russian": "18"
+  },
+  {
+    "hebrew": "תשע עשרה",
+    "transcription": "Тша эсрэ",
+    "russian": "19"
+  },
+  {
+    "hebrew": "עשרים",
+    "transcription": "Эсрим",
+    "russian": "20"
+  },
+  {
+    "hebrew": "עשרים ואחת",
+    "transcription": "Эсрим вэ эхат",
+    "russian": "21"
+  },
+  {
+    "hebrew": "עשרים ושתיים",
+    "transcription": "Эсрим вэ штайм",
+    "russian": "22"
+  },
+  {
+    "hebrew": "עשרימ ושלוש",
+    "transcription": "Эсрим вэ шалош",
+    "russian": "23"
+  },
+  {
+    "hebrew": "עשרים וארבע",
+    "transcription": "Эсрим вэ арба",
+    "russian": "24"
+  },
+  {
+    "hebrew": "עשרים וחמש",
+    "transcription": "Эсрим вэ хамэш",
+    "russian": "25"
+  },
+  {
+    "hebrew": "עשרים ושש",
+    "transcription": "Эсрим вэ шэш",
+    "russian": "26"
+  },
+  {
+    "hebrew": "עשרים ושבע",
+    "transcription": "Эсрим вэ шэва",
+    "russian": "27"
+  },
+  {
+    "hebrew": "עשרימ ושמונה",
+    "transcription": "Эсрим вэ шмонэ",
+    "russian": "28"
+  },
+  {
+    "hebrew": "עשרימ ותשה",
+    "transcription": "Эсрим вэ тэша",
+    "russian": "29"
+  },
+  {
+    "hebrew": "שלושים",
+    "transcription": "Шлошим",
+    "russian": "30"
+  },
+  {
+    "hebrew": "ארבעים",
+    "transcription": "Арбаим",
+    "russian": "40"
+  },
+  {
+    "hebrew": "חמישים",
+    "transcription": "Хамишим",
+    "russian": "50"
+  },
+  {
+    "hebrew": "שישים",
+    "transcription": "Шишим",
+    "russian": "60"
+  },
+  {
+    "hebrew": "שבעים",
+    "transcription": "Шивьим",
+    "russian": "70"
+  },
+  {
+    "hebrew": "שמונים",
+    "transcription": "Шмоним",
+    "russian": "80"
+  },
+  {
+    "hebrew": "תשעים",
+    "transcription": "Тишьим",
+    "russian": "90"
+  },
+  {
+    "hebrew": "מאה",
+    "transcription": "Мэа",
+    "russian": "100"
+  },
+  {
+    "hebrew": "מאה ואחד עשר",
+    "transcription": "Мэа вэ ахад асар",
+    "russian": "111"
+  },
+  {
+    "hebrew": "מאתיים",
+    "transcription": "Матаим",
+    "russian": "200"
+  },
+  {
+    "hebrew": "מאתיים עשרים ושניים",
+    "transcription": "Матаим  эсрим вэ шнатаим",
+    "russian": "222"
+  },
+  {
+    "hebrew": "שלוש מאומ שלושים ו שלושה",
+    "transcription": "Шлош мэот шлошим вэ шлоша",
+    "russian": "333"
+  },
+  {
+    "hebrew": "ארבע מאות ארבעים וארבעה",
+    "transcription": "Арба меот арбаим вэ арбаа",
+    "russian": "444"
+  },
+  {
+    "hebrew": "חמש מאות חמישים וחמישה",
+    "transcription": "Хамэш мэот хамишим вэ хамиша",
+    "russian": "555"
+  },
+  {
+    "hebrew": "שש מאות שישים ושישה",
+    "transcription": "Шэш меот шишим вэ шиша",
+    "russian": "666"
+  },
+  {
+    "hebrew": "שבע מאות שבעים ושבעה",
+    "transcription": "Шва мэот шивим вэ шивьа",
+    "russian": "777"
+  },
+  {
+    "hebrew": "שמונה מאות שמונים ושמונה",
+    "transcription": "Шмонэ мэот шмоним вэ шмона",
+    "russian": "888"
+  },
+  {
+    "hebrew": "תשע מאות תשעים ותשעה",
+    "transcription": "Тша мэот тишим вэ тишьа",
+    "russian": "999"
+  },
+  {
+    "hebrew": "אלף",
+    "transcription": "Элэф",
+    "russian": "1000"
+  },
+  {
+    "hebrew": "אלפיים",
+    "transcription": "Альпаиим",
+    "russian": "2000"
+  },
+  {
+    "hebrew": "שלושת אלפים",
+    "transcription": "Шлошэт алафим",
+    "russian": "3000"
+  },
+  {
+    "hebrew": "ארבעת אלפים",
+    "transcription": "Арбаат алафим",
+    "russian": "4000"
+  },
+  {
+    "hebrew": "חמשת אלפים",
+    "transcription": "Хамэшэт алафим",
+    "russian": "5000"
+  },
+  {
+    "hebrew": "ששת אלפים",
+    "transcription": "Шэшэт алафим",
+    "russian": "6000"
+  },
+  {
+    "hebrew": "שבעת אלפים",
+    "transcription": "Шивьат алафим",
+    "russian": "7000"
+  },
+  {
+    "hebrew": "שמונת אלפים",
+    "transcription": "Шмонат алафим",
+    "russian": "8000"
+  },
+  {
+    "hebrew": "תשעת אלפים",
+    "transcription": "Тишьат алафим",
+    "russian": "9000"
+  },
+  {
+    "hebrew": "אשרת אלפים",
+    "transcription": "Асэрэт алафим",
+    "russian": "10000"
+  },
+  {
+    "hebrew": "מאה אלפ",
+    "transcription": "Мэа элэф",
+    "russian": "100000"
+  },
+  {
+    "hebrew": "מאתיים אלפ",
+    "transcription": "Матаим элэф",
+    "russian": "200000"
+  },
+  {
+    "hebrew": "שלוש מאות אלפ",
+    "transcription": "Шлош мэот элэф",
+    "russian": "300000"
+  },
+  {
+    "hebrew": "ארנע מאות אלפ",
+    "transcription": "Арба меот элэф",
+    "russian": "400000"
+  },
+  {
+    "hebrew": "חמש מאות אלפ",
+    "transcription": "Хамеш меот элэф",
+    "russian": "500000"
+  },
+  {
+    "hebrew": "שש מאות אלפ",
+    "transcription": "Шэш меот элеф",
+    "russian": "600000"
+  },
+  {
+    "hebrew": "שבע מאות אלפ",
+    "transcription": "Шва меот элэф",
+    "russian": "700000"
+  },
+  {
+    "hebrew": "שמונה מאות אלפ",
+    "transcription": "Шмонэ мэот элэф",
+    "russian": "800000"
+  },
+  {
+    "hebrew": "תשע מאות אלפ",
+    "transcription": "Тша меот элэф",
+    "russian": "900000"
+  },
+  {
+    "hebrew": "מיליון",
+    "transcription": "Мильон",
+    "russian": "1000000"
+  },
+  {
+    "hebrew": "מאה מיליון",
+    "transcription": "Мэа мильйон",
+    "russian": "100000000"
+  },
+  {
+    "hebrew": "מיליארד",
+    "transcription": "Мильйард",
+    "russian": "1000000000"
+  },
+  {
+    "hebrew": "ראש",
+    "transcription": "Рош",
+    "russian": "Голова"
+  },
+  {
+    "hebrew": "בן",
+    "transcription": "Бэн",
+    "russian": "Мальчик"
+  },
+  {
+    "hebrew": "בנים",
+    "transcription": "Баним",
+    "russian": "Мальчики"
+  },
+  {
+    "hebrew": "בני",
+    "transcription": "Бней",
+    "russian": "Мальчиков"
+  },
+  {
+    "hebrew": "בת",
+    "transcription": "Бат",
+    "russian": "Девочка"
+  },
+  {
+    "hebrew": "בנות",
+    "transcription": "Банот",
+    "russian": "Девочки"
+  },
+  {
+    "hebrew": "בנות",
+    "transcription": "Бнот",
+    "russian": "Девочек"
+  },
+  {
+    "hebrew": "ראשון",
+    "transcription": "Ришон",
+    "russian": "Первый"
+  },
+  {
+    "hebrew": "שני",
+    "transcription": "Шени",
+    "russian": "Второй"
+  },
+  {
+    "hebrew": "שלישי",
+    "transcription": "Шлиши",
+    "russian": "Третий"
+  },
+  {
+    "hebrew": "רביעי",
+    "transcription": "Рэвии",
+    "russian": "Четвертый"
+  },
+  {
+    "hebrew": "חמישי",
+    "transcription": "Хамиши",
+    "russian": "Пятый"
+  },
+  {
+    "hebrew": "ששי",
+    "transcription": "Шиши",
+    "russian": "Шестой"
+  },
+  {
+    "hebrew": "שביעי",
+    "transcription": "Швит",
+    "russian": "Седьмой"
+  },
+  {
+    "hebrew": "שמיני",
+    "transcription": "Шмини",
+    "russian": "Восьмой"
+  },
+  {
+    "hebrew": "תשיעי",
+    "transcription": "Тшии",
+    "russian": "Девятый"
+  },
+  {
+    "hebrew": "עשירי",
+    "transcription": "Асири",
+    "russian": "Десятый"
+  },
+  {
+    "hebrew": "ייום ראשון",
+    "transcription": "Йом ришон",
+    "russian": "Воскресение"
+  },
+  {
+    "hebrew": "יום שני",
+    "transcription": "Йом шени",
+    "russian": "Понедельник"
+  },
+  {
+    "hebrew": "יום שלישי",
+    "transcription": "Йом шлиши",
+    "russian": "Вторник"
+  },
+  {
+    "hebrew": "יום רביעי",
+    "transcription": "Йом ревии",
+    "russian": "Среда"
+  },
+  {
+    "hebrew": "יום חמישי",
+    "transcription": "Йом хамиши",
+    "russian": "Четверг"
+  },
+  {
+    "hebrew": "יום ששי",
+    "transcription": "Йом шиши",
+    "russian": "Пятница"
+  },
+  {
+    "hebrew": "שבת",
+    "transcription": "Шабат",
+    "russian": "Суббота"
+  },
+  {
+    "hebrew": "שעון",
+    "transcription": "Шаон",
+    "russian": "Часы"
+  },
+  {
+    "hebrew": "שנייה",
+    "transcription": "Шнийа",
+    "russian": "Секунда"
+  },
+  {
+    "hebrew": "דקה",
+    "transcription": "Дака",
+    "russian": "Минута"
+  },
+  {
+    "hebrew": "שעה",
+    "transcription": "Шаа",
+    "russian": "Час"
+  },
+  {
+    "hebrew": "בדיוק",
+    "transcription": "Бидьюк",
+    "russian": "Ровно"
+  },
+  {
+    "hebrew": "בערך",
+    "transcription": "Бэрэх",
+    "russian": "Примерно"
+  },
+  {
+    "hebrew": "חוזר",
+    "transcription": "Хозэр",
+    "russian": "Возвращаться"
+  },
+  {
+    "hebrew": "דץמבר",
+    "transcription": "Дэцэмбэр",
+    "russian": "Декабрь"
+  },
+  {
+    "hebrew": "ינואר",
+    "transcription": "Йануар",
+    "russian": "Январь"
+  },
+  {
+    "hebrew": "פברואר",
+    "transcription": "Фэбруар",
+    "russian": "Февраль"
+  },
+  {
+    "hebrew": "מרץ",
+    "transcription": "Мэрц",
+    "russian": "Март"
+  },
+  {
+    "hebrew": "אפריל",
+    "transcription": "Априль",
+    "russian": "Апрель"
+  },
+  {
+    "hebrew": "מאי",
+    "transcription": "Май",
+    "russian": "Май"
+  },
+  {
+    "hebrew": "יוני",
+    "transcription": "Йуни",
+    "russian": "Июнь"
+  },
+  {
+    "hebrew": "יולי",
+    "transcription": "Йули",
+    "russian": "Июль"
+  },
+  {
+    "hebrew": "אוגוסט",
+    "transcription": "Огуст",
+    "russian": "Август"
+  },
+  {
+    "hebrew": "ספתמבר",
+    "transcription": "Сэптэмбр",
+    "russian": "Сентябрь"
+  },
+  {
+    "hebrew": "אוקטובר",
+    "transcription": "Октобэр",
+    "russian": "Октябрь"
+  },
+  {
+    "hebrew": "נובמבר",
+    "transcription": "Новэмбэр",
+    "russian": "Ноябрь"
+  },
+  {
+    "hebrew": "לוח שנה",
+    "transcription": "Луах шана",
+    "russian": "Календарь"
+  },
+  {
+    "hebrew": "תאריך",
+    "transcription": "Таарих",
+    "russian": "Дата"
+  },
+  {
+    "hebrew": "לידה",
+    "transcription": "Лэйда",
+    "russian": "Рождение"
+  },
+  {
+    "hebrew": "יום הולדת / יוםולדת",
+    "transcription": "Йом хулэдэт",
+    "russian": "День рождения"
+  },
+  {
+    "hebrew": "יורד",
+    "transcription": "Йорэд",
+    "russian": "Спускаться"
+  },
+  {
+    "hebrew": "אגורה",
+    "transcription": "Агора",
+    "russian": "Агора (1/100 шекеля)"
+  },
+  {
+    "hebrew": "שקל",
+    "transcription": "Шэкэль",
+    "russian": "Шэкель"
+  },
+  {
+    "hebrew": "עושה",
+    "transcription": "Осэ",
+    "russian": "Делаю"
+  },
+  {
+    "hebrew": "כונה",
+    "transcription": "Конэ",
+    "russian": "Покупаю"
+  },
+  {
+    "hebrew": "שותה",
+    "transcription": "Шотэ",
+    "russian": "Пью"
+  },
+  {
+    "hebrew": "רוץה",
+    "transcription": "Роцэ",
+    "russian": "Хочу"
+  },
+  {
+    "hebrew": "רואה",
+    "transcription": "Роэ",
+    "russian": "Вижу"
+  },
+  {
+    "hebrew": "לי",
+    "transcription": "Ли",
+    "russian": "Мне, у меня"
+  },
+  {
+    "hebrew": "לך",
+    "transcription": "Лэха",
+    "russian": "Тебе, у тебя (м.р.)"
+  },
+  {
+    "hebrew": "לך",
+    "transcription": "Лах",
+    "russian": "Тебе, у тебя (ж.р.)"
+  },
+  {
+    "hebrew": "לו",
+    "transcription": "Ло",
+    "russian": "Ему, у него"
+  },
+  {
+    "hebrew": "לה",
+    "transcription": "Ла",
+    "russian": "Ей, у нее"
+  },
+  {
+    "hebrew": "לנו",
+    "transcription": "Лану",
+    "russian": "Нам, нас"
+  },
+  {
+    "hebrew": "לכם",
+    "transcription": "Лахэм",
+    "russian": "Вам, у вас (м.р.)"
+  },
+  {
+    "hebrew": "לכן",
+    "transcription": "Лахэн",
+    "russian": "Вам, у вас (ж.р.)"
+  },
+  {
+    "hebrew": "להם",
+    "transcription": "Лаhэм",
+    "russian": "Им, у них (м.р.)"
+  },
+  {
+    "hebrew": "להן",
+    "transcription": "Лаhэн",
+    "russian": "Им, у них (ж.р.)"
+  },
+  {
+    "hebrew": "אות",
+    "transcription": "Оти",
+    "russian": "Меня"
+  },
+  {
+    "hebrew": "אותך",
+    "transcription": "Отха",
+    "russian": "Тебя (м.р.)"
+  },
+  {
+    "hebrew": "אותך",
+    "transcription": "Отах",
+    "russian": "Тебя (ж.р.)"
+  },
+  {
+    "hebrew": "אותו",
+    "transcription": "Ото",
+    "russian": "Его"
+  },
+  {
+    "hebrew": "אותה",
+    "transcription": "Ота",
+    "russian": "Ее"
+  },
+  {
+    "hebrew": "אותנו",
+    "transcription": "Отану",
+    "russian": "Нас"
+  },
+  {
+    "hebrew": "אתכם",
+    "transcription": "Этхэм",
+    "russian": "Вас (м.р.)"
+  },
+  {
+    "hebrew": "אתכן",
+    "transcription": "Этхэн",
+    "russian": "Вас (ж.р.)"
+  },
+  {
+    "hebrew": "אותם",
+    "transcription": "Отам",
+    "russian": "Их (м.р.)"
+  },
+  {
+    "hebrew": "אותן",
+    "transcription": "Отан",
+    "russian": "Их (ж.р.)"
+  },
+  {
+    "hebrew": "את",
+    "transcription": "Эт",
+    "russian": "Лопата"
+  },
+  {
+    "hebrew": "עט",
+    "transcription": "Эт",
+    "russian": "Ручка"
+  },
+  {
+    "hebrew": "אוהב",
+    "transcription": "Охэв",
+    "russian": "Люблю"
+  },
+  {
+    "hebrew": "שונא",
+    "transcription": "Сонэ",
+    "russian": "Ненавижу"
+  },
+  {
+    "hebrew": "אוכל",
+    "transcription": "Охэль",
+    "russian": "Ем"
+  },
+  {
+    "hebrew": "אבטיח",
+    "transcription": "Аватиах",
+    "russian": "Арбуз"
+  },
+  {
+    "hebrew": "מתכונים",
+    "transcription": "Матхоним",
+    "russian": "Рецепты"
+  },
+  {
+    "hebrew": "בלי",
+    "transcription": "Бли",
+    "russian": "Без"
+  },
+  {
+    "hebrew": "סוכר",
+    "transcription": "Сукар",
+    "russian": "Сахар"
+  },
+  {
+    "hebrew": "קרח",
+    "transcription": "Керах",
+    "russian": "Лед"
+  },
+  {
+    "hebrew": "קטשופ",
+    "transcription": "Кетшоп",
+    "russian": "Кетчуп"
+  },
+  {
+    "hebrew": "מרק",
+    "transcription": "Марак",
+    "russian": "Суп"
+  },
+  {
+    "hebrew": "מלח",
+    "transcription": "Мэлах",
+    "russian": "Соль"
+  },
+  {
+    "hebrew": "פנקייקים",
+    "transcription": "Панкейким",
+    "russian": "Оладьи"
+  },
+  {
+    "hebrew": "דנש",
+    "transcription": "Дваш",
+    "russian": "Мед"
+  },
+  {
+    "hebrew": "חלב",
+    "transcription": "Халяв",
+    "russian": "Молоко"
+  },
+  {
+    "hebrew": "דייט",
+    "transcription": "Диит",
+    "russian": "Свидание"
+  },
+  {
+    "hebrew": "המלך",
+    "transcription": "Хамэлэх",
+    "russian": "Царь"
+  },
+  {
+    "hebrew": "שפה",
+    "transcription": "Сафа",
+    "russian": "Язык"
+  },
+  {
+    "hebrew": "שפה רוסית",
+    "transcription": "Сафа русит",
+    "russian": "Русский язык"
+  },
+  {
+    "hebrew": "עליי",
+    "transcription": "Алай",
+    "russian": "Обо мне, на мне"
+  },
+  {
+    "hebrew": "עליך",
+    "transcription": "Алэха",
+    "russian": "О тебе (м.р.)"
+  },
+  {
+    "hebrew": "עליך",
+    "transcription": "Алаих",
+    "russian": "О тебе (ж.р.)"
+  },
+  {
+    "hebrew": "עליו",
+    "transcription": "Алав",
+    "russian": "О нем"
+  },
+  {
+    "hebrew": "עליה",
+    "transcription": "Алэhа",
+    "russian": "О ней"
+  },
+  {
+    "hebrew": "עלינו",
+    "transcription": "Алэну",
+    "russian": "О нас"
+  },
+  {
+    "hebrew": "עליכמ",
+    "transcription": "Алэхэм",
+    "russian": "О вас (м.р.)"
+  },
+  {
+    "hebrew": "עליכן",
+    "transcription": "Алэхэн",
+    "russian": "О вас (ж.р.)"
+  },
+  {
+    "hebrew": "עליהם",
+    "transcription": "Алэhэм",
+    "russian": "О них (м.р.)"
+  },
+  {
+    "hebrew": "עליהן",
+    "transcription": "Алэхэн",
+    "russian": "О них (ж.р.)"
+  },
+  {
+    "hebrew": "החמור",
+    "transcription": "Хахамор",
+    "russian": "Осел"
+  },
+  {
+    "hebrew": "שוכב",
+    "transcription": "Шохэв",
+    "russian": "Лежит, лежать"
+  },
+  {
+    "hebrew": "כדור",
+    "transcription": "Кадур",
+    "russian": "Мяч"
+  },
+  {
+    "hebrew": "ראש",
+    "transcription": "Рош",
+    "russian": "Голова"
+  },
+  {
+    "hebrew": "ספסל",
+    "transcription": "Сэфсаль",
+    "russian": "Скамья"
+  },
+  {
+    "hebrew": "אצל",
+    "transcription": "Эцэль",
+    "russian": "У"
+  },
+  {
+    "hebrew": "ליד",
+    "transcription": "Лид",
+    "russian": "Возле"
+  },
+  {
+    "hebrew": "בזכוד",
+    "transcription": "Бизхуд",
+    "russian": "Благодаря"
+  },
+  {
+    "hebrew": "בגלל",
+    "transcription": "Бигляль",
+    "russian": "Из-за"
+  },
+  {
+    "hebrew": "בשביל",
+    "transcription": "Бишвиль",
+    "russian": "Для"
+  },
+  {
+    "hebrew": "במקום",
+    "transcription": "Бимком",
+    "russian": "Вместо"
+  },
+  {
+    "hebrew": "מעליי",
+    "transcription": "Мэалай",
+    "russian": "Надомной"
+  },
+  {
+    "hebrew": "מעליך",
+    "transcription": "Мэалэха",
+    "russian": "Над тобой (м.р.)"
+  },
+  {
+    "hebrew": "מעלייך",
+    "transcription": "Мэалаих",
+    "russian": "Над тобой (ж.р.)"
+  },
+  {
+    "hebrew": "מעליו",
+    "transcription": "Мэалав",
+    "russian": "Над ним"
+  },
+  {
+    "hebrew": "מעליה",
+    "transcription": "Мэалэhа",
+    "russian": "Над ней"
+  },
+  {
+    "hebrew": "מעלינו",
+    "transcription": "Мэалэну",
+    "russian": "Над нами"
+  },
+  {
+    "hebrew": "מעליכם",
+    "transcription": "Мэалэхэм",
+    "russian": "Над вами (м.р.)"
+  },
+  {
+    "hebrew": "מעליכן",
+    "transcription": "Мэалэхэн",
+    "russian": "Над вами (ж.р.)"
+  },
+  {
+    "hebrew": "מעלהמ",
+    "transcription": "Мэалэhэм",
+    "russian": "Над ними  (м.р.)"
+  },
+  {
+    "hebrew": "מעליהן",
+    "transcription": "Мэалэхэн",
+    "russian": "Над ними(ж.р.)"
+  },
+  {
+    "hebrew": "אליי",
+    "transcription": "Элай",
+    "russian": "Ко мне"
+  },
+  {
+    "hebrew": "אליך",
+    "transcription": "Элэха",
+    "russian": "К тебе (м.р.)"
+  },
+  {
+    "hebrew": "אלייך",
+    "transcription": "Элаих",
+    "russian": "К тебе (ж.р.)"
+  },
+  {
+    "hebrew": "אליו",
+    "transcription": "Элав",
+    "russian": "К нему"
+  },
+  {
+    "hebrew": "אליה",
+    "transcription": "Элэhа",
+    "russian": "К ней"
+  },
+  {
+    "hebrew": "אלינו",
+    "transcription": "Элэну",
+    "russian": "К нам"
+  },
+  {
+    "hebrew": "אליכם",
+    "transcription": "Элэхэм",
+    "russian": "К вам (м.р.)"
+  },
+  {
+    "hebrew": "אליכן",
+    "transcription": "Элэхэн",
+    "russian": "К вам (ж.р)"
+  },
+  {
+    "hebrew": "אליהם",
+    "transcription": "Элэhэм",
+    "russian": "К ним (м.р.)"
+  },
+  {
+    "hebrew": "אליהן",
+    "transcription": "Элэhэн",
+    "russian": "К ним (ж.р.)"
+  },
+  {
+    "hebrew": "אחריי",
+    "transcription": "Ахарай",
+    "russian": "После меня"
+  },
+  {
+    "hebrew": "אחריך",
+    "transcription": "Ахарэха",
+    "russian": "После тебя (м.р.)"
+  },
+  {
+    "hebrew": "אחרייך",
+    "transcription": "Ахараих",
+    "russian": "После тебя (ж.р.)"
+  },
+  {
+    "hebrew": "אחריו",
+    "transcription": "Ахарав",
+    "russian": "После него"
+  },
+  {
+    "hebrew": "אחריה",
+    "transcription": "Ахарэhа",
+    "russian": "После нее"
+  },
+  {
+    "hebrew": "אחרינו",
+    "transcription": "Ахарэну",
+    "russian": "После нас"
+  },
+  {
+    "hebrew": "אחריכם",
+    "transcription": "Ахарэхэм",
+    "russian": "После вас (м.р.)"
+  },
+  {
+    "hebrew": "אחריכן",
+    "transcription": "Ахарэхэн",
+    "russian": "После вас (ж.р.)"
+  },
+  {
+    "hebrew": "אחריהם",
+    "transcription": "Ахарэhэм",
+    "russian": "После них (м.р.)"
+  },
+  {
+    "hebrew": "אחריהן",
+    "transcription": "Ахарэhэн",
+    "russian": "После них (ж.р.)"
+  },
+  {
+    "hebrew": "בלעדיי",
+    "transcription": "Бильадай",
+    "russian": "Без меня"
+  },
+  {
+    "hebrew": "בלעדיך",
+    "transcription": "Бильадэха",
+    "russian": "Без тебя (м.р.)"
+  },
+  {
+    "hebrew": "בלעדיך",
+    "transcription": "Бильадаих",
+    "russian": "Без тебя (ж.р)"
+  },
+  {
+    "hebrew": "בלעדייו",
+    "transcription": "Бильадав",
+    "russian": "Без него"
+  },
+  {
+    "hebrew": "בלעדיה",
+    "transcription": "Бильадэhа",
+    "russian": "Без нее"
+  },
+  {
+    "hebrew": "בלעדינו",
+    "transcription": "Бильадэну",
+    "russian": "Без нас"
+  },
+  {
+    "hebrew": "בלעדיכם",
+    "transcription": "Бильадэхэм",
+    "russian": "Без вас (м.р.)"
+  },
+  {
+    "hebrew": "בלעדיכן",
+    "transcription": "Бильадэхэн",
+    "russian": "Без вас (ж.р)"
+  },
+  {
+    "hebrew": "בלעדיהם",
+    "transcription": "Бильадэhэм",
+    "russian": "Без них (м.р.)"
+  },
+  {
+    "hebrew": "בלעדיהן",
+    "transcription": "Бильадэhэн",
+    "russian": "Без них (ж.р.)"
+  },
+  {
+    "hebrew": "מתחת",
+    "transcription": "Митахт",
+    "russian": "Под"
+  },
+  {
+    "hebrew": "תור",
+    "transcription": "Тор",
+    "russian": "Очередь"
+  },
+  {
+    "hebrew": "לוקח",
+    "transcription": "Локеах",
+    "russian": "Беру"
+  },
+  {
+    "hebrew": "מקבל",
+    "transcription": "Мэкабэль",
+    "russian": "Получаю"
+  },
+  {
+    "hebrew": "מבקש",
+    "transcription": "Мэвакэш",
+    "russian": "Прошу"
+  },
+  {
+    "hebrew": "הפתעות",
+    "transcription": "Хафтаот",
+    "russian": "Сюрприз"
+  },
+  {
+    "hebrew": "גל",
+    "transcription": "Галь",
+    "russian": "Волна"
+  },
+  {
+    "hebrew": "אבא",
+    "transcription": "Аба",
+    "russian": "Папа"
+  },
+  {
+    "hebrew": "למה",
+    "transcription": "ЛЯма",
+    "russian": "Почему"
+  },
+  {
+    "hebrew": "בא",
+    "transcription": "Ба",
+    "russian": "Пришел"
+  },
+  {
+    "hebrew": "ים",
+    "transcription": "Йам",
+    "russian": "Море"
+  },
+  {
+    "hebrew": "חג",
+    "transcription": "Хаг",
+    "russian": "Праздник"
+  },
+  {
+    "hebrew": "מפה",
+    "transcription": "МапА",
+    "russian": "Карта"
+  },
+  {
+    "hebrew": "שמ",
+    "transcription": "Шам",
+    "russian": "Там"
+  },
+  {
+    "hebrew": "שבת",
+    "transcription": "ШабАт",
+    "russian": "Суббота"
+  },
+  {
+    "hebrew": "מה",
+    "transcription": "Ма",
+    "russian": "Что"
+  },
+  {
+    "hebrew": "גר",
+    "transcription": "Гар",
+    "russian": "Живет"
+  },
+  {
+    "hebrew": "פרה",
+    "transcription": "ПарА",
+    "russian": "Корова"
+  },
+  {
+    "hebrew": "גם",
+    "transcription": "Гам",
+    "russian": "Тоже"
+  },
+  {
+    "hebrew": "סבא",
+    "transcription": "САба",
+    "russian": "Дедушка"
+  },
+  {
+    "hebrew": "בוקר",
+    "transcription": "БОкер",
+    "russian": "Утро"
+  },
+  {
+    "hebrew": "טוב",
+    "transcription": "Тов",
+    "russian": "Хорошо"
+  },
+  {
+    "hebrew": "יום",
+    "transcription": "Йом",
+    "russian": "День"
+  },
+  {
+    "hebrew": "יפה",
+    "transcription": "ЯфЭ",
+    "russian": "Красивый"
+  },
+  {
+    "hebrew": "מר",
+    "transcription": "Мар",
+    "russian": "Мистер"
+  },
+  {
+    "hebrew": "אמת",
+    "transcription": "Эмэт",
+    "russian": "Правда"
+  },
+  {
+    "hebrew": "יש",
+    "transcription": "Еш",
+    "russian": "Есть (быть)"
+  },
+  {
+    "hebrew": "שמש",
+    "transcription": "Шэмэш",
+    "russian": "Солнце"
+  },
+  {
+    "hebrew": "שלום",
+    "transcription": "ШалОм",
+    "russian": "Привет"
+  },
+  {
+    "hebrew": "גברת",
+    "transcription": "ГвЭрэт",
+    "russian": "Госпожа"
+  },
+  {
+    "hebrew": "היום",
+    "transcription": "ХайОм",
+    "russian": "Сегодня"
+  },
+  {
+    "hebrew": "זה",
+    "transcription": "Зэ",
+    "russian": "Этот"
+  },
+  {
+    "hebrew": "זאת",
+    "transcription": "Зот",
+    "russian": "Эта"
+  },
+  {
+    "hebrew": "רוצה",
+    "transcription": "РоцЭ",
+    "russian": "Хочет он"
+  },
+  {
+    "hebrew": "רוצה",
+    "transcription": "РоцА",
+    "russian": "Хочет она"
+  },
+  {
+    "hebrew": "כיסא",
+    "transcription": "КисЭ",
+    "russian": "Стул"
+  },
+  {
+    "hebrew": "אני",
+    "transcription": "АнИ",
+    "russian": "Я"
+  },
+  {
+    "hebrew": "לשבמ",
+    "transcription": "ЛашЭвэт",
+    "russian": "Сидеть"
+  },
+  {
+    "hebrew": "שב",
+    "transcription": "Шэв",
+    "russian": "Садись (к м.р.)"
+  },
+  {
+    "hebrew": "שבי",
+    "transcription": "Шви",
+    "russian": "Садись (к ж.р.)"
+  },
+  {
+    "hebrew": "מי",
+    "transcription": "Ми",
+    "russian": "Кто"
+  },
+  {
+    "hebrew": "בבקשה",
+    "transcription": "БэвакашА",
+    "russian": "Пожалуйста"
+  },
+  {
+    "hebrew": "אמא",
+    "transcription": "Има",
+    "russian": "Мама"
+  },
+  {
+    "hebrew": "תודה",
+    "transcription": "ТодА",
+    "russian": "Спасибо"
+  },
+  {
+    "hebrew": "נעים",
+    "transcription": "Наим",
+    "russian": "Приятно"
+  },
+  {
+    "hebrew": "מאוד",
+    "transcription": "МэОд",
+    "russian": "Очень"
+  },
+  {
+    "hebrew": "אתה",
+    "transcription": "АтА",
+    "russian": "Ты (к м.р.)"
+  },
+  {
+    "hebrew": "את",
+    "transcription": "Ат",
+    "russian": "Ты (к ж.р.)"
+  },
+  {
+    "hebrew": "עוד",
+    "transcription": "Од",
+    "russian": "Еще"
+  },
+  {
+    "hebrew": "ו",
+    "transcription": "Вэ",
+    "russian": "И, а, но."
+  },
+  {
+    "hebrew": "אולי",
+    "transcription": "УлАй",
+    "russian": "Может быть"
+  },
+  {
+    "hebrew": "של",
+    "transcription": "Шэль",
+    "russian": "Принадлежность к чему либо"
+  },
+  {
+    "hebrew": "הנה",
+    "transcription": "ХинЭ",
+    "russian": "Вот"
+  },
+  {
+    "hebrew": "כך",
+    "transcription": "Ках",
+    "russian": "Так"
+  },
+  {
+    "hebrew": "כן",
+    "transcription": "Кэн",
+    "russian": "Да"
+  },
+  {
+    "hebrew": "איפה",
+    "transcription": "ЭйфО",
+    "russian": "Где"
+  },
+  {
+    "hebrew": "חג",
+    "transcription": "Хаг",
+    "russian": "Праздник"
+  },
+  {
+    "hebrew": "יודע",
+    "transcription": "ЙодЭа",
+    "russian": "Знает"
+  },
+  {
+    "hebrew": "אבל",
+    "transcription": "АвАль",
+    "russian": "Но"
+  },
+  {
+    "hebrew": "עם",
+    "transcription": "Им",
+    "russian": "С, вместе с"
+  },
+  {
+    "hebrew": "שמח",
+    "transcription": "СамЭах",
+    "russian": "Веселый"
+  },
+  {
+    "hebrew": "דוד",
+    "transcription": "Дод",
+    "russian": "Дядя"
+  },
+  {
+    "hebrew": "דודה",
+    "transcription": "ДОда",
+    "russian": "Тетя"
+  },
+  {
+    "hebrew": "רק",
+    "transcription": "Рак",
+    "russian": "Только"
+  },
+  {
+    "hebrew": "נכון",
+    "transcription": "НахОн",
+    "russian": "Правильно"
+  },
+  {
+    "hebrew": "הוא",
+    "transcription": "Ху",
+    "russian": "Он"
+  },
+  {
+    "hebrew": "היא",
+    "transcription": "Хи",
+    "russian": "Она"
+  },
+  {
+    "hebrew": "מורה",
+    "transcription": "МорЭ",
+    "russian": "Учитель"
+  },
+  {
+    "hebrew": "לומד",
+    "transcription": "ЛомЭд",
+    "russian": "Учит, учится (м.р.)"
+  },
+  {
+    "hebrew": "לומדת",
+    "transcription": "ЛомЭдэт",
+    "russian": "Учит, учится (ж.р.)"
+  },
+  {
+    "hebrew": "תלמיד",
+    "transcription": "ТалмИд",
+    "russian": "Ученик"
+  },
+  {
+    "hebrew": "תלמידה",
+    "transcription": "ТалмидА",
+    "russian": "Ученица"
+  },
+  {
+    "hebrew": "עברית",
+    "transcription": "ИврИт",
+    "russian": "Иврит"
+  },
+  {
+    "hebrew": "ש",
+    "transcription": "Шэ",
+    "russian": "Что, который, пусть"
+  },
+  {
+    "hebrew": "איזה",
+    "transcription": "ЭйзЭ",
+    "russian": "Какой, который"
+  },
+  {
+    "hebrew": "איזו",
+    "transcription": "ЭйзО",
+    "russian": "Какая, которая"
+  },
+  {
+    "hebrew": "גר",
+    "transcription": "Гар",
+    "russian": "Живет (м.р)"
+  },
+  {
+    "hebrew": "דרה",
+    "transcription": "ГарА",
+    "russian": "Живет (ж.р)"
+  },
+  {
+    "hebrew": "רחוב",
+    "transcription": "РэхОв",
+    "russian": "Улица"
+  },
+  {
+    "hebrew": "יר",
+    "transcription": "Ир",
+    "russian": "Город"
+  },
+  {
+    "hebrew": "מספר",
+    "transcription": "МиспАр",
+    "russian": "Номер"
+  },
+  {
+    "hebrew": "באמת",
+    "transcription": "Бээмэт",
+    "russian": "В самом деле, действительно"
+  },
+  {
+    "hebrew": "על ידי",
+    "transcription": "Аль ядИ",
+    "russian": "Возле меня"
+  },
+  {
+    "hebrew": "עושה",
+    "transcription": "ОсЭ",
+    "russian": "Делает (м.р.)"
+  },
+  {
+    "hebrew": "עושה",
+    "transcription": "ОсА",
+    "russian": "Делает (ж.р.)"
+  },
+  {
+    "hebrew": "מזכירה",
+    "transcription": "МазкирА",
+    "russian": "Секретарь (ж.р)"
+  },
+  {
+    "hebrew": "עובד",
+    "transcription": "ОвЭд",
+    "russian": "Работает (м.р.)"
+  },
+  {
+    "hebrew": "עובדת",
+    "transcription": "ОвЭдэт",
+    "russian": "Работает (ж.р.)"
+  },
+  {
+    "hebrew": "אישה",
+    "transcription": "ИшА",
+    "russian": "Женщина, жена"
+  },
+  {
+    "hebrew": "יפה",
+    "transcription": "ЯфА",
+    "russian": "Красивая"
+  },
+  {
+    "hebrew": "שיחה",
+    "transcription": "СихА",
+    "russian": "Беседа"
+  },
+  {
+    "hebrew": "פקיד",
+    "transcription": "ПакИд",
+    "russian": "Служащий"
+  },
+  {
+    "hebrew": "בית",
+    "transcription": "Байт",
+    "russian": "Дом"
+  },
+  {
+    "hebrew": "ותיק",
+    "transcription": "ВатИк",
+    "russian": "Старожил"
+  },
+  {
+    "hebrew": "וילון",
+    "transcription": "ВилОн",
+    "russian": "Занавеска"
+  },
+  {
+    "hebrew": "סבתא",
+    "transcription": "САвта",
+    "russian": "Бабушка"
+  },
+  {
+    "hebrew": "אח",
+    "transcription": "Ах",
+    "russian": "Брат"
+  },
+  {
+    "hebrew": "אחות",
+    "transcription": "АхОт",
+    "russian": "Сестра"
+  },
+  {
+    "hebrew": "אחיין",
+    "transcription": "АхиАн",
+    "russian": "Племянник"
+  },
+  {
+    "hebrew": "אחיינית",
+    "transcription": "АхианИт",
+    "russian": "Племянница"
+  },
+  {
+    "hebrew": "אלמן",
+    "transcription": "АлмАн",
+    "russian": "Вдовец"
+  },
+  {
+    "hebrew": "ארוס",
+    "transcription": "АрУс",
+    "russian": "Жених"
+  },
+  {
+    "hebrew": "אנחנו",
+    "transcription": "АнАхну",
+    "russian": "Мы"
+  },
+  {
+    "hebrew": "אתם",
+    "transcription": "АтЭм",
+    "russian": "Вы (м.р.)"
+  },
+  {
+    "hebrew": "אתן",
+    "transcription": "АтЭн",
+    "russian": "Вы (ж.р.)"
+  },
+  {
+    "hebrew": "הם",
+    "transcription": "Хэм",
+    "russian": "Они (м.р.)"
+  },
+  {
+    "hebrew": "הן",
+    "transcription": "Хэн",
+    "russian": "Они (ж.р.)"
+  },
+  {
+    "hebrew": "אני",
+    "transcription": "АнИ",
+    "russian": "Я"
+  },
+  {
+    "hebrew": "אתה",
+    "transcription": "АтА",
+    "russian": "Ты (м.р.)"
+  },
+  {
+    "hebrew": "את",
+    "transcription": "Ат",
+    "russian": "Ты (ж.р.)"
+  },
+  {
+    "hebrew": "הוא",
+    "transcription": "Ху",
+    "russian": "Он"
+  },
+  {
+    "hebrew": "היא",
+    "transcription": "Хи",
+    "russian": "Она"
+  },
+  {
+    "hebrew": "שם",
+    "transcription": "Шэм",
+    "russian": "Имя"
+  },
+  {
+    "hebrew": "משפחה",
+    "transcription": "МишпахА",
+    "russian": "Семья"
+  },
+  {
+    "hebrew": "שם משפחה",
+    "transcription": "Шэм мишпахА",
+    "russian": "Фамилия"
+  },
+  {
+    "hebrew": "חבר, חברה",
+    "transcription": "ХавЭр, хавэрА",
+    "russian": "Друг, подруга"
+  },
+  {
+    "hebrew": "עכשיו",
+    "transcription": "АхшАв",
+    "russian": "Сейчас"
+  },
+  {
+    "hebrew": "משרד",
+    "transcription": "МисрАд",
+    "russian": "Офис"
+  },
+  {
+    "hebrew": "חולה",
+    "transcription": "ХолЭ",
+    "russian": "Болен, болеет, больной"
+  },
+  {
+    "hebrew": "חולה",
+    "transcription": "ХолА",
+    "russian": "Больна, болеет, больная"
+  },
+  {
+    "hebrew": "הולך",
+    "transcription": "ХолЕх",
+    "russian": "Идет, уходит (м.р.)"
+  },
+  {
+    "hebrew": "הולכת",
+    "transcription": "ХолЭхэт",
+    "russian": "Идет, уходит (ж.р.)"
+  },
+  {
+    "hebrew": "אוכל",
+    "transcription": "ОхЭль",
+    "russian": "Ест  (м.р.)"
+  },
+  {
+    "hebrew": "אוכלת",
+    "transcription": "ОхЭлэт",
+    "russian": "Ест (ж.р.)"
+  },
+  {
+    "hebrew": "קשה",
+    "transcription": "КашЭ",
+    "russian": "Тяжело"
+  },
+  {
+    "hebrew": "לא",
+    "transcription": "Ло",
+    "russian": "Нет"
+  },
+  {
+    "hebrew": "רופא",
+    "transcription": "РофЭ",
+    "russian": "Врач"
+  },
+  {
+    "hebrew": "שעה",
+    "transcription": "ШаА",
+    "russian": "Час"
+  },
+  {
+    "hebrew": "דקה",
+    "transcription": "ДакА",
+    "russian": "Минутв"
+  },
+  {
+    "hebrew": "דקות",
+    "transcription": "ДакОт",
+    "russian": "Минуты"
+  },
+  {
+    "hebrew": "רבע",
+    "transcription": "РЭва",
+    "russian": "Четверть"
+  },
+  {
+    "hebrew": "חצי",
+    "transcription": "ХэцИ",
+    "russian": "Половина"
+  },
+  {
+    "hebrew": "או",
+    "transcription": "О",
+    "russian": "Или"
+  },
+  {
+    "hebrew": "עבודה",
+    "transcription": "АводА",
+    "russian": "Работа"
+  },
+  {
+    "hebrew": "הביתה",
+    "transcription": "ХабАйта",
+    "russian": "Домой"
+  },
+  {
+    "hebrew": "מה השעה",
+    "transcription": "Ма хашаА",
+    "russian": "Который час"
+  },
+  {
+    "hebrew": "ל",
+    "transcription": "Лэ",
+    "russian": "Предлог направления \"куда\""
+  },
+  {
+    "hebrew": "בבוקר",
+    "transcription": "БабОкер",
+    "russian": "Утром, утра"
+  },
+  {
+    "hebrew": "נערב",
+    "transcription": "БаЭрэв",
+    "russian": "Вечером, вечера"
+  },
+  {
+    "hebrew": "נלילה",
+    "transcription": "БалАйла",
+    "russian": "Ночью, ночи"
+  },
+  {
+    "hebrew": "אחרי הצהריים",
+    "transcription": "АхарЭй хацахарАим",
+    "russian": "После обеда"
+  },
+  {
+    "hebrew": "באה",
+    "transcription": "БАа",
+    "russian": "Приходит (ж.р.)"
+  },
+  {
+    "hebrew": "שואל",
+    "transcription": "ШоЭль",
+    "russian": "Спрашивает (м.р.)"
+  },
+  {
+    "hebrew": "שואלת",
+    "transcription": "ШоЭлет",
+    "russian": "Спрашивает (м.р.)"
+  },
+  {
+    "hebrew": "אומר",
+    "transcription": "ОмЭр",
+    "russian": "Говорит (м.р.)"
+  },
+  {
+    "hebrew": "אומרת",
+    "transcription": "ОмЭрет",
+    "russian": "Говорит (ж.р.)"
+  },
+  {
+    "hebrew": "רגע",
+    "transcription": "РЭга",
+    "russian": "Момент"
+  },
+  {
+    "hebrew": "ברגע זה",
+    "transcription": "БэрЭга зэ",
+    "russian": "В этот момент"
+  },
+  {
+    "hebrew": "מצלצל",
+    "transcription": "МэцальцЭль",
+    "russian": "Звонит"
+  },
+  {
+    "hebrew": "שעון",
+    "transcription": "ШаОн",
+    "russian": "Часы"
+  },
+  {
+    "hebrew": "פעם",
+    "transcription": "ПАам",
+    "russian": "Раз"
+  },
+  {
+    "hebrew": "פעם אחת",
+    "transcription": "ПАам ахАт",
+    "russian": "Один раз"
+  },
+  {
+    "hebrew": "חדש",
+    "transcription": "ХадАш",
+    "russian": "Новый"
+  },
+  {
+    "hebrew": "קם",
+    "transcription": "Кам",
+    "russian": "Встает (м.р.)"
+  },
+  {
+    "hebrew": "קםה",
+    "transcription": "КАма",
+    "russian": "Встает (ж.р.)"
+  },
+  {
+    "hebrew": "ארוחה",
+    "transcription": "АрухА",
+    "russian": "Трапеза"
+  },
+  {
+    "hebrew": "צריך",
+    "transcription": "ЦарИх",
+    "russian": "Должен, нуждается (м.р.)"
+  },
+  {
+    "hebrew": "צריכה",
+    "transcription": "ЦрихА",
+    "russian": "Нуждается должна (ж.р.)"
+  },
+  {
+    "hebrew": "ארוחת בוקר",
+    "transcription": "АрухАт бОкер",
+    "russian": "Завтрак"
+  },
+  {
+    "hebrew": "ארוחת צהריים",
+    "transcription": "АрухАт цахараИм",
+    "russian": "Обед"
+  },
+  {
+    "hebrew": "ארוחת ערב",
+    "transcription": "АрухАт Эрев",
+    "russian": "Ужин"
+  },
+  {
+    "hebrew": "מתי",
+    "transcription": "МатАй",
+    "russian": "Когда"
+  },
+  {
+    "hebrew": "יושב",
+    "transcription": "ЙошЭв",
+    "russian": "Сидит (м.р.)"
+  },
+  {
+    "hebrew": "יושבת",
+    "transcription": "ЙошЭвэт",
+    "russian": "Сидит (ж.р.)"
+  },
+  {
+    "hebrew": "רואה",
+    "transcription": "РоЭ",
+    "russian": "Видит (м.р.)"
+  },
+  {
+    "hebrew": "רואה",
+    "transcription": "РоА",
+    "russian": "Видит (ж.р.)"
+  },
+  {
+    "hebrew": "טלוויזיה",
+    "transcription": "ТелевИзйа",
+    "russian": "Телевизор"
+  },
+  {
+    "hebrew": "עייף",
+    "transcription": "АйЕф",
+    "russian": "Уставший"
+  },
+  {
+    "hebrew": "עייפה",
+    "transcription": "АйефА",
+    "russian": "Уставшая"
+  },
+  {
+    "hebrew": "מאוד",
+    "transcription": "МеОд",
+    "russian": "Очень"
+  },
+  {
+    "hebrew": "אחר",
+    "transcription": "АхЭр",
+    "russian": "Другой"
+  },
+  {
+    "hebrew": "אחרת",
+    "transcription": "АхЭрэт",
+    "russian": "Другая"
+  },
+  {
+    "hebrew": "עד",
+    "transcription": "Ад",
+    "russian": "До"
+  },
+  {
+    "hebrew": "גדול",
+    "transcription": "ГадОль",
+    "russian": "Большой"
+  },
+  {
+    "hebrew": "גדולה",
+    "transcription": "ГдолА",
+    "russian": "Большая"
+  },
+  {
+    "hebrew": "מן",
+    "transcription": "Мин",
+    "russian": "Из"
+  },
+  {
+    "hebrew": "יש",
+    "transcription": "Йэш",
+    "russian": "Есть (быть)"
+  },
+  {
+    "hebrew": "אין",
+    "transcription": "Эйн",
+    "russian": "Нет (нету)"
+  },
+  {
+    "hebrew": "כיסא",
+    "transcription": "КисЭ",
+    "russian": "Стул"
+  },
+  {
+    "hebrew": "נקי",
+    "transcription": "НакИ",
+    "russian": "Чистый, чисто"
+  },
+  {
+    "hebrew": "ארון",
+    "transcription": "АрОн",
+    "russian": "Шкаф"
+  },
+  {
+    "hebrew": "וילון",
+    "transcription": "ВилОн",
+    "russian": "Занавеска"
+  },
+  {
+    "hebrew": "חלון",
+    "transcription": "ХалОн",
+    "russian": "Окно"
+  },
+  {
+    "hebrew": "קטן",
+    "transcription": "КатАн",
+    "russian": "Маленький"
+  },
+  {
+    "hebrew": "ספה",
+    "transcription": "СапА",
+    "russian": "Диван"
+  },
+  {
+    "hebrew": "דירה",
+    "transcription": "ДирА",
+    "russian": "Квартира"
+  },
+  {
+    "hebrew": "כורסה",
+    "transcription": "КурсА",
+    "russian": "Кресло"
+  },
+  {
+    "hebrew": "מיטה",
+    "transcription": "МитА",
+    "russian": "Кровать"
+  },
+  {
+    "hebrew": "תנור",
+    "transcription": "ТанУр",
+    "russian": "Плита"
+  },
+  {
+    "hebrew": "שידה",
+    "transcription": "ШидА",
+    "russian": "Комод"
+  },
+  {
+    "hebrew": "מטבח",
+    "transcription": "МитбАх",
+    "russian": "Кухня"
+  },
+  {
+    "hebrew": "מראה",
+    "transcription": "МарА",
+    "russian": "Зеркало"
+  },
+  {
+    "hebrew": "מקרר",
+    "transcription": "МэкарЭр",
+    "russian": "Холодильник"
+  },
+  {
+    "hebrew": "סלון",
+    "transcription": "СалОн",
+    "russian": "Салон"
+  },
+  {
+    "hebrew": "חדר שינה",
+    "transcription": "ХЭдэр шинА",
+    "russian": "Спальня"
+  },
+  {
+    "hebrew": "מזנון",
+    "transcription": "МизнОн",
+    "russian": "Буфет"
+  },
+  {
+    "hebrew": "מיקרוגל",
+    "transcription": "МикрогАль",
+    "russian": "Микроволновка"
+  },
+  {
+    "hebrew": "ארונית",
+    "transcription": "АронИт",
+    "russian": "Тумбочка"
+  },
+  {
+    "hebrew": "שטיח",
+    "transcription": "ШатиАх",
+    "russian": "Ковер"
+  },
+  {
+    "hebrew": "ישן",
+    "transcription": "ЙашАн",
+    "russian": "Старый"
+  },
+  {
+    "hebrew": "שלי",
+    "transcription": "ШэлИ",
+    "russian": "Мой"
+  },
+  {
+    "hebrew": "מורה",
+    "transcription": "МорЭ",
+    "russian": "Учитель (м.р.)"
+  },
+  {
+    "hebrew": "גברת",
+    "transcription": "ГвЭрэт",
+    "russian": "Госпожа"
+  },
+  {
+    "hebrew": "לשתות",
+    "transcription": "ЛиштОт",
+    "russian": "Пить"
+  },
+  {
+    "hebrew": "משהו",
+    "transcription": "МашэхУ",
+    "russian": "Что-то"
+  },
+  {
+    "hebrew": "אם",
+    "transcription": "Им",
+    "russian": "Если"
+  },
+  {
+    "hebrew": "אפשר",
+    "transcription": "ЭфшАр",
+    "russian": "Можно"
+  },
+  {
+    "hebrew": "מים",
+    "transcription": "Майм",
+    "russian": "Вода"
+  },
+  {
+    "hebrew": "ללמוד",
+    "transcription": "ЛильмОд",
+    "russian": "Учиться"
+  },
+  {
+    "hebrew": "לומד",
+    "transcription": "ЛомЭд",
+    "russian": "Учится (м.р.)"
+  },
+  {
+    "hebrew": "לומדת",
+    "transcription": "ЛомЭдэт",
+    "russian": "Учится (ж.р.)"
+  },
+  {
+    "hebrew": "בעל",
+    "transcription": "БаАль",
+    "russian": "Муж, хозяин"
+  },
+  {
+    "hebrew": "תלמיד",
+    "transcription": "ТалмИд",
+    "russian": "Ученик"
+  },
+  {
+    "hebrew": "כיתה",
+    "transcription": "КитА",
+    "russian": "Класс"
+  },
+  {
+    "hebrew": "הרבה",
+    "transcription": "ХАрбэ",
+    "russian": "Много"
+  },
+  {
+    "hebrew": "אחות",
+    "transcription": "АхОт",
+    "russian": "Сестра"
+  },
+  {
+    "hebrew": "שלך",
+    "transcription": "ШэлАх",
+    "russian": "Твой"
+  },
+  {
+    "hebrew": "עדיין",
+    "transcription": "АдаИн",
+    "russian": "Пока еще"
+  },
+  {
+    "hebrew": "צעיר",
+    "transcription": "ЦаИр",
+    "russian": "Молодой"
+  },
+  {
+    "hebrew": "צעירה",
+    "transcription": "ЦаирА",
+    "russian": "Молодая"
+  },
+  {
+    "hebrew": "כי",
+    "transcription": "Ки",
+    "russian": "Так как"
+  },
+  {
+    "hebrew": "מחר",
+    "transcription": "МахАр",
+    "russian": "Завтра"
+  },
+  {
+    "hebrew": "שיעור",
+    "transcription": "Шиур",
+    "russian": "Урок"
+  },
+  {
+    "hebrew": "להתראות",
+    "transcription": "ЛехитраОт",
+    "russian": "Досвидания"
+  },
+  {
+    "hebrew": "איזה",
+    "transcription": "ЭйзЭ",
+    "russian": "Какой"
+  },
+  {
+    "hebrew": "איזו",
+    "transcription": "ЭйзО",
+    "russian": "Какая"
+  },
+  {
+    "hebrew": "אילו",
+    "transcription": "ЭйлУ",
+    "russian": "Какие"
+  },
+  {
+    "hebrew": "שוכר",
+    "transcription": "СохЭр",
+    "russian": "Арендует"
+  },
+  {
+    "hebrew": "מחפש",
+    "transcription": "МэхапЭс",
+    "russian": "Ищет"
+  },
+  {
+    "hebrew": "מדבר",
+    "transcription": "МэдабЭр",
+    "russian": "Говорит"
+  },
+  {
+    "hebrew": "נמצא",
+    "transcription": "НимцА",
+    "russian": "Находится"
+  },
+  {
+    "hebrew": "מוצא",
+    "transcription": "МоцЭ",
+    "russian": "Находит"
+  },
+  {
+    "hebrew": "מצאתי",
+    "transcription": "МацатИ",
+    "russian": "Нашел"
+  },
+  {
+    "hebrew": "כבר",
+    "transcription": "Квар",
+    "russian": "Уже"
+  },
+  {
+    "hebrew": "בית משותף",
+    "transcription": "Байт мэшутЭф",
+    "russian": "Многоквартирный дом"
+  },
+  {
+    "hebrew": "בית פרטי",
+    "transcription": "Байт партИ",
+    "russian": "Частный дом"
+  },
+  {
+    "hebrew": "את",
+    "transcription": "Эт",
+    "russian": "Предлог вин. падежа кого, что"
+  },
+  {
+    "hebrew": "אזור",
+    "transcription": "ЭзоОр",
+    "russian": "Район"
+  },
+  {
+    "hebrew": "יקר",
+    "transcription": "ЙакАр",
+    "russian": "Дорогой"
+  },
+  {
+    "hebrew": "קומה",
+    "transcription": "КомА",
+    "russian": "Этаж"
+  },
+  {
+    "hebrew": "אחרון",
+    "transcription": "АхарОн",
+    "russian": "Последний"
+  },
+  {
+    "hebrew": "מעלית",
+    "transcription": "МаалИт",
+    "russian": "Лифт"
+  },
+  {
+    "hebrew": "חדר",
+    "transcription": "ХЭдэр",
+    "russian": "Комната"
+  },
+  {
+    "hebrew": "שירותים",
+    "transcription": "ШэрутИм",
+    "russian": "Туалет"
+  },
+  {
+    "hebrew": "חדר אמבטיה",
+    "transcription": "ХЭдэр амбатьйА",
+    "russian": "Ванная комната"
+  },
+  {
+    "hebrew": "מרפסת",
+    "transcription": "МирпЭсэт",
+    "russian": "Балкон"
+  },
+  {
+    "hebrew": "קיצ",
+    "transcription": "КайИц",
+    "russian": "Лето"
+  },
+  {
+    "hebrew": "בקיצ",
+    "transcription": "БакайИц",
+    "russian": "Летом"
+  },
+  {
+    "hebrew": "כאשר",
+    "transcription": "КаашЭр",
+    "russian": "Когда"
+  },
+  {
+    "hebrew": "חם",
+    "transcription": "Хам",
+    "russian": "Жарко"
+  },
+  {
+    "hebrew": "לאכול",
+    "transcription": "ЛээхОль",
+    "russian": "Кушать"
+  },
+  {
+    "hebrew": "פירות",
+    "transcription": "ПЭрот",
+    "russian": "Фрукты"
+  },
+  {
+    "hebrew": "על יד",
+    "transcription": "Аль яд",
+    "russian": "Возле, рядом"
+  },
+  {
+    "hebrew": "יוטר",
+    "transcription": "ЙотЭр",
+    "russian": "Больше"
+  },
+  {
+    "hebrew": "יוטר טוב",
+    "transcription": "ЙотЭр тов",
+    "russian": "Лучше"
+  },
+  {
+    "hebrew": "לגור",
+    "transcription": "ЛагУр",
+    "russian": "Жить"
+  },
+  {
+    "hebrew": "בטח",
+    "transcription": "БЭтах",
+    "russian": "Конечно, несомненно"
+  },
+  {
+    "hebrew": "עכשיו",
+    "transcription": "АхшАв",
+    "russian": "Сейчас"
+  },
+  {
+    "hebrew": "אומר",
+    "transcription": "ОмЭр",
+    "russian": "Говорит"
+  },
+  {
+    "hebrew": "אמר",
+    "transcription": "АмАр",
+    "russian": "Он сказал"
+  },
+  {
+    "hebrew": "קונה",
+    "transcription": "КонЭ",
+    "russian": "Покупает"
+  },
+  {
+    "hebrew": "קניתי",
+    "transcription": "КанИти",
+    "russian": "Я купил"
+  },
+  {
+    "hebrew": "עשיתי",
+    "transcription": "ОсИти",
+    "russian": "Я сделал"
+  },
+  {
+    "hebrew": "הייתי",
+    "transcription": "ХаИти",
+    "russian": "Я был"
+  },
+  {
+    "hebrew": "הייתה",
+    "transcription": "ХайитА",
+    "russian": "Она была"
+  },
+  {
+    "hebrew": "החלפתי",
+    "transcription": "ХахлАфти",
+    "russian": "Я поменял"
+  },
+  {
+    "hebrew": "מנורה",
+    "transcription": "МэнОра",
+    "russian": "Лампочка"
+  },
+  {
+    "hebrew": "צבעתי",
+    "transcription": "ЦавАти",
+    "russian": "Я покрасил"
+  },
+  {
+    "hebrew": "צבע",
+    "transcription": "ЦЭва",
+    "russian": "Краска"
+  },
+  {
+    "hebrew": "נשמע",
+    "transcription": "НишмА",
+    "russian": "Слышно"
+  },
+  {
+    "hebrew": "הכול",
+    "transcription": "ХакОль",
+    "russian": "Все"
+  },
+  {
+    "hebrew": "בסדר",
+    "transcription": "БэсЭдэр",
+    "russian": "В порядке"
+  },
+  {
+    "hebrew": "סדר",
+    "transcription": "СЭдэр",
+    "russian": "Порядок"
+  },
+  {
+    "hebrew": "אתמול",
+    "transcription": "ЭтмОль",
+    "russian": "Вчера"
+  },
+  {
+    "hebrew": "אצל",
+    "transcription": "Эцэль",
+    "russian": "У"
+  },
+  {
+    "hebrew": "מתווך",
+    "transcription": "МэтавЭх",
+    "russian": "Посредник"
+  },
+  {
+    "hebrew": "על",
+    "transcription": "Аль",
+    "russian": "О, на"
+  },
+  {
+    "hebrew": "חוף",
+    "transcription": "Хоф",
+    "russian": "Берег"
+  },
+  {
+    "hebrew": "שתי",
+    "transcription": "Штэй",
+    "russian": "Две"
+  },
+  {
+    "hebrew": "שיפוצים",
+    "transcription": "ШипуцИм",
+    "russian": "Ремонт"
+  },
+  {
+    "hebrew": "מסודר",
+    "transcription": "МэсудЭр",
+    "russian": "Устроенный"
+  },
+  {
+    "hebrew": "משופצ",
+    "transcription": "МэшупЭц",
+    "russian": "Отремонтированный"
+  },
+  {
+    "hebrew": "מואר",
+    "transcription": "МуАр",
+    "russian": "Светлый"
+  },
+  {
+    "hebrew": "רהיטים",
+    "transcription": "РахитИм",
+    "russian": "Мебель"
+  },
+  {
+    "hebrew": "מרוהט",
+    "transcription": "МерухЭт",
+    "russian": "Мебилированный"
+  },
+  {
+    "hebrew": "קיר",
+    "transcription": "Кир",
+    "russian": "Стена"
+  },
+  {
+    "hebrew": "מדף",
+    "transcription": "МадАф",
+    "russian": "Полка"
+  },
+  {
+    "hebrew": "מקלחת",
+    "transcription": "МиклахАт",
+    "russian": "Душ"
+  },
+  {
+    "hebrew": "מודרני",
+    "transcription": "МодЭрни",
+    "russian": "Современный"
+  },
+  {
+    "hebrew": "רחוק",
+    "transcription": "РахОк",
+    "russian": "Далеко"
+  },
+  {
+    "hebrew": "כל הכבוד",
+    "transcription": "Коль хакавОд",
+    "russian": "Молодец"
+  },
+  {
+    "hebrew": "מחיר",
+    "transcription": "МэхИр",
+    "russian": "Цена"
+  },
+  {
+    "hebrew": "שלה",
+    "transcription": "ШэйлА",
+    "russian": "Ее"
+  },
+  {
+    "hebrew": "אלפיים",
+    "transcription": "АльпаИм",
+    "russian": "2000"
+  },
+  {
+    "hebrew": "בהצלחה",
+    "transcription": "БэхацлахА",
+    "russian": "Успехов"
+  },
+  {
+    "hebrew": "שלי",
+    "transcription": "ШэлИ",
+    "russian": "Мой"
+  },
+  {
+    "hebrew": "שלך",
+    "transcription": "ШэльхА",
+    "russian": "Твой"
+  },
+  {
+    "hebrew": "שלך",
+    "transcription": "ШелАх",
+    "russian": "Твоя"
+  },
+  {
+    "hebrew": "שלו",
+    "transcription": "ШелО",
+    "russian": "Его"
+  },
+  {
+    "hebrew": "שלה",
+    "transcription": "ШелА",
+    "russian": "Ее"
+  },
+  {
+    "hebrew": "שלנו",
+    "transcription": "ШэланУ",
+    "russian": "Наш"
+  },
+  {
+    "hebrew": "שלכם",
+    "transcription": "ШэлахЭм",
+    "russian": "Ваш (м.р.)"
+  },
+  {
+    "hebrew": "שלכן",
+    "transcription": "ШэлахЭн",
+    "russian": "Ваш (ж.р.)"
+  },
+  {
+    "hebrew": "שלהם",
+    "transcription": "ШэлаhЭм",
+    "russian": "Их (м.р.)"
+  },
+  {
+    "hebrew": "שלהן",
+    "transcription": "ШэлаhЭн",
+    "russian": "Их (ж.р.)"
+  },
+  {
+    "hebrew": "מזמין",
+    "transcription": "МазмИн",
+    "russian": "Заказывает"
+  },
+  {
+    "hebrew": "מנהל",
+    "transcription": "МинаЭль",
+    "russian": "Управляющий"
+  },
+  {
+    "hebrew": "כרטיס",
+    "transcription": "КартИс",
+    "russian": "Карта"
+  },
+  {
+    "hebrew": "קולנוע",
+    "transcription": "КольнОа",
+    "russian": "Кинотеатр"
+  },
+  {
+    "hebrew": "סרט",
+    "transcription": "СЭрэт",
+    "russian": "Фильм"
+  },
+  {
+    "hebrew": "מצב משפחתי",
+    "transcription": "МацАв мишпахтИ",
+    "russian": "Семейное положение"
+  },
+  {
+    "hebrew": "רווק",
+    "transcription": "РавАк",
+    "russian": "Холостой"
+  },
+  {
+    "hebrew": "רווקה",
+    "transcription": "РавакА",
+    "russian": "Холостая"
+  },
+  {
+    "hebrew": "נשוי",
+    "transcription": "НасУй",
+    "russian": "Женат"
+  },
+  {
+    "hebrew": "נשואה",
+    "transcription": "НэсуА",
+    "russian": "Замужем"
+  },
+  {
+    "hebrew": "גרוש",
+    "transcription": "ГарУш",
+    "russian": "Разведен"
+  },
+  {
+    "hebrew": "גרושה",
+    "transcription": "ГрушА",
+    "russian": "Разведенная"
+  },
+  {
+    "hebrew": "אלמן",
+    "transcription": "АлмАн",
+    "russian": "Вдовец"
+  },
+  {
+    "hebrew": "אלמנה",
+    "transcription": "АлманА",
+    "russian": "Вдова"
+  },
+  {
+    "hebrew": "עובד",
+    "transcription": "ОвЭд",
+    "russian": "Работает"
+  },
+  {
+    "hebrew": "עובדים",
+    "transcription": "ОвдИм",
+    "russian": "Работники"
+  },
+  {
+    "hebrew": "מאוחר",
+    "transcription": "МэухАр",
+    "russian": "Поздно"
+  },
+  {
+    "hebrew": "עד שעה מאוחרת",
+    "transcription": "Ад шаА мэухЭрэт",
+    "russian": "До позднего часа"
+  },
+  {
+    "hebrew": "עצה",
+    "transcription": "ЭцА",
+    "russian": "Совет"
+  },
+  {
+    "hebrew": "ש",
+    "transcription": "Шэ",
+    "russian": "Что, который, пусть"
+  },
+  {
+    "hebrew": "לי",
+    "transcription": "Ли",
+    "russian": "Мне"
+  },
+  {
+    "hebrew": "לך",
+    "transcription": "ЛехА",
+    "russian": "Тебе (м.р.)"
+  },
+  {
+    "hebrew": "לך",
+    "transcription": "Лах",
+    "russian": "Тебе (ж.р.)"
+  },
+  {
+    "hebrew": "לו",
+    "transcription": "Ло",
+    "russian": "Ему"
+  },
+  {
+    "hebrew": "לה",
+    "transcription": "Ла",
+    "russian": "Ей"
+  },
+  {
+    "hebrew": "לנו",
+    "transcription": "ЛанУ",
+    "russian": "Нам"
+  },
+  {
+    "hebrew": "לכם",
+    "transcription": "ЛахЭм",
+    "russian": "Вам (м.р.)"
+  },
+  {
+    "hebrew": "לכן",
+    "transcription": "ЛахЭн",
+    "russian": "Вам (ж.р)"
+  },
+  {
+    "hebrew": "להם",
+    "transcription": "ЛаhЭм",
+    "russian": "Им (м.р.)"
+  },
+  {
+    "hebrew": "להן",
+    "transcription": "ЛаhЭн",
+    "russian": "Им (ж.р.)"
+  },
+  {
+    "hebrew": "עושה",
+    "transcription": "ОсЭ",
+    "russian": "Делает"
+  },
+  {
+    "hebrew": "מספר",
+    "transcription": "МэсапЭр",
+    "russian": "Рассказывает"
+  },
+  {
+    "hebrew": "מחמאה",
+    "transcription": "МахмаА",
+    "russian": "Комплимент"
+  },
+  {
+    "hebrew": "מונית",
+    "transcription": "МонИт",
+    "russian": "Такси"
+  },
+  {
+    "hebrew": "חנות",
+    "transcription": "ХанУт",
+    "russian": "Остановка"
+  },
+  {
+    "hebrew": "טובה",
+    "transcription": "ТовА",
+    "russian": "Одолжение"
+  },
+  {
+    "hebrew": "עוזר",
+    "transcription": "ОзЭр",
+    "russian": "Район"
+  },
+  {
+    "hebrew": "שואל",
+    "transcription": "ШоЭль",
+    "russian": "Спрашивает"
+  },
+  {
+    "hebrew": "מתחיל",
+    "transcription": "МатхИль",
+    "russian": "Начинает"
+  },
+  {
+    "hebrew": "כותב",
+    "transcription": "КотЭв",
+    "russian": "Пишет"
+  },
+  {
+    "hebrew": "קראתי",
+    "transcription": "КарАти",
+    "russian": "Я прочитал"
+  },
+  {
+    "hebrew": "עבדתי",
+    "transcription": "АвдАти",
+    "russian": "Я работал"
+  },
+  {
+    "hebrew": "תפקיד",
+    "transcription": "ТафкИд",
+    "russian": "Должность"
+  },
+  {
+    "hebrew": "מודעה",
+    "transcription": "МодаА",
+    "russian": "Обьявление"
+  },
+  {
+    "hebrew": "דרושים",
+    "transcription": "ДрушИм",
+    "russian": "Требование"
+  },
+  {
+    "hebrew": "ניסיון",
+    "transcription": "НисайОн",
+    "russian": "Опыт"
+  },
+  {
+    "hebrew": "מסמך",
+    "transcription": "МисмАх",
+    "russian": "Документ"
+  },
+  {
+    "hebrew": "מכתב",
+    "transcription": "МихтАв",
+    "russian": "Письмо"
+  },
+  {
+    "hebrew": "תעודה",
+    "transcription": "ТэудА",
+    "russian": "Удостоверение"
+  },
+  {
+    "hebrew": "השכלה",
+    "transcription": "ХаскалА",
+    "russian": "Образование"
+  },
+  {
+    "hebrew": "דיפלומה",
+    "transcription": "ДиплОма",
+    "russian": "Диплом"
+  },
+  {
+    "hebrew": "תחנה",
+    "transcription": "ТаханА",
+    "russian": "Остановка"
+  },
+  {
+    "hebrew": "שתי",
+    "transcription": "ШтЭй",
+    "russian": "Две"
+  },
+  {
+    "hebrew": "אןטובוס",
+    "transcription": "ОтОбус",
+    "russian": "Автобус"
+  },
+  {
+    "hebrew": "מצוין",
+    "transcription": "МецуЯн",
+    "russian": "Отлично"
+  },
+  {
+    "hebrew": "שאלה",
+    "transcription": "ШейлА",
+    "russian": "Вопросс"
+  },
+  {
+    "hebrew": "משמרת",
+    "transcription": "МишмЭрэт",
+    "russian": "Смена"
+  },
+  {
+    "hebrew": "משכורת",
+    "transcription": "МаскОрэт",
+    "russian": "Зарплата"
+  },
+  {
+    "hebrew": "אלף",
+    "transcription": "Элэф",
+    "russian": "1000"
+  },
+  {
+    "hebrew": "נוסף",
+    "transcription": "НосЭф",
+    "russian": "Дополнительный"
+  },
+  {
+    "hebrew": "נסיעה",
+    "transcription": "НЭсиа",
+    "russian": "Поездка"
+  },
+  {
+    "hebrew": "יום שני",
+    "transcription": "Йом шэнИ",
+    "russian": "Понедельник"
+  },
+  {
+    "hebrew": "חולך",
+    "transcription": "ХолЭх",
+    "russian": "Идет"
+  },
+  {
+    "hebrew": "נוסע",
+    "transcription": "НосЭа",
+    "russian": "Едет"
+  },
+  {
+    "hebrew": "טס",
+    "transcription": "Тас",
+    "russian": "Летит"
+  },
+  {
+    "hebrew": "בא",
+    "transcription": "БаА",
+    "russian": "Приходит"
+  },
+  {
+    "hebrew": "בזמן",
+    "transcription": "БазмАн",
+    "russian": "Во время"
+  },
+  {
+    "hebrew": "מסיבה",
+    "transcription": "МЕсиба",
+    "russian": "Вечеринка"
+  },
+  {
+    "hebrew": "הבוקר",
+    "transcription": "ХабОкер",
+    "russian": "Сегодня утром"
+  },
+  {
+    "hebrew": "הערב",
+    "transcription": "ХаЭрэв",
+    "russian": "Сегодня вечером"
+  },
+  {
+    "hebrew": "הלילה",
+    "transcription": "ХалАйла",
+    "russian": "Сегодня ночью"
+  },
+  {
+    "hebrew": "השבוע",
+    "transcription": "ХашавуА",
+    "russian": "На этой неделе"
+  },
+  {
+    "hebrew": "החודש",
+    "transcription": "ХаходЭш",
+    "russian": "В этом месяце"
+  },
+  {
+    "hebrew": "השנה",
+    "transcription": "ХашанА",
+    "russian": "В этом году"
+  },
+  {
+    "hebrew": "חוזר",
+    "transcription": "ХозЭр",
+    "russian": "Возращается, повторяет"
+  },
+  {
+    "hebrew": "חוצ לארץ",
+    "transcription": "Хуц лаарЭц",
+    "russian": "Заграница"
+  },
+  {
+    "hebrew": "קודם",
+    "transcription": "КОдэм",
+    "russian": "Прежде"
+  },
+  {
+    "hebrew": "אחר כך",
+    "transcription": "АхАр ках",
+    "russian": "Потом"
+  },
+  {
+    "hebrew": "קופת חולים",
+    "transcription": "КупАт холИм",
+    "russian": "Больничная касса"
+  },
+  {
+    "hebrew": "יותר",
+    "transcription": "ЙотЭр",
+    "russian": "Больше"
+  },
+  {
+    "hebrew": "יותר מאוחר",
+    "transcription": "ЙотЭр мэухАр",
+    "russian": "Позже"
+  },
+  {
+    "hebrew": "דואר",
+    "transcription": "ДоАр",
+    "russian": "Почта"
+  },
+  {
+    "hebrew": "ברגל",
+    "transcription": "БарЭгель",
+    "russian": "Пешком"
+  },
+  {
+    "hebrew": "תמיד",
+    "transcription": "ТамИд",
+    "russian": "Постоянно"
+  },
+  {
+    "hebrew": "פוגש",
+    "transcription": "ПогЭш",
+    "russian": "Встречает"
+  },
+  {
+    "hebrew": "יורד",
+    "transcription": "ЙорЭд",
+    "russian": "Спускается"
+  },
+  {
+    "hebrew": "מגיע",
+    "transcription": "МагИа",
+    "russian": "Прибывает"
+  },
+  {
+    "hebrew": "לוקח",
+    "transcription": "ЛокеАх",
+    "russian": "Забирает"
+  },
+  {
+    "hebrew": "עובר",
+    "transcription": "ОвЭр",
+    "russian": "Проезжает"
+  },
+  {
+    "hebrew": "עבר",
+    "transcription": "АвАр",
+    "russian": "Проехал"
+  },
+  {
+    "hebrew": "אף פעם",
+    "transcription": "Аф паАм",
+    "russian": "Ни разу"
+  },
+  {
+    "hebrew": "מושג",
+    "transcription": "МусАг",
+    "russian": "Понятие"
+  },
+  {
+    "hebrew": "נראה לי",
+    "transcription": "НИрэ ли",
+    "russian": "Мне кажется"
+  },
+  {
+    "hebrew": "בינתיים",
+    "transcription": "БэнтАим",
+    "russian": "Тем временем"
+  },
+  {
+    "hebrew": "נורא",
+    "transcription": "НорА",
+    "russian": "Ужасно"
+  },
+  {
+    "hebrew": "סליחה",
+    "transcription": "СлихА",
+    "russian": "Простите"
+  },
+  {
+    "hebrew": "פעם אחת",
+    "transcription": "Паам ахАт",
+    "russian": "Один раз"
+  },
+  {
+    "hebrew": "פעמיים",
+    "transcription": "ПаамАйм",
+    "russian": "Два раза"
+  },
+  {
+    "hebrew": "שלוש פעמים",
+    "transcription": "ШалОш памАйм",
+    "russian": "Три раза"
+  },
+  {
+    "hebrew": "חופשי חודשי",
+    "transcription": "ХофшИ ходшИ",
+    "russian": "Месячный проездной билет"
+  },
+  {
+    "hebrew": "עדיף",
+    "transcription": "АдИф",
+    "russian": "Предпочтительно"
+  },
+  {
+    "hebrew": "קרוב",
+    "transcription": "КарОв",
+    "russian": "Близко"
+  },
+  {
+    "hebrew": "הרגע",
+    "transcription": "ХарЭга",
+    "russian": "Только что"
+  },
+  {
+    "hebrew": "כיכר",
+    "transcription": "КикАр",
+    "russian": "Площадь, круг"
+  },
+  {
+    "hebrew": "נהג",
+    "transcription": "НэхАг",
+    "russian": "Водитель"
+  },
+  {
+    "hebrew": "פגישה",
+    "transcription": "ПгишА",
+    "russian": "Встреча"
+  },
+  {
+    "hebrew": "אליי",
+    "transcription": "ЭлАй",
+    "russian": "Ко мне"
+  },
+  {
+    "hebrew": "אליך",
+    "transcription": "ЭлЕха",
+    "russian": "К тебе (м.р.)"
+  },
+  {
+    "hebrew": "אךייך",
+    "transcription": "ЭлаИх",
+    "russian": "К тебе (ж.р.)"
+  },
+  {
+    "hebrew": "אליו",
+    "transcription": "ЭлАв",
+    "russian": "К нему"
+  },
+  {
+    "hebrew": "אליה",
+    "transcription": "ЭлеhА",
+    "russian": "К ней"
+  },
+  {
+    "hebrew": "אלינו",
+    "transcription": "ЭлэнУ",
+    "russian": "К нам"
+  },
+  {
+    "hebrew": "אליכם",
+    "transcription": "АлэхЭм",
+    "russian": "К вам (м.р.)"
+  },
+  {
+    "hebrew": "אליכן",
+    "transcription": "АлэхЭн",
+    "russian": "К вам (ж.р.)"
+  },
+  {
+    "hebrew": "אליהם",
+    "transcription": "АлэhЭм",
+    "russian": "К ним (м.р.)"
+  },
+  {
+    "hebrew": "אליהן",
+    "transcription": "АлэhЭн",
+    "russian": "К ним (ж.р.)"
+  },
+  {
+    "hebrew": "ניגש",
+    "transcription": "НигАш",
+    "russian": "Подходит, приступает"
+  },
+  {
+    "hebrew": "פונה",
+    "transcription": "ПонЭ",
+    "russian": "Поворачивает"
+  },
+  {
+    "hebrew": "מתקשר",
+    "transcription": "МиткашЭр",
+    "russian": "Связывается"
+  },
+  {
+    "hebrew": "מפספס",
+    "transcription": "МифасфЭс",
+    "russian": "Упускает"
+  },
+  {
+    "hebrew": "מאחר",
+    "transcription": "МэахЭр",
+    "russian": "Опаздывает"
+  },
+  {
+    "hebrew": "צער",
+    "transcription": "ЦаАр",
+    "russian": "Жалость"
+  },
+  {
+    "hebrew": "לצערי",
+    "transcription": "ЛэцаарИ",
+    "russian": "К моему сожалению"
+  },
+  {
+    "hebrew": "נסיעה",
+    "transcription": "НесиА",
+    "russian": "Проезд, поездка"
+  },
+  {
+    "hebrew": "הרי",
+    "transcription": "ХарЭй",
+    "russian": "Ведь"
+  },
+  {
+    "hebrew": "יודע",
+    "transcription": "ЙодэА",
+    "russian": "Знает"
+  },
+  {
+    "hebrew": "מכיר",
+    "transcription": "МакИр",
+    "russian": "Знаком"
+  },
+  {
+    "hebrew": "עומד",
+    "transcription": "ОмЭд",
+    "russian": "Стоит"
+  },
+  {
+    "hebrew": "עוצר",
+    "transcription": "ОцЭр",
+    "russian": "Останавливается"
+  },
+  {
+    "hebrew": "מטייל",
+    "transcription": "МэтайЕль",
+    "russian": "Путешествует"
+  },
+  {
+    "hebrew": "מוכר",
+    "transcription": "МохЭр",
+    "russian": "Продает"
+  },
+  {
+    "hebrew": "מבקר",
+    "transcription": "МэвакЭр",
+    "russian": "Навещает"
+  },
+  {
+    "hebrew": "בערך",
+    "transcription": "БаЭрэх",
+    "russian": "Примерно"
+  },
+  {
+    "hebrew": "דרך",
+    "transcription": "ДЭрэх",
+    "russian": "Дорога"
+  },
+  {
+    "hebrew": "מעבר חצייה",
+    "transcription": "МаавАр хацийА",
+    "russian": "Пешеходный переход"
+  },
+  {
+    "hebrew": "האם",
+    "transcription": "ХаИм",
+    "russian": "Разве"
+  },
+  {
+    "hebrew": "רמזור",
+    "transcription": "РамзОр",
+    "russian": "Светофор"
+  },
+  {
+    "hebrew": "פרסה",
+    "transcription": "ПарсА",
+    "russian": "Разворот"
+  },
+  {
+    "hebrew": "ישר",
+    "transcription": "ЙашАр",
+    "russian": "Прямо"
+  },
+  {
+    "hebrew": "ימינה",
+    "transcription": "ЙамИна",
+    "russian": "Направо"
+  },
+  {
+    "hebrew": "שמאלה",
+    "transcription": "СмОла",
+    "russian": "На лево"
+  },
+  {
+    "hebrew": "כדי",
+    "transcription": "КадЭй",
+    "russian": "Чтобы"
+  },
+  {
+    "hebrew": "טיול",
+    "transcription": "ТиЮль",
+    "russian": "Прогулка"
+  },
+  {
+    "hebrew": "חנייה",
+    "transcription": "ХанийА",
+    "russian": "Парковка"
+  },
+  {
+    "hebrew": "שוק",
+    "transcription": "Шук",
+    "russian": "Рынок"
+  },
+  {
+    "hebrew": "הליכה",
+    "transcription": "ХалихА",
+    "russian": "Ходьба"
+  },
+  {
+    "hebrew": "הכותל המערבי",
+    "transcription": "ХакотЭль хамаарАви",
+    "russian": "Стена плача"
+  },
+  {
+    "hebrew": "עתיק",
+    "transcription": "АтИк",
+    "russian": "Древний"
+  },
+  {
+    "hebrew": "למשל",
+    "transcription": "ЛемашЭль",
+    "russian": "Например"
+  },
+  {
+    "hebrew": "יהיה",
+    "transcription": "ЙихйЭ",
+    "russian": "Будет"
+  },
+  {
+    "hebrew": "מכונית",
+    "transcription": "МэхонИт",
+    "russian": "Машина"
+  },
+  {
+    "hebrew": "על לא דבר",
+    "transcription": "Аль ло давАр",
+    "russian": "Не за что"
+  },
+  {
+    "hebrew": "את מי",
+    "transcription": "Эт ми",
+    "russian": "Кого"
+  },
+  {
+    "hebrew": "את מה",
+    "transcription": "Эт ма",
+    "russian": "Что"
+  },
+  {
+    "hebrew": "שולח",
+    "transcription": "ШолэАх",
+    "russian": "Посылает"
+  },
+  {
+    "hebrew": "אתקשר",
+    "transcription": "ЭткашЭр",
+    "russian": "Я позвоню"
+  },
+  {
+    "hebrew": "תתקשר",
+    "transcription": "ТиткашЭр",
+    "russian": "Ты позвонишь"
+  },
+  {
+    "hebrew": "התקשרתי",
+    "transcription": "ХиткашАрти",
+    "russian": "Я звонил"
+  },
+  {
+    "hebrew": "אמרה",
+    "transcription": "АмрА",
+    "russian": "Она сказала"
+  },
+  {
+    "hebrew": "קורות חיים",
+    "transcription": "КорОт хаИм",
+    "russian": "Резюме"
+  },
+  {
+    "hebrew": "שומע",
+    "transcription": "ШомЭ",
+    "russian": "Слушает"
+  },
+  {
+    "hebrew": "אוהב",
+    "transcription": "ОхЭв",
+    "russian": "Любит"
+  },
+  {
+    "hebrew": "שם",
+    "transcription": "Сам",
+    "russian": "Кладет"
+  },
+  {
+    "hebrew": "לשים לב",
+    "transcription": "ЛасИм лЭв",
+    "russian": "Обратить внимание"
+  },
+  {
+    "hebrew": "לא שמתי לב",
+    "transcription": "Ло сАмти Лэв",
+    "russian": "Не обратил внимание"
+  },
+  {
+    "hebrew": "לא ראיתי",
+    "transcription": "Ло раИти",
+    "russian": "Не увидел"
+  },
+  {
+    "hebrew": "כיוון",
+    "transcription": "КивУн",
+    "russian": "Направление"
+  },
+  {
+    "hebrew": "כל כמה זמן",
+    "transcription": "Коль кАма зман",
+    "russian": "Как часто"
+  },
+  {
+    "hebrew": "כרטיסייה לעשרים נסיעות",
+    "transcription": "КартисийА лээсрИм нэсиОт",
+    "russian": "Карточка на 20 поездок"
+  },
+  {
+    "hebrew": "שעבר",
+    "transcription": "ШэавАр",
+    "russian": "Прошлый"
+  },
+  {
+    "hebrew": "שעברה",
+    "transcription": "ШеаврА",
+    "russian": "Прошлая"
+  },
+  {
+    "hebrew": "שעברו",
+    "transcription": "ШэаврУ",
+    "russian": "Прошлые"
+  },
+  {
+    "hebrew": "הבא",
+    "transcription": "ХабА",
+    "russian": "Следующий"
+  },
+  {
+    "hebrew": "הבאה",
+    "transcription": "ХабаА",
+    "russian": "Следующая"
+  },
+  {
+    "hebrew": "הבאים",
+    "transcription": "ХабаИм",
+    "russian": "Следующие"
+  },
+  {
+    "hebrew": "אותי",
+    "transcription": "ОтИ",
+    "russian": "Меня"
+  },
+  {
+    "hebrew": "אותך",
+    "transcription": "ОтхА",
+    "russian": "Тебя (м.р.)"
+  },
+  {
+    "hebrew": "אותך",
+    "transcription": "ОтАх",
+    "russian": "Тебя (ж.р.)"
+  },
+  {
+    "hebrew": "אותו",
+    "transcription": "ОтО",
+    "russian": "Его"
+  },
+  {
+    "hebrew": "אותה",
+    "transcription": "ОтА",
+    "russian": "Ее"
+  },
+  {
+    "hebrew": "אותנו",
+    "transcription": "ОтАну",
+    "russian": "Нас"
+  },
+  {
+    "hebrew": "אתכם",
+    "transcription": "ЭтхЭм",
+    "russian": "Вас (м.р.)"
+  },
+  {
+    "hebrew": "אתכן",
+    "transcription": "ЭтхЭн",
+    "russian": "Вас (ж.р.)"
+  },
+  {
+    "hebrew": "אותם",
+    "transcription": "ОтАм",
+    "russian": "Их (м.р.)"
+  },
+  {
+    "hebrew": "אותן",
+    "transcription": "ОтАн",
+    "russian": "Их (ж.р.)"
+  },
+  {
+    "hebrew": "מנה",
+    "transcription": "МанА",
+    "russian": "Блюдо"
+  },
+  {
+    "hebrew": "טעים",
+    "transcription": "ТаИм",
+    "russian": "Вкусно"
+  },
+  {
+    "hebrew": "הזמנתי",
+    "transcription": "ХизмАнти",
+    "russian": "Я заказал"
+  },
+  {
+    "hebrew": "כבר",
+    "transcription": "Квар",
+    "russian": "Уже"
+  },
+  {
+    "hebrew": "שמעתי",
+    "transcription": "ШамАти",
+    "russian": "Я слышал"
+  },
+  {
+    "hebrew": "בן אדם",
+    "transcription": "Бэн адАм",
+    "russian": "Человек"
+  },
+  {
+    "hebrew": "רצון",
+    "transcription": "РацОн",
+    "russian": "Желание, удовольствие"
+  },
+  {
+    "hebrew": "ברצון",
+    "transcription": "БэрацОн",
+    "russian": "С удовольствием"
+  },
+  {
+    "hebrew": "אכיר",
+    "transcription": "АкИр",
+    "russian": "Я познакомлюсь, я узнаю"
+  },
+  {
+    "hebrew": "מעט",
+    "transcription": "МеАт",
+    "russian": "Мало"
+  },
+  {
+    "hebrew": "עוד מעט",
+    "transcription": "Од меАт",
+    "russian": "Скоро"
+  },
+  {
+    "hebrew": "בדרך",
+    "transcription": "БадЭрэх",
+    "russian": "По дороге"
+  },
+  {
+    "hebrew": "מקסים",
+    "transcription": "МаксИм",
+    "russian": "Прекрасно"
+  },
+  {
+    "hebrew": "לובש",
+    "transcription": "ЛовЭш",
+    "russian": "Надевает"
+  },
+  {
+    "hebrew": "מציע",
+    "transcription": "МацИа",
+    "russian": "Предлагает"
+  },
+  {
+    "hebrew": "מודד",
+    "transcription": "МодЭд",
+    "russian": "Замеряет"
+  },
+  {
+    "hebrew": "מתאים",
+    "transcription": "МатьИм",
+    "russian": "Подходит"
+  },
+  {
+    "hebrew": "מראה",
+    "transcription": "МарА",
+    "russian": "Показывает"
+  },
+  {
+    "hebrew": "מביא",
+    "transcription": "МэвИ",
+    "russian": "Приносит"
+  },
+  {
+    "hebrew": "תביא",
+    "transcription": "ТэвИ",
+    "russian": "Ты принесешь, принеси"
+  },
+  {
+    "hebrew": "הבאתי",
+    "transcription": "ХавАти",
+    "russian": "Я принес"
+  },
+  {
+    "hebrew": "שמלה",
+    "transcription": "СИмла",
+    "russian": "Платье"
+  },
+  {
+    "hebrew": "שמלה ערב",
+    "transcription": "СИмла эрэв",
+    "russian": "Вечернее платье"
+  },
+  {
+    "hebrew": "ארוך",
+    "transcription": "АрОх",
+    "russian": "Длиный"
+  },
+  {
+    "hebrew": "קצר",
+    "transcription": "КацАр",
+    "russian": "Короткий"
+  },
+  {
+    "hebrew": "גבוה",
+    "transcription": "ГавОха",
+    "russian": "Длиный"
+  },
+  {
+    "hebrew": "נמוה",
+    "transcription": "НамУх",
+    "russian": "Низкий"
+  },
+  {
+    "hebrew": "חולצה",
+    "transcription": "ХульцА",
+    "russian": "Рубашка"
+  },
+  {
+    "hebrew": "חצאית",
+    "transcription": "ХацаИт",
+    "russian": "Юбка"
+  },
+  {
+    "hebrew": "מכנסיים",
+    "transcription": "МихнасайИм",
+    "russian": "Брюки"
+  },
+  {
+    "hebrew": "שרוול",
+    "transcription": "ШарвУль",
+    "russian": "Рукав"
+  },
+  {
+    "hebrew": "עדיף",
+    "transcription": "АдИф",
+    "russian": "Предпочтительно"
+  },
+  {
+    "hebrew": "אופנה",
+    "transcription": "Офна",
+    "russian": "Мода"
+  },
+  {
+    "hebrew": "מידה",
+    "transcription": "МидА",
+    "russian": "Размер"
+  },
+  {
+    "hebrew": "צמוד",
+    "transcription": "ЦамУд",
+    "russian": "Облегающий"
+  },
+  {
+    "hebrew": "פס",
+    "transcription": "Пас",
+    "russian": "Полоска"
+  },
+  {
+    "hebrew": "נעליים",
+    "transcription": "НаалайИм",
+    "russian": "Обувь"
+  },
+  {
+    "hebrew": "עקב",
+    "transcription": "ЭкЭв",
+    "russian": "Каблук"
+  },
+  {
+    "hebrew": "צודק",
+    "transcription": "ЦодЭк",
+    "russian": "Прав"
+  },
+  {
+    "hebrew": "תתחדש",
+    "transcription": "ТитхадЭш",
+    "russian": "С обновкой"
+  },
+  {
+    "hebrew": "להתחדש",
+    "transcription": "ЛехитхадЭш",
+    "russian": "Обновляться"
+  },
+  {
+    "hebrew": "על ידי מי",
+    "transcription": "Аль яди ми",
+    "russian": "Кем"
+  },
+  {
+    "hebrew": "במה",
+    "transcription": "БамА",
+    "russian": "Чем"
+  },
+  {
+    "hebrew": "עם מי",
+    "transcription": "Им ми",
+    "russian": "С кем"
+  },
+  {
+    "hebrew": "עם מה",
+    "transcription": "Им ма",
+    "russian": "С чем"
+  },
+  {
+    "hebrew": "רוחץ",
+    "transcription": "РохЭц",
+    "russian": "Моет"
+  },
+  {
+    "hebrew": "עט",
+    "transcription": "Эт",
+    "russian": "Ручка"
+  },
+  {
+    "hebrew": "סבון",
+    "transcription": "СабОн",
+    "russian": "Мыло"
+  },
+  {
+    "hebrew": "אחרון",
+    "transcription": "АхарОн",
+    "russian": "Последний"
+  },
+  {
+    "hebrew": "כסף מזומן",
+    "transcription": "КэсЭф мезумАн",
+    "russian": "Наличные деньги"
+  },
+  {
+    "hebrew": "משתמש",
+    "transcription": "МэштамЭш",
+    "russian": "Пользуется"
+  },
+  {
+    "hebrew": "מצייר",
+    "transcription": "МэцаИр",
+    "russian": "Рисует"
+  },
+  {
+    "hebrew": "שוטף",
+    "transcription": "ШотЭф",
+    "russian": "Пьет"
+  },
+  {
+    "hebrew": "שוכח",
+    "transcription": "ШохэАх",
+    "russian": "Забывает"
+  },
+  {
+    "hebrew": "משחק",
+    "transcription": "МисахЭк",
+    "russian": "Играет"
+  },
+  {
+    "hebrew": "משחק",
+    "transcription": "МисхАк",
+    "russian": "Игра"
+  },
+  {
+    "hebrew": "מחשב",
+    "transcription": "МахшЭв",
+    "russian": "Компьютер"
+  },
+  {
+    "hebrew": "משחקי מחשב",
+    "transcription": "МисхакЭй махшЕв",
+    "russian": "Компьютерные игры"
+  },
+  {
+    "hebrew": "פנקס",
+    "transcription": "ПинкАс",
+    "russian": "Блокнот"
+  },
+  {
+    "hebrew": "בדרך כלל",
+    "transcription": "БэдЭрэх клаль",
+    "russian": "Обычно"
+  },
+  {
+    "hebrew": "צבעי מים",
+    "transcription": "ЦавЭй майм",
+    "russian": "Акварельные краски"
+  },
+  {
+    "hebrew": "אורח",
+    "transcription": "ОрэАх",
+    "russian": "Соседи"
+  },
+  {
+    "hebrew": "כלי",
+    "transcription": "Кли",
+    "russian": "Инструменты"
+  },
+  {
+    "hebrew": "מכין",
+    "transcription": "МэхИн",
+    "russian": "Готовит"
+  },
+  {
+    "hebrew": "בוחר",
+    "transcription": "БохЭр",
+    "russian": "Выбирает"
+  },
+  {
+    "hebrew": "שוקל",
+    "transcription": "ШокЭль",
+    "russian": "Взвешивает"
+  },
+  {
+    "hebrew": "זוכר",
+    "transcription": "ЗохЭр",
+    "russian": "Помнит"
+  },
+  {
+    "hebrew": "מעדיף",
+    "transcription": "МаадИф",
+    "russian": "Предпочтительно"
+  },
+  {
+    "hebrew": "מחלק",
+    "transcription": "МэхалЭк",
+    "russian": "Делит"
+  },
+  {
+    "hebrew": "פירות",
+    "transcription": "ПЭрот",
+    "russian": "Фрукты"
+  },
+  {
+    "hebrew": "ירקות",
+    "transcription": "ЙэракОт",
+    "russian": "Овощи"
+  },
+  {
+    "hebrew": "עוגה",
+    "transcription": "УгА",
+    "russian": "Пирог"
+  },
+  {
+    "hebrew": "מנה",
+    "transcription": "МанА",
+    "russian": "Блюдо"
+  },
+  {
+    "hebrew": "טעים",
+    "transcription": "ТаИм",
+    "russian": "Вкусно"
+  },
+  {
+    "hebrew": "מחלקה",
+    "transcription": "МахлакА",
+    "russian": "Отделение"
+  },
+  {
+    "hebrew": "מחלקת בשר",
+    "transcription": "МахлакАт басАр",
+    "russian": "Отделение мясное"
+  },
+  {
+    "hebrew": "מאפייה",
+    "transcription": "МаАфийа",
+    "russian": "Булочное отделение"
+  },
+  {
+    "hebrew": "לחם",
+    "transcription": "ЛэхЭм",
+    "russian": "Хлеб"
+  },
+  {
+    "hebrew": "ממתק",
+    "transcription": "МамтАк",
+    "russian": "Сладость"
+  },
+  {
+    "hebrew": "בשר - בקר",
+    "transcription": "Бсар - бакАр",
+    "russian": "Говядина"
+  },
+  {
+    "hebrew": "בשר",
+    "transcription": "БасАр",
+    "russian": "Мясо"
+  },
+  {
+    "hebrew": "עוף",
+    "transcription": "Оф",
+    "russian": "Курица, птица"
+  },
+  {
+    "hebrew": "חזה",
+    "transcription": "ХазЭ",
+    "russian": "Грудинка"
+  },
+  {
+    "hebrew": "לב",
+    "transcription": "Лэв",
+    "russian": "Сердце"
+  },
+  {
+    "hebrew": "כבר",
+    "transcription": "Квар",
+    "russian": "Уже"
+  },
+  {
+    "hebrew": "גבינה",
+    "transcription": "ГвинА",
+    "russian": "Сыр"
+  },
+  {
+    "hebrew": "רוטב",
+    "transcription": "РотЭв",
+    "russian": "Соус"
+  },
+  {
+    "hebrew": "עגבנייה",
+    "transcription": "АгвинийА",
+    "russian": "Помидор"
+  },
+  {
+    "hebrew": "מלפפון",
+    "transcription": "МэлафэфОн",
+    "russian": "Огурец"
+  },
+  {
+    "hebrew": "חסה",
+    "transcription": "ХАса",
+    "russian": "Листья салата"
+  },
+  {
+    "hebrew": "פלפל",
+    "transcription": "ПильпЭль",
+    "russian": "Перец"
+  },
+  {
+    "hebrew": "פטרוזיליה",
+    "transcription": "ПэтрозилйА",
+    "russian": "Петрушка"
+  },
+  {
+    "hebrew": "שמיר",
+    "transcription": "ШамИр",
+    "russian": "Укроп"
+  },
+  {
+    "hebrew": "תפוח עץ",
+    "transcription": "ТапуАх эц",
+    "russian": "Яблоко"
+  },
+  {
+    "hebrew": "תות שדה",
+    "transcription": "Тут садЭ",
+    "russian": "Клубника"
+  },
+  {
+    "hebrew": "בננה",
+    "transcription": "БананА",
+    "russian": "Банан"
+  },
+  {
+    "hebrew": "תפוז",
+    "transcription": "ТапУз",
+    "russian": "Апельсин"
+  },
+  {
+    "hebrew": "תוספת",
+    "transcription": "ТосЭфэт",
+    "russian": "Гарнир, добавка"
+  },
+  {
+    "hebrew": "פירה",
+    "transcription": "ПирЭ",
+    "russian": "Пюрэ"
+  },
+  {
+    "hebrew": "אורז",
+    "transcription": "ОрЭз",
+    "russian": "Рис"
+  },
+  {
+    "hebrew": "תפוח אדמה",
+    "transcription": "ТапуАх адамА",
+    "russian": "Картофель"
+  },
+  {
+    "hebrew": "אפוי",
+    "transcription": "АфУй",
+    "russian": "Печеный"
+  },
+  {
+    "hebrew": "קופה",
+    "transcription": "КупА",
+    "russian": "Касса"
+  },
+  {
+    "hebrew": "קופאי",
+    "transcription": "КупАй",
+    "russian": "Кассир"
+  },
+  {
+    "hebrew": "סכום",
+    "transcription": "Схум",
+    "russian": "Сумма"
+  },
+  {
+    "hebrew": "איתי",
+    "transcription": "ИтИ",
+    "russian": "Со мной"
+  },
+  {
+    "hebrew": "איתך",
+    "transcription": "ИтхА",
+    "russian": "С тобой (м.р.)"
+  },
+  {
+    "hebrew": "איתך",
+    "transcription": "ИтАх",
+    "russian": "С тобой (ж.р.)"
+  },
+  {
+    "hebrew": "איתו",
+    "transcription": "ИтО",
+    "russian": "С ним"
+  },
+  {
+    "hebrew": "אימה",
+    "transcription": "ИтА",
+    "russian": "С ней"
+  },
+  {
+    "hebrew": "איתנו",
+    "transcription": "ИтАну",
+    "russian": "С нами"
+  },
+  {
+    "hebrew": "איתכם",
+    "transcription": "ИтхЭм",
+    "russian": "С вами (м.р.)"
+  },
+  {
+    "hebrew": "איתכן",
+    "transcription": "ИтхЭн",
+    "russian": "С вами (ж.р.)"
+  },
+  {
+    "hebrew": "איתם",
+    "transcription": "ИтАм",
+    "russian": "С ними (м.р.)"
+  },
+  {
+    "hebrew": "איתן",
+    "transcription": "ИтАн",
+    "russian": "С ними (ж.р.)"
+  },
+  {
+    "hebrew": "גר",
+    "transcription": "Гар",
+    "russian": "Живет"
+  },
+  {
+    "hebrew": "יוצא",
+    "transcription": "ЙоцЭ",
+    "russian": "Выходит"
+  },
+  {
+    "hebrew": "נשאר",
+    "transcription": "НишАр",
+    "russian": "Остается"
+  },
+  {
+    "hebrew": "חוגג",
+    "transcription": "ХогЭг",
+    "russian": "Празднует"
+  },
+  {
+    "hebrew": "כולל",
+    "transcription": "КолЕль",
+    "russian": "Включает"
+  },
+  {
+    "hebrew": "מלצר",
+    "transcription": "МельцАр",
+    "russian": "Официант"
+  },
+  {
+    "hebrew": "פרווה",
+    "transcription": "ПарвЭ",
+    "russian": "Не мясной продукт"
+  },
+  {
+    "hebrew": "אולם",
+    "transcription": "УлАм",
+    "russian": "Зал"
+  },
+  {
+    "hebrew": "פנוי",
+    "transcription": "ПанУй",
+    "russian": "Свободный"
+  },
+  {
+    "hebrew": "תפריט",
+    "transcription": "ТафрИт",
+    "russian": "Меню"
+  },
+  {
+    "hebrew": "תכף",
+    "transcription": "ТЭхэф",
+    "russian": "Сейчас"
+  },
+  {
+    "hebrew": "שתייה",
+    "transcription": "ШтийА",
+    "russian": "Напиток"
+  },
+  {
+    "hebrew": "קנקן",
+    "transcription": "КанкАн",
+    "russian": "Кувшин"
+  },
+  {
+    "hebrew": "מיץ",
+    "transcription": "Миц",
+    "russian": "Сок"
+  },
+  {
+    "hebrew": "בקבוק",
+    "transcription": "БакбУк",
+    "russian": "Бутылка"
+  },
+  {
+    "hebrew": "מרק",
+    "transcription": "МарАк",
+    "russian": "Суп"
+  },
+  {
+    "hebrew": "קינוח",
+    "transcription": "КинуАх",
+    "russian": "Десерт"
+  },
+  {
+    "hebrew": "משקה",
+    "transcription": "МашкЭ",
+    "russian": "Напиток"
+  },
+  {
+    "hebrew": "מוגש",
+    "transcription": "Мугаш",
+    "russian": "Подается"
+  },
+  {
+    "hebrew": "פטרייה",
+    "transcription": "ПитрийА",
+    "russian": "Гриб"
+  },
+  {
+    "hebrew": "אש",
+    "transcription": "Эш",
+    "russian": "Огонь"
+  },
+  {
+    "hebrew": "שום",
+    "transcription": "Шум",
+    "russian": "Чеснок"
+  },
+  {
+    "hebrew": "שמנת",
+    "transcription": "ШэманЭт",
+    "russian": "Сметана"
+  },
+  {
+    "hebrew": "פרגית",
+    "transcription": "ПаргИт",
+    "russian": "Молодой цыпленок"
+  },
+  {
+    "hebrew": "בצל",
+    "transcription": "БацАль",
+    "russian": "Лук"
+  },
+  {
+    "hebrew": "חמוצים",
+    "transcription": "ХамуцИм",
+    "russian": "Мариновнные овощи"
+  },
+  {
+    "hebrew": "גלידה",
+    "transcription": "ГлидА",
+    "russian": "Мороженное"
+  },
+  {
+    "hebrew": "צלחת",
+    "transcription": "ЦалахАт",
+    "russian": "Тарелка"
+  },
+  {
+    "hebrew": "מזלג",
+    "transcription": "МазлЭг",
+    "russian": "Вилка"
+  },
+  {
+    "hebrew": "כמובן",
+    "transcription": "КамувАн",
+    "russian": "Конечно, разумеется"
+  },
+  {
+    "hebrew": "נענע",
+    "transcription": "НАна",
+    "russian": "Мята"
+  },
+  {
+    "hebrew": "הפוך",
+    "transcription": "ХафУх",
+    "russian": "Перевернутый"
+  },
+  {
+    "hebrew": "סעודה",
+    "transcription": "СэудА",
+    "russian": "Еда"
+  },
+  {
+    "hebrew": "שירות",
+    "transcription": "ШэрУт",
+    "russian": "Сервис"
+  },
+  {
+    "hebrew": "על מי",
+    "transcription": "Аль ми",
+    "russian": "О ком"
+  },
+  {
+    "hebrew": "על מה",
+    "transcription": "Аль ма",
+    "russian": "О чем"
+  },
+  {
+    "hebrew": "על מי",
+    "transcription": "Аль ми",
+    "russian": "На ком"
+  },
+  {
+    "hebrew": "על מה",
+    "transcription": "Аль ма",
+    "russian": "На чем"
+  },
+  {
+    "hebrew": "במי",
+    "transcription": "БэмИ",
+    "russian": "В ком"
+  },
+  {
+    "hebrew": "איפה",
+    "transcription": "Эйфо",
+    "russian": "В чем"
+  },
+  {
+    "hebrew": "איפה",
+    "transcription": "Эйфо",
+    "russian": "Где"
+  },
+  {
+    "hebrew": "חושב",
+    "transcription": "ХошЭв",
+    "russian": "Думает"
+  },
+  {
+    "hebrew": "חולם",
+    "transcription": "ХолЭм",
+    "russian": "Мечтает"
+  },
+  {
+    "hebrew": "סומך",
+    "transcription": "СомЭх",
+    "russian": "Полагается"
+  },
+  {
+    "hebrew": "זמר",
+    "transcription": "Замар",
+    "russian": "Певец"
+  },
+  {
+    "hebrew": "בני משפחה",
+    "transcription": "Бней мишпахА",
+    "russian": "Члены семьи"
+  },
+  {
+    "hebrew": "מזג אוויר",
+    "transcription": "МЭзэг авИр",
+    "russian": "Погода"
+  },
+  {
+    "hebrew": "ספסל",
+    "transcription": "СэфасЭль",
+    "russian": "Скамья"
+  },
+  {
+    "hebrew": "עתיד",
+    "transcription": "АтИд",
+    "russian": "Будущее"
+  },
+  {
+    "hebrew": "מלחמה",
+    "transcription": "МильхамА",
+    "russian": "Война"
+  },
+  {
+    "hebrew": "במה",
+    "transcription": "БамА",
+    "russian": "Сцена"
+  },
+  {
+    "hebrew": "שולח",
+    "transcription": "ШолеАх",
+    "russian": "Посылает, отправляет"
+  },
+  {
+    "hebrew": "מקבל",
+    "transcription": "МэкабЭль",
+    "russian": "Получает"
+  },
+  {
+    "hebrew": "מברר",
+    "transcription": "МэварЭр",
+    "russian": "Выясняет"
+  },
+  {
+    "hebrew": "נכנס",
+    "transcription": "НихнАс",
+    "russian": "Входит"
+  },
+  {
+    "hebrew": "ממלא",
+    "transcription": "МэмалЭ",
+    "russian": "Заполняет, наполняет"
+  },
+  {
+    "hebrew": "רושם",
+    "transcription": "РошЭм",
+    "russian": "Записывает"
+  },
+  {
+    "hebrew": "מפקיד",
+    "transcription": "МафкИд",
+    "russian": "Вкладывает"
+  },
+  {
+    "hebrew": "מושר",
+    "transcription": "МошЭр",
+    "russian": "Снимает"
+  },
+  {
+    "hebrew": "בודק",
+    "transcription": "БодЭк",
+    "russian": "Проверяет"
+  },
+  {
+    "hebrew": "חותם",
+    "transcription": "ХотЭм",
+    "russian": "Подписывает"
+  },
+  {
+    "hebrew": "תחתום",
+    "transcription": "ТахтОм",
+    "russian": "Подпиши"
+  },
+  {
+    "hebrew": "קיבלתי",
+    "transcription": "КибАльти",
+    "russian": "Я получил"
+  },
+  {
+    "hebrew": "חבילה",
+    "transcription": "ХавилА",
+    "russian": "Упаковка"
+  },
+  {
+    "hebrew": "דואר",
+    "transcription": "ДоАр",
+    "russian": "Почта"
+  },
+  {
+    "hebrew": "החוצה",
+    "transcription": "ХахУца",
+    "russian": "Наружу"
+  },
+  {
+    "hebrew": "מעטפה",
+    "transcription": "МаатафА",
+    "russian": "Конверт"
+  },
+  {
+    "hebrew": "משרד הפנים",
+    "transcription": "МисрАд хапнИм",
+    "russian": "Министерство внутренних дел"
+  },
+  {
+    "hebrew": "כדי",
+    "transcription": "КадЭй",
+    "russian": "Чтобы"
+  },
+  {
+    "hebrew": "בול",
+    "transcription": "Буль",
+    "russian": "Марка"
+  },
+  {
+    "hebrew": "רשום",
+    "transcription": "РашУм",
+    "russian": "Заказной"
+  },
+  {
+    "hebrew": "נפרד",
+    "transcription": "НифрАд",
+    "russian": "Отдельный"
+  },
+  {
+    "hebrew": "לפי",
+    "transcription": "ЛэфИ",
+    "russian": "В соответствии"
+  },
+  {
+    "hebrew": "שער",
+    "transcription": "ШаАр",
+    "russian": "Курс валют"
+  },
+  {
+    "hebrew": "ארצות הברית",
+    "transcription": "АрцОт хабрИт",
+    "russian": "США"
+  },
+  {
+    "hebrew": "הודעה",
+    "transcription": "ХодаА",
+    "russian": "Сообщение"
+  },
+  {
+    "hebrew": "דואר אוויר",
+    "transcription": "ДоАр авИр",
+    "russian": "Авиопочта"
+  },
+  {
+    "hebrew": "אתר",
+    "transcription": "АтАр",
+    "russian": "Сайт"
+  },
+  {
+    "hebrew": "נוכחי",
+    "transcription": "НохэхИ",
+    "russian": "Настоящий"
+  },
+  {
+    "hebrew": "עליי",
+    "transcription": "АлАй",
+    "russian": "На мне"
+  },
+  {
+    "hebrew": "עליך",
+    "transcription": "АлехА",
+    "russian": "На тебе (м.р.)"
+  },
+  {
+    "hebrew": "עלייך",
+    "transcription": "АлаИх",
+    "russian": "На тебе (ж.р.)"
+  },
+  {
+    "hebrew": "עליו",
+    "transcription": "АлАв",
+    "russian": "На нем"
+  },
+  {
+    "hebrew": "עליה",
+    "transcription": "АлеhА",
+    "russian": "На ней"
+  },
+  {
+    "hebrew": "עלינו",
+    "transcription": "АлэнУ",
+    "russian": "О нас"
+  },
+  {
+    "hebrew": "עליכם",
+    "transcription": "АлэхЭм",
+    "russian": "На вас, о вас (м.р.)"
+  },
+  {
+    "hebrew": "עליכן",
+    "transcription": "АлэхЭн",
+    "russian": "На вас, о вас (ж.р.)"
+  },
+  {
+    "hebrew": "עליהם",
+    "transcription": "АлэhЭм",
+    "russian": "О них (м.р.)"
+  },
+  {
+    "hebrew": "עליהן",
+    "transcription": "АлэhЭн",
+    "russian": "О них (ж.р.)"
+  },
+  {
+    "hebrew": "מתלונן",
+    "transcription": "МитлонЭн",
+    "russian": "Жалуется"
+  },
+  {
+    "hebrew": "כועס",
+    "transcription": "КоЭс",
+    "russian": "злится"
+  },
+  {
+    "hebrew": "צוחק",
+    "transcription": "ЦохЭк",
+    "russian": "Надсмехается"
+  },
+  {
+    "hebrew": "צועק",
+    "transcription": "ЦоЭк",
+    "russian": "Кричит"
+  },
+  {
+    "hebrew": "שותק",
+    "transcription": "ШотЭк",
+    "russian": "Молчит"
+  },
+  {
+    "hebrew": "מסתכל",
+    "transcription": "МистакЕль",
+    "russian": "Смотрит"
+  },
+  {
+    "hebrew": "מסביר",
+    "transcription": "МасбИр",
+    "russian": "Обьясняет"
+  },
+  {
+    "hebrew": "מטפל",
+    "transcription": "МетапЭль",
+    "russian": "Ухаживает"
+  },
+  {
+    "hebrew": "ממשיך",
+    "transcription": "МамшИх",
+    "russian": "Продолжает"
+  },
+  {
+    "hebrew": "מבקש",
+    "transcription": "МэвакЭш",
+    "russian": "Просит"
+  },
+  {
+    "hebrew": "לטפל בעניין",
+    "transcription": "ЛетапЭль бэинйАн",
+    "russian": "Заниматься вопросом"
+  },
+  {
+    "hebrew": "עניין",
+    "transcription": "ИнйАн",
+    "russian": "Вопрос, дело"
+  },
+  {
+    "hebrew": "לעבוד על מישהו",
+    "transcription": "ЛаавОд аль мишэхУ",
+    "russian": "Обмануть когото"
+  },
+  {
+    "hebrew": "בניין",
+    "transcription": "БинйАн",
+    "russian": "Здание"
+  },
+  {
+    "hebrew": "שוב",
+    "transcription": "Шув",
+    "russian": "Снова"
+  },
+  {
+    "hebrew": "משטרה",
+    "transcription": "МиштарА",
+    "russian": "Полиция"
+  },
+  {
+    "hebrew": "עירייה",
+    "transcription": "ИрийА",
+    "russian": "Муниципалитет"
+  },
+  {
+    "hebrew": "בקול רם",
+    "transcription": "БэкОль рам",
+    "russian": "Громко"
+  },
+  {
+    "hebrew": "תלונה",
+    "transcription": "ТлунА",
+    "russian": "Жалоба"
+  },
+  {
+    "hebrew": "מחזיר",
+    "transcription": "МахзИр",
+    "russian": "Возвращает"
+  },
+  {
+    "hebrew": "הגיע",
+    "transcription": "ХигИа",
+    "russian": "Он прибыл"
+  },
+  {
+    "hebrew": "יגיע",
+    "transcription": "Игиа",
+    "russian": "Он прибудет"
+  },
+  {
+    "hebrew": "רשום",
+    "transcription": "РашУм",
+    "russian": "Записан"
+  },
+  {
+    "hebrew": "עיכוב",
+    "transcription": "ИкУв",
+    "russian": "Задержка"
+  },
+  {
+    "hebrew": "בעיכוב",
+    "transcription": "БэикУв",
+    "russian": "Задерживается"
+  },
+  {
+    "hebrew": "פרט",
+    "transcription": "Прат",
+    "russian": "Деталь"
+  },
+  {
+    "hebrew": "טופס",
+    "transcription": "ТОфэс",
+    "russian": "Бланк"
+  },
+  {
+    "hebrew": "מרגיש",
+    "transcription": "МаргИш",
+    "russian": "Чувствует"
+  },
+  {
+    "hebrew": "קובע",
+    "transcription": "КовЭ",
+    "russian": "Устанавливает"
+  },
+  {
+    "hebrew": "כואב",
+    "transcription": "КоЭв",
+    "russian": "Болит"
+  },
+  {
+    "hebrew": "משתעל",
+    "transcription": "МиштаЭль",
+    "russian": "Кашляет"
+  },
+  {
+    "hebrew": "בולע",
+    "transcription": "БолЭ",
+    "russian": "Глотает"
+  },
+  {
+    "hebrew": "פוחד",
+    "transcription": "ПохЭд",
+    "russian": "Боится"
+  },
+  {
+    "hebrew": "כאב",
+    "transcription": "КэЭв",
+    "russian": "Боль"
+  },
+  {
+    "hebrew": "כאבי הראש",
+    "transcription": "КээвЭй харОш",
+    "russian": "Головная боль"
+  },
+  {
+    "hebrew": "סחרחורת",
+    "transcription": "СхархорЭт",
+    "russian": "Головокружение"
+  },
+  {
+    "hebrew": "דוקטור",
+    "transcription": "ДОктор",
+    "russian": "Доктор"
+  },
+  {
+    "hebrew": "רופא פנימי",
+    "transcription": "РофЭ пнимИ",
+    "russian": "Терапевт"
+  },
+  {
+    "hebrew": "כדור",
+    "transcription": "КадУр",
+    "russian": "Мяч"
+  },
+  {
+    "hebrew": "הפניה",
+    "transcription": "ХафнайА",
+    "russian": "Направление"
+  },
+  {
+    "hebrew": "תוצאה",
+    "transcription": "ТоцаА",
+    "russian": "Результат"
+  },
+  {
+    "hebrew": "תרופה",
+    "transcription": "ТруфА",
+    "russian": "Лекарство"
+  },
+  {
+    "hebrew": "שפעת",
+    "transcription": "ШапаАт",
+    "russian": "Грипп"
+  },
+  {
+    "hebrew": "נזלת",
+    "transcription": "НазэлЭт",
+    "russian": "Насморк"
+  },
+  {
+    "hebrew": "שיעול",
+    "transcription": "ШиУль",
+    "russian": "Кашель"
+  },
+  {
+    "hebrew": "טיפה",
+    "transcription": "ТипА",
+    "russian": "Капля"
+  },
+  {
+    "hebrew": "נגד",
+    "transcription": "НЭгэд",
+    "russian": "Против"
+  },
+  {
+    "hebrew": "דם",
+    "transcription": "Дам",
+    "russian": "Кровь"
+  },
+  {
+    "hebrew": "אוזן",
+    "transcription": "ОзЭн",
+    "russian": "Ухо"
+  },
+  {
+    "hebrew": "אף",
+    "transcription": "Аф",
+    "russian": "Нос"
+  },
+  {
+    "hebrew": "יבש",
+    "transcription": "ЙавЭш",
+    "russian": "Сухой"
+  },
+  {
+    "hebrew": "שתן",
+    "transcription": "ШэтЭн",
+    "russian": "Моча"
+  },
+  {
+    "hebrew": "לחץ",
+    "transcription": "ЛАхац",
+    "russian": "Давление"
+  },
+  {
+    "hebrew": "עייפוט",
+    "transcription": "АйэфУт",
+    "russian": "Усталость"
+  },
+  {
+    "hebrew": "חולשה",
+    "transcription": "ХульшА",
+    "russian": "Слабость"
+  },
+  {
+    "hebrew": "חום",
+    "transcription": "Хом",
+    "russian": "Жар"
+  },
+  {
+    "hebrew": "בדיקה",
+    "transcription": "БдикА",
+    "russian": "Проверка"
+  },
+  {
+    "hebrew": "גרון",
+    "transcription": "ГарОн",
+    "russian": "Горло"
+  },
+  {
+    "hebrew": "דלקת",
+    "transcription": "ДалэкЭт",
+    "russian": "Воспаление"
+  },
+  {
+    "hebrew": "מעבדה",
+    "transcription": "МаэбАда",
+    "russian": "Лаборатория"
+  },
+  {
+    "hebrew": "מרשם",
+    "transcription": "МиршАм",
+    "russian": "Рецепты"
+  },
+  {
+    "hebrew": "הצטננות",
+    "transcription": "ХицтатэнУт",
+    "russian": "Простуда"
+  },
+  {
+    "hebrew": "צורך",
+    "transcription": "ЦорЭх",
+    "russian": "Нужда"
+  },
+  {
+    "hebrew": "ריאה",
+    "transcription": "РЭа",
+    "russian": "Легкое"
+  },
+  {
+    "hebrew": "בי",
+    "transcription": "Би",
+    "russian": "Во мне"
+  },
+  {
+    "hebrew": "בך",
+    "transcription": "БэхА",
+    "russian": "В тебе (м.р.)"
+  },
+  {
+    "hebrew": "בך",
+    "transcription": "Бах",
+    "russian": "В тебе (ж.р.)"
+  },
+  {
+    "hebrew": "בו",
+    "transcription": "Бо",
+    "russian": "В нем"
+  },
+  {
+    "hebrew": "בה",
+    "transcription": "Ба",
+    "russian": "В ней"
+  },
+  {
+    "hebrew": "בנו",
+    "transcription": "БанУ",
+    "russian": "В нас"
+  },
+  {
+    "hebrew": "בכם",
+    "transcription": "БахЭм",
+    "russian": "В вас (м.р.)"
+  },
+  {
+    "hebrew": "בכן",
+    "transcription": "БахЭн",
+    "russian": "В вас (ж.р.)"
+  },
+  {
+    "hebrew": "בהם",
+    "transcription": "БаhЭм",
+    "russian": "В них (м.р.)"
+  },
+  {
+    "hebrew": "בהן",
+    "transcription": "БаhЭн",
+    "russian": "В них (ж.р.)"
+  },
+  {
+    "hebrew": "תלוי",
+    "transcription": "ТалУй",
+    "russian": "Висит"
+  },
+  {
+    "hebrew": "מאמין",
+    "transcription": "МаАмин",
+    "russian": "Верю"
+  },
+  {
+    "hebrew": "בטוח",
+    "transcription": "БатуАх",
+    "russian": "Уверен"
+  },
+  {
+    "hebrew": "בחירות",
+    "transcription": "БхирОт",
+    "russian": "Выборы"
+  },
+  {
+    "hebrew": "הבחירות הבאות",
+    "transcription": "ХабхирОт хабаОт",
+    "russian": "Следующие выборы"
+  },
+  {
+    "hebrew": "מגירה",
+    "transcription": "МэгирА",
+    "russian": "Выдвижной ящик"
+  },
+  {
+    "hebrew": "סכום",
+    "transcription": "СакУм",
+    "russian": "Столовые приборы"
+  },
+  {
+    "hebrew": "כוס",
+    "transcription": "Кос",
+    "russian": "Кастрюля"
+  },
+  {
+    "hebrew": "ספל",
+    "transcription": "СЭфэль",
+    "russian": "Чашка"
+  },
+  {
+    "hebrew": "לכן",
+    "transcription": "ЛахЭн",
+    "russian": "Поэтому"
+  },
+  {
+    "hebrew": "מפריע",
+    "transcription": "Мафриа",
+    "russian": "Мешает"
+  },
+  {
+    "hebrew": "מסכים",
+    "transcription": "МаскИм",
+    "russian": "Согласен"
+  },
+  {
+    "hebrew": "מודה",
+    "transcription": "МодЭ",
+    "russian": "Благодарит"
+  },
+  {
+    "hebrew": "חייב",
+    "transcription": "Хайав",
+    "russian": "Должен"
+  },
+  {
+    "hebrew": "זכאי",
+    "transcription": "ЗакУй",
+    "russian": "Имеет право"
+  },
+  {
+    "hebrew": "הבטחת הכנסה",
+    "transcription": "ХавтахАт хахнасА",
+    "russian": "Социальная доплата"
+  },
+  {
+    "hebrew": "נוסף",
+    "transcription": "НосЭф",
+    "russian": "Дополнительный"
+  },
+  {
+    "hebrew": "עמדה",
+    "transcription": "ЭмдА",
+    "russian": "Позиция"
+  },
+  {
+    "hebrew": "שומר",
+    "transcription": "ШомЭр",
+    "russian": "Охранник"
+  },
+  {
+    "hebrew": "קשיש",
+    "transcription": "КашИш",
+    "russian": "Пожилой"
+  },
+  {
+    "hebrew": "טופס",
+    "transcription": "ТОфэс",
+    "russian": "Бланк"
+  },
+  {
+    "hebrew": "תשובה",
+    "transcription": "ТшувА",
+    "russian": "Ответ"
+  },
+  {
+    "hebrew": "תוך",
+    "transcription": "Тох",
+    "russian": "В течении"
+  },
+  {
+    "hebrew": "משרה חלקית",
+    "transcription": "МисрА халькИт",
+    "russian": "Полставки"
+  },
+  {
+    "hebrew": "פותח",
+    "transcription": "ПотэАх",
+    "russian": "Открывает"
+  },
+  {
+    "hebrew": "מחליט",
+    "transcription": "МахлИт",
+    "russian": "Решает"
+  },
+  {
+    "hebrew": "מוציא",
+    "transcription": "МоциА",
+    "russian": "Достает"
+  },
+  {
+    "hebrew": "מנהל",
+    "transcription": "МинаЭль",
+    "russian": "Управляет"
+  },
+  {
+    "hebrew": "מרוצה",
+    "transcription": "МэруцЭ",
+    "russian": "Доволен"
+  },
+  {
+    "hebrew": "עובר ושב",
+    "transcription": "ОвЭр вашАв",
+    "russian": "Текущий счет"
+  },
+  {
+    "hebrew": "תוכלי",
+    "transcription": "ТУхли",
+    "russian": "Ты сможешь"
+  },
+  {
+    "hebrew": "סוד",
+    "transcription": "Сод",
+    "russian": "Секрет"
+  },
+  {
+    "hebrew": "סודי",
+    "transcription": "СодИ",
+    "russian": "Секретный"
+  },
+  {
+    "hebrew": "יתרה",
+    "transcription": "ИтрА",
+    "russian": "Остаток на счете"
+  },
+  {
+    "hebrew": "דף",
+    "transcription": "Даф",
+    "russian": "Лист бумаги"
+  },
+  {
+    "hebrew": "פיקדון",
+    "transcription": "ПикадОн",
+    "russian": "Счет на вклад"
+  },
+  {
+    "hebrew": "מסגרת",
+    "transcription": "МисгЭрэт",
+    "russian": "Рамка"
+  },
+  {
+    "hebrew": "לפי",
+    "transcription": "ЛэфИ",
+    "russian": "В соответствии"
+  },
+  {
+    "hebrew": "ססמה",
+    "transcription": "Сисма",
+    "russian": "Пароль"
+  },
+  {
+    "hebrew": "זכות",
+    "transcription": "ЗхУт",
+    "russian": "Право, плюс на счете"
+  },
+  {
+    "hebrew": "חובה",
+    "transcription": "ХовА",
+    "russian": "Минус на счете, долг"
+  },
+  {
+    "hebrew": "פנקס",
+    "transcription": "ПинкАс",
+    "russian": "Блокнот"
+  },
+  {
+    "hebrew": "בלי",
+    "transcription": "Бли",
+    "russian": "Без"
+  },
+  {
+    "hebrew": "נוח",
+    "transcription": "НоАх",
+    "russian": "Удобно"
+  },
+  {
+    "hebrew": "שעון קיר",
+    "transcription": "ШаОн кир",
+    "russian": "Настенные часы"
+  },
+  {
+    "hebrew": "שעון חול",
+    "transcription": "ШаОн хол",
+    "russian": "Песочные часы"
+  },
+  {
+    "hebrew": "שעון יד",
+    "transcription": "ШаОн яд",
+    "russian": "Наручные часы"
+  },
+  {
+    "hebrew": "שעון כיס",
+    "transcription": "ШаОн кис",
+    "russian": "Карманные часы"
+  },
+  {
+    "hebrew": "שעון שמש",
+    "transcription": "ШаОн  шЭмэш",
+    "russian": "Солнечные часы"
+  },
+  {
+    "hebrew": "שולחן עבודה",
+    "transcription": "ШульхАн аводА",
+    "russian": "Рабочий стол"
+  },
+  {
+    "hebrew": "ארון מתבח",
+    "transcription": "АрОн митбАх",
+    "russian": "Кухонных стол"
+  },
+  {
+    "hebrew": "בקבוק מיץ",
+    "transcription": "БабУк миц",
+    "russian": "Бутылка сока"
+  },
+  {
+    "hebrew": "עיתון ערב",
+    "transcription": "ИтОн Эрэв",
+    "russian": "Вечерняя газета"
+  },
+  {
+    "hebrew": "בניין אוניברסיטה",
+    "transcription": "БиньЯн университЭ",
+    "russian": "Здание университета"
+  },
+  {
+    "hebrew": "תחנת אוטובוס",
+    "transcription": "ТаханА отОбус",
+    "russian": "Автобусная остановка"
+  },
+  {
+    "hebrew": "עבודת יד",
+    "transcription": "АводЭд яд",
+    "russian": "Ручная работа"
+  },
+  {
+    "hebrew": "שיחת טלפון",
+    "transcription": "СихАт телефОн",
+    "russian": "Телефонные разговоры"
+  },
+  {
+    "hebrew": "שמלת ערב",
+    "transcription": "СимлАт Эрэв",
+    "russian": "Вечернее платье"
+  },
+  {
+    "hebrew": "חנות בגדים",
+    "transcription": "ХанУт бгидИм",
+    "russian": "Магазин одежды"
+  },
+  {
+    "hebrew": "דלת כניסה",
+    "transcription": "ДЭлэт книсА",
+    "russian": "Входная дверь"
+  },
+  {
+    "hebrew": "משקפי שמש",
+    "transcription": "МишкапЭй шЭмэш",
+    "russian": "Солнечные очки"
+  },
+  {
+    "hebrew": "דפי פקס",
+    "transcription": "ДафЭй факс",
+    "russian": "Листы для факса"
+  },
+  {
+    "hebrew": "נעלי בית",
+    "transcription": "НаалИ байт",
+    "russian": "Домашняя обувь"
+  },
+  {
+    "hebrew": "סיפורי חיים",
+    "transcription": "СифурЭй хаИм",
+    "russian": "Жизненные истории"
+  },
+  {
+    "hebrew": "מכשירי חשמל",
+    "transcription": "МахширЭй хашмАль",
+    "russian": "Электро товары"
+  },
+  {
+    "hebrew": "שעות עבודה",
+    "transcription": "ШаОн аводА",
+    "russian": "Рабочие часы"
+  },
+  {
+    "hebrew": "עוגות וניל",
+    "transcription": "УгОт ванИль",
+    "russian": "Ванильный пирог"
+  },
+  {
+    "hebrew": "חולצות קיץ",
+    "transcription": "ХульцОт киц",
+    "russian": "Летняя блузка"
+  },
+  {
+    "hebrew": "מכוניות ספורט",
+    "transcription": "МэхонийОт спорт",
+    "russian": "Спортивная машина"
+  },
+  {
+    "hebrew": "אספות הורים",
+    "transcription": "ЭсфОт хорИм",
+    "russian": "Родительские собрания"
+  },
+  {
+    "hebrew": "בית חולים",
+    "transcription": "Байт холИм",
+    "russian": "Больница"
+  },
+  {
+    "hebrew": "חדר שינה",
+    "transcription": "ХЭдэр шинА",
+    "russian": "Спальня"
+  },
+  {
+    "hebrew": "משטרת תל אביב",
+    "transcription": "МиштЭрэт тЭль Авив",
+    "russian": "Полиция тель авива"
+  },
+  {
+    "hebrew": "מסעדת דגים",
+    "transcription": "МисадЭт дагИм",
+    "russian": "Рыбный ресторан"
+  },
+  {
+    "hebrew": "מחלקת חלב",
+    "transcription": "МаклахЭт халАв",
+    "russian": "Молочный отдел"
+  },
+  {
+    "hebrew": "מכללת רפואה",
+    "transcription": "МихлалЭт рэфуА",
+    "russian": "Медицинский коледж"
+  },
+  {
+    "hebrew": "בגדי ילדים",
+    "transcription": "БигдЭй йэладИм",
+    "russian": "Детская одежда"
+  },
+  {
+    "hebrew": "ספרי לימוד",
+    "transcription": "СифрЭй лимУд",
+    "russian": "Учебники"
+  },
+  {
+    "hebrew": "פירחי יער",
+    "transcription": "ПирхЭй йаАр",
+    "russian": "Лесные цветы"
+  },
+  {
+    "hebrew": "פירטי עבודה",
+    "transcription": "ПиртЭй аводА",
+    "russian": "Данные о работе"
+  },
+  {
+    "hebrew": "חדרי אמבטיה",
+    "transcription": "ХэдэрЭй амбатийА",
+    "russian": "Ванные комнаты"
+  },
+  {
+    "hebrew": "מקשיב",
+    "transcription": "МакшИв",
+    "russian": "Слушает"
+  },
+  {
+    "hebrew": "מסיים",
+    "transcription": "МэсайЭм",
+    "russian": "Завершает"
+  },
+  {
+    "hebrew": "מספיק",
+    "transcription": "МаспИк",
+    "russian": "Успевает, достаточно"
+  },
+  {
+    "hebrew": "נח",
+    "transcription": "Нах",
+    "russian": "Отдыхает"
+  },
+  {
+    "hebrew": "אישור",
+    "transcription": "ИшУр",
+    "russian": "Разрешение"
+  },
+  {
+    "hebrew": "תלוש משכורת",
+    "transcription": "Тлюш маскОрэт",
+    "russian": "Зарплатная ведомость"
+  },
+  {
+    "hebrew": "סידור",
+    "transcription": "СидУр",
+    "russian": "Улаживание"
+  },
+  {
+    "hebrew": "רעצון",
+    "transcription": "РацОн",
+    "russian": "Желание"
+  },
+  {
+    "hebrew": "לבצע",
+    "transcription": "левацэа",
+    "russian": "выполнять, осуществлять"
+  },
+  {
+    "hebrew": "לנהל",
+    "transcription": "ленаэль",
+    "russian": "управлять, руководить"
+  },
+  {
+    "hebrew": "לתכנן",
+    "transcription": "летахнен",
+    "russian": "планировать"
+  },
+  {
+    "hebrew": "לארגן",
+    "transcription": "леарген",
+    "russian": "организовывать"
+  },
+  {
+    "hebrew": "לתאם",
+    "transcription": "летаэм",
+    "russian": "согласовывать, координировать"
+  },
+  {
+    "hebrew": "לעדכן",
+    "transcription": "леадкен",
+    "russian": "обновлять информацию, информировать"
+  },
+  {
+    "hebrew": "לדווח",
+    "transcription": "ледавеах",
+    "russian": "докладывать, сообщать, отчитываться"
+  },
+  {
+    "hebrew": "לתעד",
+    "transcription": "летеэд",
+    "russian": "документировать, фиксировать"
+  },
+  {
+    "hebrew": "לצרף",
+    "transcription": "лецареф",
+    "russian": "прикреплять, прилагать"
+  },
+  {
+    "hebrew": "להעביר",
+    "transcription": "леаавир",
+    "russian": "передавать, переводить, перемещать"
+  },
+  {
+    "hebrew": "לספק",
+    "transcription": "лесапек",
+    "russian": "предоставлять, поставлять"
+  },
+  {
+    "hebrew": "לקבל החלטה",
+    "transcription": "лекабель ахлата",
+    "russian": "принимать решение"
+  },
+  {
+    "hebrew": "לטפל",
+    "transcription": "летапель",
+    "russian": "заниматься чем-либо, обрабатывать, решать вопрос"
+  },
+  {
+    "hebrew": "להכין",
+    "transcription": "леахин",
+    "russian": "подготавливать"
+  },
+  {
+    "hebrew": "להשלים",
+    "transcription": "леашлим",
+    "russian": "завершать, дополнять"
+  },
+  {
+    "hebrew": "לעמוד ב־",
+    "transcription": "лаамод бе",
+    "russian": "соблюдать, соответствовать; укладываться в"
+  },
+  {
+    "hebrew": "להתחייב",
+    "transcription": "леитьхаев",
+    "russian": "брать обязательство, обязаться"
+  },
+  {
+    "hebrew": "להעסיק",
+    "transcription": "леасик",
+    "russian": "нанимать, предоставлять работу"
+  },
+  {
+    "hebrew": "לפטר",
+    "transcription": "лефатер",
+    "russian": "увольнять"
+  },
+  {
+    "hebrew": "להתפטר",
+    "transcription": "ле итпатер",
+    "russian": "увольняться по собственному желанию"
+  },
+  {
+    "hebrew": "להדריך",
+    "transcription": "леадрих",
+    "russian": "инструктировать, обучать"
+  },
+  {
+    "hebrew": "לפקח",
+    "transcription": "лефакеах",
+    "russian": "контролировать, осуществлять надзор"
+  },
+  {
+    "hebrew": "להפעיל",
+    "transcription": "леафиль",
+    "russian": "запускать, приводить в действие, эксплуатировать"
+  },
+  {
+    "hebrew": "להשבית",
+    "transcription": "леашбит",
+    "russian": "останавливать работу, выводить из эксплуатации"
+  },
+  {
+    "hebrew": "להתקין",
+    "transcription": "леаткин",
+    "russian": "устанавливать, монтировать"
+  },
+  {
+    "hebrew": "לפרק",
+    "transcription": "лефарек",
+    "russian": "разбирать, демонтировать"
+  },
+  {
+    "hebrew": "לייצר",
+    "transcription": "леяцер",
+    "russian": "производить, изготавливать"
+  },
+  {
+    "hebrew": "לסיים",
+    "transcription": "лесаем",
+    "russian": "заканчивать, завершать"
+  },
+  {
+    "hebrew": "לעכב",
+    "transcription": "леакев",
+    "russian": "задерживать, тормозить процесс"
+  },
+  {
+    "hebrew": "לוודא",
+    "transcription": "левадэ",
+    "russian": "удостовериться, убедиться, проверить"
+  },
+  {
+    "hebrew": "לחשוב",
+    "transcription": "лахшов",
+    "russian": "думать"
+  },
+  {
+    "hebrew": "להבין",
+    "transcription": "леавин",
+    "russian": "понимать"
+  },
+  {
+    "hebrew": "להסתכל",
+    "transcription": "леистакель",
+    "russian": "смотреть, глядеть"
+  },
+  {
+    "hebrew": "להקשיב",
+    "transcription": "леакшив",
+    "russian": "слушать внимательно"
+  },
+  {
+    "hebrew": "לספר",
+    "transcription": "лесапер",
+    "russian": "рассказывать"
+  },
+  {
+    "hebrew": "לקרוא",
+    "transcription": "ликро",
+    "russian": "читать, называть"
+  },
+  {
+    "hebrew": "לכתוב",
+    "transcription": "лихтов",
+    "russian": "писать"
+  },
+  {
+    "hebrew": "להקליד",
+    "transcription": "леаклид",
+    "russian": "печатать на клавиатуре"
+  },
+  {
+    "hebrew": "לתרגם",
+    "transcription": "летаргем",
+    "russian": "переводить"
+  },
+  {
+    "hebrew": "לחזור על",
+    "transcription": "лахзор аль",
+    "russian": "повторять"
+  },
+  {
+    "hebrew": "לבדוק",
+    "transcription": "ливдок",
+    "russian": "проверять"
+  },
+  {
+    "hebrew": "לחכות",
+    "transcription": "лехакот",
+    "russian": "ждать"
+  },
+  {
+    "hebrew": "להישאר",
+    "transcription": "леишаэр",
+    "russian": "оставаться"
+  },
+  {
+    "hebrew": "לעזוב",
+    "transcription": "лаазов",
+    "russian": "уходить, покидать"
+  },
+  {
+    "hebrew": "להגיע",
+    "transcription": "леагиа",
+    "russian": "прибывать, добираться"
+  },
+  {
+    "hebrew": "לאחר",
+    "transcription": "леахер",
+    "russian": "опаздывать"
+  },
+  {
+    "hebrew": "למהר",
+    "transcription": "лемаэр",
+    "russian": "торопиться"
+  },
+  {
+    "hebrew": "לעבור",
+    "transcription": "лаавор",
+    "russian": "проходить, переходить, переезжать"
+  },
+  {
+    "hebrew": "לפנות",
+    "transcription": "лифнот",
+    "russian": "обращаться; освобождать"
+  },
+  {
+    "hebrew": "להזדקק",
+    "transcription": "леиздакек",
+    "russian": "нуждаться"
+  },
+  {
+    "hebrew": "להתקשר",
+    "transcription": "леִткашéр",
+    "russian": "звонить, связываться"
+  },
+  {
+    "hebrew": "לענוד",
+    "transcription": "лаанод",
+    "russian": "носить украшение или часы"
+  },
+  {
+    "hebrew": "להסיר",
+    "transcription": "леасир",
+    "russian": "снимать, удалять"
+  },
+  {
+    "hebrew": "לקבוע",
+    "transcription": "ликбоа",
+    "russian": "назначать, определять"
+  },
+  {
+    "hebrew": "לבטל",
+    "transcription": "леватель",
+    "russian": "отменять"
+  },
+  {
+    "hebrew": "לאשר",
+    "transcription": "леашер",
+    "russian": "подтверждать, одобрять"
+  },
+  {
+    "hebrew": "להגיש",
+    "transcription": "леагиш",
+    "russian": "подавать, вручать"
+  },
+  {
+    "hebrew": "למלא",
+    "transcription": "лемале",
+    "russian": "заполнять, наполнять"
+  },
+  {
+    "hebrew": "להצטרף",
+    "transcription": "леִцтареф",
+    "russian": "присоединяться"
+  },
+  {
+    "hebrew": "להשתתף",
+    "transcription": "леиштатеф",
+    "russian": "участвовать"
+  },
+  {
+    "hebrew": "להביא",
+    "transcription": "леави",
+    "russian": "принести, привезти"
+  },
+  {
+    "hebrew": "להוציא",
+    "transcription": "леоци",
+    "russian": "вынести, достать"
+  },
+  {
+    "hebrew": "להכניס",
+    "transcription": "леахнис",
+    "russian": "внести, положить внутрь"
+  },
+  {
+    "hebrew": "ללבוש",
+    "transcription": "лильбош",
+    "russian": "надевать (одежду)"
+  },
+  {
+    "hebrew": "להוריד",
+    "transcription": "лехорид",
+    "russian": "снимать (одежду)"
+  },
+  {
+    "hebrew": "לנעול",
+    "transcription": "линоль",
+    "russian": "обувать; запирать"
+  },
+  {
+    "hebrew": "לפתור",
+    "transcription": "лифтор",
+    "russian": "решать (задачу, проблему)"
+  },
+  {
+    "hebrew": "להחליט",
+    "transcription": "леахлит",
+    "russian": "решать, принимать решение"
+  },
+  {
+    "hebrew": "לבחור",
+    "transcription": "ливхор",
+    "russian": "выбирать"
+  },
+  {
+    "hebrew": "להסכים",
+    "transcription": "леаским",
+    "russian": "соглашаться"
+  },
+  {
+    "hebrew": "לסרב",
+    "transcription": "лесарев",
+    "russian": "отказываться"
+  },
+  {
+    "hebrew": "להסביר",
+    "transcription": "леасбир",
+    "russian": "объяснять"
+  },
+  {
+    "hebrew": "ללמד",
+    "transcription": "леламед",
+    "russian": "учить (кого-то)"
+  },
+  {
+    "hebrew": "להכיר",
+    "transcription": "леакир",
+    "russian": "знакомиться, знать (человека)"
+  },
+  {
+    "hebrew": "להיפגש",
+    "transcription": "леипагеш",
+    "russian": "встречаться"
+  },
+  {
+    "hebrew": "להמשיך",
+    "transcription": "леамших",
+    "russian": "продолжать"
+  },
+  {
+    "hebrew": "לעצור",
+    "transcription": "лаацор",
+    "russian": "останавливаться"
+  },
+  {
+    "hebrew": "להתחיל",
+    "transcription": "леатхиль",
+    "russian": "начинать"
+  },
+  {
+    "hebrew": "להיגמר",
+    "transcription": "леигамер",
+    "russian": "заканчиваться"
+  },
+  {
+    "hebrew": "להצליח",
+    "transcription": "леацлиах",
+    "russian": "добиваться успеха, удаваться"
+  },
+  {
+    "hebrew": "להפסיד",
+    "transcription": "леафсид",
+    "russian": "проигрывать, терять"
+  },
+  {
+    "hebrew": "להרוויח",
+    "transcription": "леарвиах",
+    "russian": "зарабатывать"
+  },
+  {
+    "hebrew": "לתקן",
+    "transcription": "летакен",
+    "russian": "чинить"
+  },
+  {
+    "hebrew": "לשבור",
+    "transcription": "лишбор",
+    "russian": "ломать"
+  },
+  {
+    "hebrew": "לגעת",
+    "transcription": "лагаат",
+    "russian": "трогать, касаться"
+  },
+  {
+    "hebrew": "להרגיש",
+    "transcription": "леаргиш",
+    "russian": "чувствовать"
+  },
+  {
+    "hebrew": "לשמור",
+    "transcription": "лишмор",
+    "russian": "беречь, хранить"
+  },
+  {
+    "hebrew": "לזרוק",
+    "transcription": "лизрок",
+    "russian": "бросать, выбрасывать"
+  },
+  {
+    "hebrew": "למדוד",
+    "transcription": "лимдод",
+    "russian": "измерять, примерять"
+  },
+  {
+    "hebrew": "לחתום",
+    "transcription": "лахтом",
+    "russian": "подписывать"
+  },
+  {
+    "hebrew": "לפתוח",
+    "transcription": "лифтоах",
+    "russian": "открывать"
+  },
+  {
+    "hebrew": "לסגור",
+    "transcription": "лисгор",
+    "russian": "закрывать"
+  },
+  {
+    "hebrew": "להיכנס",
+    "transcription": "леиканес",
+    "russian": "входить"
+  },
+  {
+    "hebrew": "לצאת",
+    "transcription": "лацет",
+    "russian": "выходить"
+  },
+  {
+    "hebrew": "לשבת",
+    "transcription": "лашевет",
+    "russian": "сидеть"
+  },
+  {
+    "hebrew": "לעמוד",
+    "transcription": "лаамод",
+    "russian": "стоять"
+  },
+  {
+    "hebrew": "לרוץ",
+    "transcription": "ларуц",
+    "russian": "бежать"
+  },
+  {
+    "hebrew": "לשחק",
+    "transcription": "лесахек",
+    "russian": "играть"
+  },
+  {
+    "hebrew": "לבשל",
+    "transcription": "левашель",
+    "russian": "готовить (еду)"
+  },
+  {
+    "hebrew": "לנקות",
+    "transcription": "ленакот",
+    "russian": "убираться, чистить"
+  },
+  {
+    "hebrew": "לשטוף",
+    "transcription": "лиштоф",
+    "russian": "мыть, промывать"
+  },
+  {
+    "hebrew": "להדליק",
+    "transcription": "леадлик",
+    "russian": "включать"
+  },
+  {
+    "hebrew": "לכבות",
+    "transcription": "лехабот",
+    "russian": "выключать"
+  },
+  {
+    "hebrew": "לחפש",
+    "transcription": "лехапес",
+    "russian": "искать"
+  },
+  {
+    "hebrew": "למצוא",
+    "transcription": "лимцо",
+    "russian": "находить"
+  },
+  {
+    "hebrew": "לזכור",
+    "transcription": "лизкор",
+    "russian": "помнить"
+  },
+  {
+    "hebrew": "לשכוח",
+    "transcription": "лишкоах",
+    "russian": "забывать"
+  },
+  {
+    "hebrew": "לשאול",
+    "transcription": "лишоль",
+    "russian": "спрашивать"
+  },
+  {
+    "hebrew": "לענות",
+    "transcription": "лаанот",
+    "russian": "отвечать"
+  },
+  {
+    "hebrew": "לעזור",
+    "transcription": "лаазор",
+    "russian": "помогать"
+  },
+  {
+    "hebrew": "להראות",
+    "transcription": "леарот",
+    "russian": "показывать"
+  },
+  {
+    "hebrew": "להזמין",
+    "transcription": "леазмин",
+    "russian": "заказывать, приглашать"
+  },
+  {
+    "hebrew": "לשלוח",
+    "transcription": "лишлоах",
+    "russian": "отправлять"
+  },
+  {
+    "hebrew": "לקבל",
+    "transcription": "лекабель",
+    "russian": "получать"
+  },
+  {
+    "hebrew": "להחליף",
+    "transcription": "леахлиф",
+    "russian": "менять, заменять"
+  },
+  {
+    "hebrew": "להשתמש",
+    "transcription": "леиштамеш",
+    "russian": "использовать"
+  },
+  {
+    "hebrew": "להחזיק",
+    "transcription": "леахзик",
+    "russian": "держать"
+  },
+  {
+    "hebrew": "ליפול",
+    "transcription": "липоль",
+    "russian": "падать"
+  },
+  {
+    "hebrew": "לקום",
+    "transcription": "лакум",
+    "russian": "вставать"
+  },
+  {
+    "hebrew": "לחייך",
+    "transcription": "лехайех",
+    "russian": "улыбаться"
+  },
+  {
+    "hebrew": "היום",
+    "transcription": "ха-йом",
+    "russian": "сегодня"
+  },
+  {
+    "hebrew": "אתמול",
+    "transcription": "этмоль",
+    "russian": "вчера"
+  },
+  {
+    "hebrew": "מחר",
+    "transcription": "махар",
+    "russian": "завтра"
+  },
+  {
+    "hebrew": "עכשיו",
+    "transcription": "ахшав",
+    "russian": "сейчас"
+  },
+  {
+    "hebrew": "אחר כך",
+    "transcription": "ахар ках",
+    "russian": "потом"
+  },
+  {
+    "hebrew": "לפני",
+    "transcription": "лифней",
+    "russian": "до"
+  },
+  {
+    "hebrew": "אחרי",
+    "transcription": "ахарей",
+    "russian": "после"
+  },
+  {
+    "hebrew": "בבוקר",
+    "transcription": "ба-бокер",
+    "russian": "утром"
+  },
+  {
+    "hebrew": "בצהריים",
+    "transcription": "ба-цоораим",
+    "russian": "днём"
+  },
+  {
+    "hebrew": "בערב",
+    "transcription": "ба-эрев",
+    "russian": "вечером"
+  },
+  {
+    "hebrew": "בלילה",
+    "transcription": "ба-лайла",
+    "russian": "ночью"
+  },
+  {
+    "hebrew": "בית",
+    "transcription": "баит",
+    "russian": "дом"
+  },
+  {
+    "hebrew": "הביתה",
+    "transcription": "ха-байта",
+    "russian": "домой"
+  },
+  {
+    "hebrew": "עבודה",
+    "transcription": "авода",
+    "russian": "работа"
+  },
+  {
+    "hebrew": "לעבוד",
+    "transcription": "лаавод",
+    "russian": "работать"
+  },
+  {
+    "hebrew": "ללכת",
+    "transcription": "лалехет",
+    "russian": "идти"
+  },
+  {
+    "hebrew": "לנסוע",
+    "transcription": "линсоа",
+    "russian": "ехать"
+  },
+  {
+    "hebrew": "לבוא",
+    "transcription": "лаво",
+    "russian": "приходить"
+  },
+  {
+    "hebrew": "לחזור",
+    "transcription": "лахзор",
+    "russian": "возвращаться"
+  },
+  {
+    "hebrew": "לחכות",
+    "transcription": "лехакот",
+    "russian": "ждать"
+  },
+  {
+    "hebrew": "להתחיל",
+    "transcription": "лехатхиль",
+    "russian": "начинать"
+  },
+  {
+    "hebrew": "לסיים",
+    "transcription": "лесаем",
+    "russian": "заканчивать"
+  },
+  {
+    "hebrew": "לנוח",
+    "transcription": "лануах",
+    "russian": "отдыхать"
+  },
+  {
+    "hebrew": "ללמוד",
+    "transcription": "лильмод",
+    "russian": "учиться"
+  },
+  {
+    "hebrew": "לאכול",
+    "transcription": "леэхоль",
+    "russian": "есть"
+  },
+  {
+    "hebrew": "לשתות",
+    "transcription": "лиштот",
+    "russian": "пить"
+  },
+  {
+    "hebrew": "לישון",
+    "transcription": "лишон",
+    "russian": "спать"
+  },
+  {
+    "hebrew": "זמן",
+    "transcription": "зман",
+    "russian": "время"
+  },
+  {
+    "hebrew": "תמיד",
+    "transcription": "тамид",
+    "russian": "всегда"
+  },
+  {
+    "hebrew": "אף פעם",
+    "transcription": "аф паам",
+    "russian": "никогда"
+  },
+  {
+    "hebrew": "פסיבי",
+    "transcription": "пас-ТИВИ",
+    "russian": "пассивный"
+  },
+  {
+    "hebrew": "חנות",
+    "transcription": "ханут",
+    "russian": "магазин"
+  },
+  {
+    "hebrew": "סופרמרקט",
+    "transcription": "супермаркет",
+    "russian": "супермаркет"
+  },
+  {
+    "hebrew": "קופה",
+    "transcription": "купа",
+    "russian": "касса"
+  },
+  {
+    "hebrew": "קופאי",
+    "transcription": "купай",
+    "russian": "кассир"
+  },
+  {
+    "hebrew": "מחיר",
+    "transcription": "мехир",
+    "russian": "цена"
+  },
+  {
+    "hebrew": "יקר",
+    "transcription": "якар",
+    "russian": "дорого"
+  },
+  {
+    "hebrew": "זול",
+    "transcription": "золь",
+    "russian": "дешево"
+  },
+  {
+    "hebrew": "כסף",
+    "transcription": "кесеф",
+    "russian": "деньги"
+  },
+  {
+    "hebrew": "מזומן",
+    "transcription": "мезуман",
+    "russian": "наличные"
+  },
+  {
+    "hebrew": "כרטיס אשראי",
+    "transcription": "картис ашрай",
+    "russian": "банковская карта"
+  },
+  {
+    "hebrew": "בנק",
+    "transcription": "банк",
+    "russian": "банк"
+  },
+  {
+    "hebrew": "חשבון",
+    "transcription": "хешбон",
+    "russian": "счёт (банковский)"
+  },
+  {
+    "hebrew": "הלוואה",
+    "transcription": "альваа",
+    "russian": "кредит"
+  },
+  {
+    "hebrew": "חוב",
+    "transcription": "хов",
+    "russian": "долг"
+  },
+  {
+    "hebrew": "משכורת",
+    "transcription": "маскорет",
+    "russian": "зарплата"
+  },
+  {
+    "hebrew": "הנחה",
+    "transcription": "анаха",
+    "russian": "скидка"
+  },
+  {
+    "hebrew": "קנייה",
+    "transcription": "кния",
+    "russian": "покупка"
+  },
+  {
+    "hebrew": "קונה",
+    "transcription": "конэ",
+    "russian": "покупатель"
+  },
+  {
+    "hebrew": "מוכר",
+    "transcription": "мохер",
+    "russian": "продавец"
+  },
+  {
+    "hebrew": "מוצר",
+    "transcription": "муцар",
+    "russian": "товар"
+  },
+  {
+    "hebrew": "קבלה",
+    "transcription": "кабала",
+    "russian": "чек"
+  },
+  {
+    "hebrew": "לשלם",
+    "transcription": "лешалем",
+    "russian": "платить"
+  },
+  {
+    "hebrew": "לקנות",
+    "transcription": "ликнот",
+    "russian": "купить"
+  },
+  {
+    "hebrew": "למכור",
+    "transcription": "лимкор",
+    "russian": "продать"
+  },
+  {
+    "hebrew": "לעלות",
+    "transcription": "лаалот",
+    "russian": "стоить"
+  },
+  {
+    "hebrew": "עודף",
+    "transcription": "одеф",
+    "russian": "сдача"
+  },
+  {
+    "hebrew": "ארנק",
+    "transcription": "арнак",
+    "russian": "кошелёк"
+  },
+  {
+    "hebrew": "כספומט",
+    "transcription": "каспомат",
+    "russian": "банкомат"
+  },
+  {
+    "hebrew": "העברה",
+    "transcription": "аавара",
+    "russian": "перевод (денег)"
+  },
+  {
+    "hebrew": "ריבית",
+    "transcription": "рибит",
+    "russian": "процент"
+  },
+  {
+    "hebrew": "כואב",
+    "transcription": "коэв",
+    "russian": "болит"
+  },
+  {
+    "hebrew": "כאב",
+    "transcription": "кээв",
+    "russian": "боль"
+  },
+  {
+    "hebrew": "צוואר",
+    "transcription": "цавар",
+    "russian": "шея"
+  },
+  {
+    "hebrew": "גב",
+    "transcription": "гав",
+    "russian": "спина"
+  },
+  {
+    "hebrew": "יד",
+    "transcription": "яд",
+    "russian": "рука"
+  },
+  {
+    "hebrew": "רגל",
+    "transcription": "рэгель",
+    "russian": "нога"
+  },
+  {
+    "hebrew": "ראש",
+    "transcription": "рош",
+    "russian": "голова"
+  },
+  {
+    "hebrew": "כתף",
+    "transcription": "катеф",
+    "russian": "плечо"
+  },
+  {
+    "hebrew": "גב תחתון",
+    "transcription": "гав тахтон",
+    "russian": "спина (нижняя поясница)"
+  },
+  {
+    "hebrew": "כדור",
+    "transcription": "кадур",
+    "russian": "таблетка"
+  },
+  {
+    "hebrew": "תרופה",
+    "transcription": "труфа",
+    "russian": "лекарство"
+  },
+  {
+    "hebrew": "רופא",
+    "transcription": "рофэ",
+    "russian": "врач"
+  },
+  {
+    "hebrew": "בית חולים",
+    "transcription": "бейт холим",
+    "russian": "больница"
+  },
+  {
+    "hebrew": "בדיקה",
+    "transcription": "бдика",
+    "russian": "обследование"
+  },
+  {
+    "hebrew": "בדיקת דם",
+    "transcription": "бдикат дам",
+    "russian": "анализ"
+  },
+  {
+    "hebrew": "דם",
+    "transcription": "дам",
+    "russian": "кровь"
+  },
+  {
+    "hebrew": "חום",
+    "transcription": "хом",
+    "russian": "температура"
+  },
+  {
+    "hebrew": "דלקת",
+    "transcription": "далекет",
+    "russian": "воспаление"
+  },
+  {
+    "hebrew": "פציעה",
+    "transcription": "пциа",
+    "russian": "травма"
+  },
+  {
+    "hebrew": "דיסק",
+    "transcription": "диск",
+    "russian": "диск (межпозвоночный)"
+  },
+  {
+    "hebrew": "טיפול",
+    "transcription": "типуль",
+    "russian": "лечение"
+  },
+  {
+    "hebrew": "החלמה",
+    "transcription": "ахлама",
+    "russian": "выздоровление"
+  },
+  {
+    "hebrew": "מרשם",
+    "transcription": "миршам",
+    "russian": "рецепт"
+  },
+  {
+    "hebrew": "זריקה",
+    "transcription": "зрика",
+    "russian": "укол"
+  },
+  {
+    "hebrew": "ניתוח",
+    "transcription": "нитуах",
+    "russian": "операция"
+  },
+  {
+    "hebrew": "מנוחה",
+    "transcription": "менуха",
+    "russian": "отдых"
+  },
+  {
+    "hebrew": "מחלה",
+    "transcription": "махала",
+    "russian": "больничный лист"
+  },
+  {
+    "hebrew": "מטופל",
+    "transcription": "метупаль",
+    "russian": "пациент"
+  },
+  {
+    "hebrew": "בריא",
+    "transcription": "бари",
+    "russian": "здоровый"
+  },
+  {
+    "hebrew": "לא מרגיש טוב",
+    "transcription": "ло маргиш тов",
+    "russian": "плохо себя чувствовать"
+  },
+  {
+    "hebrew": "מלגזה",
+    "transcription": "мальгеза",
+    "russian": "погрузчик"
+  },
+  {
+    "hebrew": "מטען",
+    "transcription": "матаан",
+    "russian": "груз"
+  },
+  {
+    "hebrew": "חלק",
+    "transcription": "хелек",
+    "russian": "деталь"
+  },
+  {
+    "hebrew": "חלקים",
+    "transcription": "халаким",
+    "russian": "детали"
+  },
+  {
+    "hebrew": "מחסן",
+    "transcription": "махсан",
+    "russian": "склад"
+  },
+  {
+    "hebrew": "מנוף",
+    "transcription": "маноф",
+    "russian": "кран"
+  },
+  {
+    "hebrew": "רכב",
+    "transcription": "рехев",
+    "russian": "машина, транспорт"
+  },
+  {
+    "hebrew": "משאית",
+    "transcription": "машаит",
+    "russian": "грузовик"
+  },
+  {
+    "hebrew": "להרים",
+    "transcription": "леарим",
+    "russian": "поднять"
+  },
+  {
+    "hebrew": "להוריד",
+    "transcription": "лехорид",
+    "russian": "опустить"
+  },
+  {
+    "hebrew": "להעמיס",
+    "transcription": "леамис",
+    "russian": "загрузить"
+  },
+  {
+    "hebrew": "לפרוק",
+    "transcription": "лифрок",
+    "russian": "разгрузить"
+  },
+  {
+    "hebrew": "להעביר",
+    "transcription": "леавир",
+    "russian": "перевозить, переносить"
+  },
+  {
+    "hebrew": "לשים",
+    "transcription": "ласим",
+    "russian": "поставить, положить"
+  },
+  {
+    "hebrew": "לקחת",
+    "transcription": "лакахат",
+    "russian": "взять"
+  },
+  {
+    "hebrew": "לתת",
+    "transcription": "латет",
+    "russian": "дать"
+  },
+  {
+    "hebrew": "תיקון",
+    "transcription": "тикун",
+    "russian": "ремонт"
+  },
+  {
+    "hebrew": "תקלה",
+    "transcription": "такала",
+    "russian": "неисправность, поломка"
+  },
+  {
+    "hebrew": "בלמים",
+    "transcription": "бламим",
+    "russian": "тормоза"
+  },
+  {
+    "hebrew": "שמן",
+    "transcription": "шемен",
+    "russian": "масло"
+  },
+  {
+    "hebrew": "גלגל",
+    "transcription": "гальгаль",
+    "russian": "колесо"
+  },
+  {
+    "hebrew": "משמרת",
+    "transcription": "мишмерет",
+    "russian": "смена"
+  },
+  {
+    "hebrew": "עבודה",
+    "transcription": "авода",
+    "russian": "работа"
+  },
+  {
+    "hebrew": "מפעל",
+    "transcription": "мифаль",
+    "russian": "завод"
+  },
+  {
+    "hebrew": "מנהל",
+    "transcription": "менаэль",
+    "russian": "руководитель"
+  },
+  {
+    "hebrew": "עובד",
+    "transcription": "овед",
+    "russian": "работник"
+  },
+  {
+    "hebrew": "מסוכן",
+    "transcription": "месукан",
+    "russian": "опасно"
+  },
+  {
+    "hebrew": "בטיחות",
+    "transcription": "бетихут",
+    "russian": "безопасность"
+  },
+  {
+    "hebrew": "לבדוק",
+    "transcription": "ливдок",
+    "russian": "проверять"
+  },
+  {
+    "hebrew": "מפתח",
+    "transcription": "мафтеах",
+    "russian": "ключ"
+  }
+];

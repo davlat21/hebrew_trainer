@@ -1,0 +1,116 @@
+[
+  {
+    "hebrew": "אָנָא",
+    "transcription": "ана",
+    "russian": "пожалуйста (при просьбе)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "נָא",
+    "transcription": "на",
+    "russian": "пожалуйста (при просьбе)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "אוּלַי",
+    "transcription": "улай",
+    "russian": "может (может быть)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "שֶמָא",
+    "transcription": "шема",
+    "russian": "может (может быть)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "כֵּן",
+    "transcription": "кен",
+    "russian": "действительно (истинно)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "אוֹמנָם",
+    "transcription": "омнам",
+    "russian": "действительно (истинно)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "אָכֵן",
+    "transcription": "ахен",
+    "russian": "правда (действительно)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "בֶּאֱמֶת",
+    "transcription": "беэмет",
+    "russian": "правда (действительно)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "אוֹמנָם",
+    "transcription": "омнам",
+    "russian": "правда (хотя и)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "אָמנָם",
+    "transcription": "амнам",
+    "russian": "правда (хотя и)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "לֹא",
+    "transcription": "ло",
+    "russian": "не (отриц. частица)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "וְכִי?",
+    "transcription": "вехи?",
+    "russian": "а (разве?)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "רַק",
+    "transcription": "рак",
+    "russian": "только (лишь)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "בִּלבַד",
+    "transcription": "бильвад",
+    "russian": "только (лишь)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "אַך וְרַק",
+    "transcription": "ах верак",
+    "russian": "только (лишь)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "גרֵידָא",
+    "transcription": "грэда",
+    "russian": "только (лишь)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "יֵש",
+    "transcription": "еш",
+    "russian": "есть (существует)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "הַאִם",
+    "transcription": "hаим",
+    "russian": "ли (вопрос)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "אִם",
+    "transcription": "им",
+    "russian": "ли (вопрос)",
+    "partOfSpeech": "particle"
+  }
+]

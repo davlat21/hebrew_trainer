@@ -1,0 +1,6382 @@
+// Создано из words.json. Изменяй words.json и запускай sync_database.py.
+window.HEBREW_RUSSIAN_WORDS = Object.freeze([
+  {
+    "hebrew": "אָב",
+    "transcription": "ав",
+    "russian": "отец (родитель)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַב בֵּית דִין",
+    "transcription": "ав бэт дин",
+    "russian": "председатель суда (религиозного)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָב חוֹרֵג",
+    "transcription": "ав хорэг",
+    "russian": "отчим",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "זוּהֲמָה",
+    "transcription": "зуhама",
+    "russian": "нечисть (грязь, гадость)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "גוֹעַל נֶפֶש",
+    "transcription": "гоаль нэфеш",
+    "russian": "нечисть (грязь, гадость)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חֶלאָה",
+    "transcription": "хелъа",
+    "russian": "нечисть (презренные люди, отребье)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חֶלאַת אָדָם",
+    "transcription": "хелъат адам",
+    "russian": "нечисть (презренные люди, отребье)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "פּרוֹטוֹטִיפּ",
+    "transcription": "прототип",
+    "russian": "прототип",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַבטִיפּוּס",
+    "transcription": "автипус",
+    "russian": "прототип",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָאוֹרטָה",
+    "transcription": "аорта",
+    "russian": "аорта",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַב עוֹרקִים",
+    "transcription": "ав орким",
+    "russian": "аорта",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָב",
+    "transcription": "ав",
+    "russian": "предок",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַבהוּת",
+    "transcription": "авhут",
+    "russian": "отцовство",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַבָּהִי",
+    "transcription": "абаhи",
+    "russian": "отцовский",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מִשפָּחָה",
+    "transcription": "мишпаха",
+    "russian": "семья",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תַשתִית",
+    "transcription": "таштит",
+    "russian": "основа (опорная часть)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹשיוֹת",
+    "transcription": "ошйот",
+    "russian": "основа (опорная часть)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בָּסִיס",
+    "transcription": "басис",
+    "russian": "основа (опорная часть)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בֵּית-אָבוֹת",
+    "transcription": "бэт-авот",
+    "russian": "дом престарелых",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "דִיוּר מוּגָן",
+    "transcription": "диюр муган",
+    "russian": "дом престарелых",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תוֹכנִית אָב",
+    "transcription": "тохнит ав",
+    "russian": "генеральный план (города)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַבָּא",
+    "transcription": "аба",
+    "russian": "папа (отец)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַפִּיפיוֹר",
+    "transcription": "апифйор",
+    "russian": "папа (римский)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָבַד",
+    "transcription": "авад",
+    "russian": "пропадать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "יָרַד לְטִמיוֹן",
+    "transcription": "ярад летимйон",
+    "russian": "пропадать (о вложенных средствах, стараниях)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָבַד",
+    "transcription": "авад",
+    "russian": "теряться (пропадать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הָלַך לְאִיבּוּד",
+    "transcription": "hалах леибуд",
+    "russian": "теряться (пропадать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הָיָה בִּמבוּכָה",
+    "transcription": "hая бимвуха",
+    "russian": "теряться (лишаться уверенности)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נָבוֹך",
+    "transcription": "навох",
+    "russian": "теряться (лишаться уверенности)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיבֵּד עֶשתוֹנוֹת",
+    "transcription": "ибед эштонот",
+    "russian": "теряться (лишаться уверенности)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָבַד",
+    "transcription": "авад",
+    "russian": "гибнуть (подвергаться уничтожению)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִספָּה",
+    "transcription": "ниспа",
+    "russian": "гибнуть (подвергаться уничтожению)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "מֵת",
+    "transcription": "мет",
+    "russian": "гибнуть (умирать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶפסֵד",
+    "transcription": "hефсэд",
+    "russian": "потеря (ущерб, убыток)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹבדָן",
+    "transcription": "овдан",
+    "russian": "потеря (утрата)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲבֵידָה",
+    "transcription": "авэда",
+    "russian": "потеря (утрата)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הַכּחָדָה",
+    "transcription": "hакхада",
+    "russian": "уничтожение (истребление)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הַשמָדָה",
+    "transcription": "hашмада",
+    "russian": "уничтожение (истребление)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הֶרֶס",
+    "transcription": "hерэс",
+    "russian": "уничтожение (разрушение)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שְאוֹל",
+    "transcription": "шеоль",
+    "russian": "ад",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תוֹפֶת",
+    "transcription": "тофет",
+    "russian": "ад",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "גֵיהִנוֹם",
+    "transcription": "гэhином",
+    "russian": "ад",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָבוּד",
+    "transcription": "авуд",
+    "russian": "пропавший",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אוֹבֵד",
+    "transcription": "овед",
+    "russian": "пропавший",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נוֹאָש",
+    "transcription": "ноаш",
+    "russian": "безнадёжный (не дающий надежд на улучшение)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "חֲסַר סִיכּוּי",
+    "transcription": "хасар сикуй",
+    "russian": "безнадёжный (не дающий надежд на улучшение)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אוֹבדָן",
+    "transcription": "овдан",
+    "russian": "утрата",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲבֵדָה",
+    "transcription": "аведа",
+    "russian": "утрата",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָבוּד",
+    "transcription": "авуд",
+    "russian": "потерянный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אוּמלָל",
+    "transcription": "умлаль",
+    "russian": "несчастный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מִסכֵּן",
+    "transcription": "мискен",
+    "russian": "несчастный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נָבוֹך",
+    "transcription": "навох",
+    "russian": "растерянный (смущённый)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אִיבֵּד",
+    "transcription": "ибед",
+    "russian": "терять (по небрежности; переставать обладать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַבֵּד",
+    "transcription": "hитъабед",
+    "russian": "покончить с собой",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שָלַח יָד בְּנַפשוֹ",
+    "transcription": "шалах яд бенафшо",
+    "russian": "покончить с собой",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיבֵּד עַצמוֹ לַדַעַת",
+    "transcription": "ибед ацмо ладаат",
+    "russian": "покончить с собой",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "מִתאַבֵּד",
+    "transcription": "митъабед",
+    "russian": "самоубийца",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "פּרִיט",
+    "transcription": "прит",
+    "russian": "деталь (часть)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חֵלֶק",
+    "transcription": "хелек",
+    "russian": "деталь (тех.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "פּרָט",
+    "transcription": "прат",
+    "russian": "деталь (частность)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲבָל",
+    "transcription": "аваль",
+    "russian": "но (однако)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אַך",
+    "transcription": "ах",
+    "russian": "но (однако)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אוּלָם",
+    "transcription": "улам",
+    "russian": "но (однако)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "בּרַם",
+    "transcription": "брам",
+    "russian": "но (однако)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אָבִיב",
+    "transcription": "авив",
+    "russian": "весна",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "דָאַב",
+    "transcription": "даав",
+    "russian": "скорбеть",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַבֵּל",
+    "transcription": "hитъабель",
+    "russian": "скорбеть",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קוֹנֵן",
+    "transcription": "конэн",
+    "russian": "оплакивать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַבֵּל",
+    "transcription": "hитъабель",
+    "russian": "оплакивать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "בִּיכָּה",
+    "transcription": "бика",
+    "russian": "оплакивать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אֵבֶל",
+    "transcription": "эвель",
+    "russian": "траур (скорбь)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲבֵלוּת",
+    "transcription": "авелут",
+    "russian": "траур (скорбь)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָבֵל",
+    "transcription": "авель",
+    "russian": "скорбящий",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "הִתאַבֵּן",
+    "transcription": "hитъабен",
+    "russian": "каменеть",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הָיָה לְאֶבֶן",
+    "transcription": "hая леэвен",
+    "russian": "каменеть",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתקַשָה כְּאֶבֶן",
+    "transcription": "hиткаша кеэвен",
+    "russian": "каменеть",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתגָרֵם",
+    "transcription": "hитгарэм",
+    "russian": "окостенеть (о хряще)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַבֵּן",
+    "transcription": "hитъабен",
+    "russian": "оцепенеть",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֶבֶן",
+    "transcription": "эвен",
+    "russian": "камень (горная порода)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "(שֶל) אֶבֶן",
+    "transcription": "(шель) эвен",
+    "russian": "каменный (из камня)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "אַבנִי",
+    "transcription": "авни",
+    "russian": "каменный (из камня)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַבנִית",
+    "transcription": "авнит",
+    "russian": "накипь",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִשקָע",
+    "transcription": "мишка",
+    "russian": "осадок (твёрдые частицы в жидкости)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "סֶדִימֶנט",
+    "transcription": "сэдимент",
+    "russian": "осадок (твёрдые частицы в жидкости)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִשקָע",
+    "transcription": "мишка",
+    "russian": "осадок (тяжёлое чувство)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הִתאַבּנוּת",
+    "transcription": "hитъабнут",
+    "russian": "оцепенение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "נֶאֱבַק",
+    "transcription": "нээвак",
+    "russian": "бороться (о преодолении препятствий)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "לָחַם",
+    "transcription": "лахам",
+    "russian": "бороться (о преодолении препятствий)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִלחַם",
+    "transcription": "нильхам",
+    "russian": "бороться (о преодолении препятствий)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַבֵּק",
+    "transcription": "hитъабек",
+    "russian": "бороться (спорт)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתגוֹשֵש",
+    "transcription": "hитгошеш",
+    "russian": "бороться (спорт)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "מַאֲבָק",
+    "transcription": "маавак",
+    "russian": "борьба (с кем-л., за что-л.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הֵיאָבקוּת",
+    "transcription": "hэавкут",
+    "russian": "борьба (спорт.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָבָק",
+    "transcription": "авак",
+    "russian": "пыль",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "כֶּסֶף קָטָן",
+    "transcription": "кесэф катан",
+    "russian": "мелочь (монеты)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מָעוֹת",
+    "transcription": "маот",
+    "russian": "мелочь (монеты)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שטוּיוֹת",
+    "transcription": "штуйот",
+    "russian": "мелочь (пустяки)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "עִנייָן שֶל מַה בְּכָך",
+    "transcription": "иньян шель ма бехах",
+    "russian": "мелочь (пустяки)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שוֹאֵב אָבָק",
+    "transcription": "шоэв авак",
+    "russian": "пылесос",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲבַק שׂרֵיפָה",
+    "transcription": "авак срэфа",
+    "russian": "порох (взрывчатое вещество)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "כּוֹחַ",
+    "transcription": "коах",
+    "russian": "порох (запас сил, энергии)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַבקָה",
+    "transcription": "авка",
+    "russian": "порошок",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַבקָה",
+    "transcription": "авка",
+    "russian": "пыльца (бот.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲבָקָה",
+    "transcription": "авака",
+    "russian": "пыльца (бот.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מַאֲבֵק",
+    "transcription": "маавек",
+    "russian": "распылитель (инструмент)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְאוּבָּק",
+    "transcription": "меубак",
+    "russian": "пыльный (покрытый, пропитанный пылью)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָבִיך",
+    "transcription": "авих",
+    "russian": "пыльный (воздух)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּבָּק",
+    "transcription": "меубак",
+    "russian": "запылённый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מִינוּס",
+    "transcription": "минус",
+    "russian": "минус (знак)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חִסָרוֹן",
+    "transcription": "хисарон",
+    "russian": "минус (недостаток)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חִיסָרוֹן",
+    "transcription": "хисарон",
+    "russian": "минус (недостаток)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִינוּס",
+    "transcription": "минус",
+    "russian": "минус (недостаток)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "פָּחוֹת",
+    "transcription": "пахот",
+    "russian": "минус (без чего-л.)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "חָבֵר",
+    "transcription": "хавер",
+    "russian": "член (организации)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֵיבָר",
+    "transcription": "эйвар",
+    "russian": "член (мат.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֵיבָר",
+    "transcription": "эйвар",
+    "russian": "член (часть тела)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֵבֶר",
+    "transcription": "эвер",
+    "russian": "член (часть тела)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "פִּין",
+    "transcription": "пин",
+    "russian": "член (мужской половой орган)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֵיבַר (הַ)מִין",
+    "transcription": "эйвар (а)мин",
+    "russian": "член (мужской половой орган)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בּוּלבּוּל",
+    "transcription": "бульбуль",
+    "russian": "член (мужской половой орган)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מוֹסָד",
+    "transcription": "мосад",
+    "russian": "орган (учреждение)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "גוּף",
+    "transcription": "гуф",
+    "russian": "орган (учреждение)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֵבֶר",
+    "transcription": "эвер",
+    "russian": "орган (часть организма)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֵיבָר",
+    "transcription": "эйвар",
+    "russian": "орган (часть организма)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "כּלִי",
+    "transcription": "кли",
+    "russian": "орган (часть организма)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "עוּגָב",
+    "transcription": "угав",
+    "russian": "орган (муз. инструмент)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹרגָן",
+    "transcription": "орган",
+    "russian": "орган (муз. инструмент)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֵיבָר",
+    "transcription": "эйвар",
+    "russian": "часть тела",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֵבֶר",
+    "transcription": "эвер",
+    "russian": "часть тела",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַגַב",
+    "transcription": "агав",
+    "russian": "кстати (заодно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "דֶרֶך אַגַב",
+    "transcription": "дэрэх агав",
+    "russian": "кстати (заодно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַגַב אוֹרחָה",
+    "transcription": "агав орха",
+    "russian": "кстати (заодно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בַּזמָן הַנָכוֹן",
+    "transcription": "базман hанахон",
+    "russian": "кстати (вовремя)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּעִיתוֹ",
+    "transcription": "беито",
+    "russian": "кстати (вовремя)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "מַתאִים",
+    "transcription": "матъим",
+    "russian": "кстати (уместно)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "בַּמָקוֹם",
+    "transcription": "бамаком",
+    "russian": "кстати (уместно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אִיגֵד",
+    "transcription": "игед",
+    "russian": "объединять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחֵד",
+    "transcription": "ихед",
+    "russian": "объединять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "לִיכֵּד",
+    "transcription": "ликед",
+    "russian": "объединять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קָשַר",
+    "transcription": "кашар",
+    "russian": "связывать (завязывать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קִישֵר בֵּין",
+    "transcription": "кишер бэн",
+    "russian": "связывать (соединять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "כָּרַך",
+    "transcription": "карах",
+    "russian": "связывать (соединять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיגֵד",
+    "transcription": "игед",
+    "russian": "связывать (соединять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חִיבֵּר",
+    "transcription": "хибер",
+    "russian": "связывать (соединять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "כָּבַל",
+    "transcription": "каваль",
+    "russian": "связывать (лишать свободы действий)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָסַר",
+    "transcription": "асар",
+    "russian": "связывать (лишать свободы действий)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִגבִּיל",
+    "transcription": "hигбиль",
+    "russian": "связывать (лишать свободы действий)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַחֵד",
+    "transcription": "hитъахед",
+    "russian": "объединяться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתחַבֵּר",
+    "transcription": "hитхабер",
+    "russian": "объединяться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הַאֲחָדָה",
+    "transcription": "hаахада",
+    "russian": "объединение (действие)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיחוּד",
+    "transcription": "ихуд",
+    "russian": "объединение (действие)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיגוּד",
+    "transcription": "игуд",
+    "russian": "объединение (действие)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הִתאַגדוּת",
+    "transcription": "hитъагдут",
+    "russian": "объединение (действие)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הִתאַחדוּת",
+    "transcription": "hитъахдут",
+    "russian": "объединение (действие)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲגוּדָה",
+    "transcription": "агуда",
+    "russian": "объединение (союз)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיגוּד",
+    "transcription": "игуд",
+    "russian": "объединение (союз)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הִתאַחדוּת",
+    "transcription": "hитъахдут",
+    "russian": "объединение (союз)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חֶברָה",
+    "transcription": "хевра",
+    "russian": "общество (общественность, народ)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "צִיבּוּר",
+    "transcription": "цибур",
+    "russian": "общество (общественность, народ)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הַכּלָל",
+    "transcription": "hаклаль",
+    "russian": "общество (общественность, народ)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חֶברָה",
+    "transcription": "хевра",
+    "russian": "общество (компания, круг людей)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חֲבוּרָה",
+    "transcription": "хавура",
+    "russian": "общество (компания, круг людей)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲגוּדָה",
+    "transcription": "агуда",
+    "russian": "общество (объединение)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "עֲמוּתָה",
+    "transcription": "амута",
+    "russian": "общество (объединение)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיגוּד",
+    "transcription": "игуд",
+    "russian": "общество (объединение)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְאוּרגָן",
+    "transcription": "меурган",
+    "russian": "организованный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אֲגַם",
+    "transcription": "агам",
+    "russian": "озеро",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "יַמָה",
+    "transcription": "яма",
+    "russian": "озеро",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "עָקַף",
+    "transcription": "акаф",
+    "russian": "обходить (стороной; обгонять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "עָבַר",
+    "transcription": "авар",
+    "russian": "обходить (стороной; обгонять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיגֵף",
+    "transcription": "игеф",
+    "russian": "обходить (с фланга)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִקִיף",
+    "transcription": "hикиф",
+    "russian": "обходить (вокруг)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "כָּנָף",
+    "transcription": "канаф",
+    "russian": "крыло (орган летания)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "כּנַף-מְכוֹנִית",
+    "transcription": "кнаф-мехонит",
+    "russian": "крыло (автомобиля)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲגַף",
+    "transcription": "агаф",
+    "russian": "фланг",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "גַיִס",
+    "transcription": "гаис",
+    "russian": "корпус (воен.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲגַף",
+    "transcription": "агаф",
+    "russian": "корпус (здание)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "גוּף",
+    "transcription": "гуф",
+    "russian": "корпус (туловище)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מַחלָקָה",
+    "transcription": "махлака",
+    "russian": "отдел (учреждения)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מָדוֹר",
+    "transcription": "мадор",
+    "russian": "отдел (учреждения)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִפלָג",
+    "transcription": "мифлаг",
+    "russian": "отдел (в полиции)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מֶחלָק",
+    "transcription": "мехлак",
+    "russian": "отдел (в полиции)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חֵלֶק",
+    "transcription": "хелек",
+    "russian": "часть (доля от целого)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "יְחִידָה",
+    "transcription": "ехида",
+    "russian": "часть (войсковая единица)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוּנָה",
+    "transcription": "уна",
+    "russian": "часть (организма: мозга, печени)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "פֶּרֶק",
+    "transcription": "перэк",
+    "russian": "часть (раздел книги, произведения)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָגַר",
+    "transcription": "агар",
+    "russian": "запасать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "עִיתֵד",
+    "transcription": "итэд",
+    "russian": "запасать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חָסַך",
+    "transcription": "хасах",
+    "russian": "запасать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "צָבַר",
+    "transcription": "цавар",
+    "russian": "накапливать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָגַר",
+    "transcription": "агар",
+    "russian": "накапливать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "גוֹלֶם",
+    "transcription": "голем",
+    "russian": "заготовка (изделия)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "צבִירָה",
+    "transcription": "цвира",
+    "russian": "накопление",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲגִירָה",
+    "transcription": "агира",
+    "russian": "накопление",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הִצטַבּרוּת",
+    "transcription": "hицтабрут",
+    "russian": "накопление",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַספָן",
+    "transcription": "асфан",
+    "russian": "коллекционер",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹגֵר",
+    "transcription": "огер",
+    "russian": "хомяк",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲגוֹרָה",
+    "transcription": "агора",
+    "russian": "агора (1/100 шекеля)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "כִּינוּס",
+    "transcription": "кинус",
+    "russian": "сбор (собирание)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "לִיקוּט",
+    "transcription": "ликут",
+    "russian": "сбор (собирание)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיסוּף",
+    "transcription": "исуф",
+    "russian": "сбор (собирание)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָסִיף",
+    "transcription": "асиф",
+    "russian": "сбор (урожая)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קָטִיף",
+    "transcription": "катиф",
+    "russian": "сбор (урожая)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הַכנָסָה",
+    "transcription": "hахнаса",
+    "russian": "сбор (выручка от продажи билетов)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַגרָה",
+    "transcription": "агра",
+    "russian": "сбор (пошлина, налог)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הֶיטֵל",
+    "transcription": "hэтэль",
+    "russian": "сбор (пошлина, налог)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "נִיכּוּי",
+    "transcription": "никуй",
+    "russian": "сбор (пошлина, налог)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מַס",
+    "transcription": "мас",
+    "russian": "сбор (пошлина, налог)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "פּגִישָה",
+    "transcription": "пгиша",
+    "russian": "сбор (встреча)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִפגָש",
+    "transcription": "мифгаш",
+    "russian": "сбор (встреча)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הִתייַצבוּת",
+    "transcription": "hитйацвут",
+    "russian": "сбор (воен.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תַשלוּם",
+    "transcription": "ташлум",
+    "russian": "платёж (уплата за что-л.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "פֵּירָעוֹן",
+    "transcription": "пэраон",
+    "russian": "платёж (погашение долга)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מַאֲגָר",
+    "transcription": "маагар",
+    "russian": "резервуар",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מֵיכָל",
+    "transcription": "мэхаль",
+    "russian": "резервуар",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "רֶזֶרבָה",
+    "transcription": "рэзэрва",
+    "russian": "резерв (запас)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "עֲתוּדָה",
+    "transcription": "атуда",
+    "russian": "резерв (запас)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִילוּאִים",
+    "transcription": "милуим",
+    "russian": "резерв (воен.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "לָחַץ",
+    "transcription": "лахац",
+    "russian": "сжимать (стискивать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "כִּיווֵץ",
+    "transcription": "кивец",
+    "russian": "сжимать (стискивать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קָפַץ",
+    "transcription": "кафац",
+    "russian": "сжимать (губы, кулак)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קָמַץ",
+    "transcription": "камац",
+    "russian": "сжимать (губы, кулак)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קִיצֵר",
+    "transcription": "кицер",
+    "russian": "сжимать (сокращать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "תִמצֵת",
+    "transcription": "тимцет",
+    "russian": "сжимать (сокращать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "תִימצֵת",
+    "transcription": "тимцет",
+    "russian": "сжимать (сокращать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אֶגרוֹף",
+    "transcription": "эгроф",
+    "russian": "кулак (кисть руки)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "פִּיקָה",
+    "transcription": "пика",
+    "russian": "кулак (техн.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הִתאַגרֵף",
+    "transcription": "hитъагрэф",
+    "russian": "боксировать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיגרוּף",
+    "transcription": "игруф",
+    "russian": "бокс (спорт.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בּוֹקס",
+    "transcription": "бокс",
+    "russian": "бокс (спорт.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הִתאַגרְפוּת",
+    "transcription": "hитъагрефут",
+    "russian": "бокс (спорт.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִתאַגרֵף",
+    "transcription": "митъагрэф",
+    "russian": "боксёр (спортсмен)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בּוֹקסֶר",
+    "transcription": "боксэр",
+    "russian": "боксёр (порода собак)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֶגרוֹפָן",
+    "transcription": "эгрофан",
+    "russian": "кастет",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲגַרטָל",
+    "transcription": "агарталь",
+    "russian": "ваза",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "וָאזָה",
+    "transcription": "ваза",
+    "russian": "ваза",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִידָה",
+    "transcription": "ида",
+    "russian": "испарять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִייֵד",
+    "transcription": "иед",
+    "russian": "испарять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַדָה",
+    "transcription": "hитъада",
+    "russian": "испаряться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתנַדֵף",
+    "transcription": "hитнадэф",
+    "russian": "испаряться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אֵד",
+    "transcription": "эд",
+    "russian": "пар (испарение)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֵדִים",
+    "transcription": "эдим",
+    "russian": "пар (испарение)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הֶבֶל",
+    "transcription": "hевель",
+    "russian": "пар (дыхание изо рта)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "(שֶל) עֲרָפֶל",
+    "transcription": "(шель) арафель",
+    "russian": "туманный (окутанный туманом)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "עַרפִילִי",
+    "transcription": "арфили",
+    "russian": "туманный (окутанный туманом)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְעוּרפָּל",
+    "transcription": "меурпаль",
+    "russian": "туманный (окутанный туманом)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "עַרפִילִי",
+    "transcription": "арфили",
+    "russian": "туманный (мутный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "קֵהֶה",
+    "transcription": "кеhе",
+    "russian": "туманный (мутный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אִידוּי",
+    "transcription": "идуй",
+    "russian": "выпаривание",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הִתאַדוּת",
+    "transcription": "hитъадут",
+    "russian": "испарение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִידוּי",
+    "transcription": "идуй",
+    "russian": "испарение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "נִימוּסִי",
+    "transcription": "нимуси",
+    "russian": "вежливый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְנוּמָס",
+    "transcription": "менумас",
+    "russian": "вежливый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָדִיב",
+    "transcription": "адив",
+    "russian": "вежливый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נִימוּס",
+    "transcription": "нимус",
+    "russian": "учтивость",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲדִיבוּת",
+    "transcription": "адивут",
+    "russian": "учтивость",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "נִימוּס",
+    "transcription": "нимус",
+    "russian": "вежливость",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָדִיש",
+    "transcription": "адиш",
+    "russian": "равнодушный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "שווֵה-נֶפֶש",
+    "transcription": "шве-нэфеш",
+    "russian": "равнодушный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "פָּסִיבִי",
+    "transcription": "пасиви",
+    "russian": "инертный (безынициативный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָדִיש",
+    "transcription": "адиш",
+    "russian": "инертный (безынициативный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אִינֶרטִי",
+    "transcription": "инэрти",
+    "russian": "инертный (газ)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָדִיש",
+    "transcription": "адиш",
+    "russian": "инертный (газ)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אֲדִישוּת",
+    "transcription": "адишут",
+    "russian": "безразличие",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲדִישוּת",
+    "transcription": "адишут",
+    "russian": "равнодушие",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שִוויוֹן נֶפֶש",
+    "transcription": "шивйон нэфеш",
+    "russian": "равнодушие",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲדִישוּת",
+    "transcription": "адишут",
+    "russian": "апатия",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַפַּתיָה",
+    "transcription": "апатйа",
+    "russian": "апатия",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הֶאֱדִים",
+    "transcription": "hеэдим",
+    "russian": "краснеть (становиться краснее)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַדֵם",
+    "transcription": "hитъадэм",
+    "russian": "краснеть (становиться краснее)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִסמִיק",
+    "transcription": "hисмик",
+    "russian": "краснеть (покрываться румянцем от смущения)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָדוֹם",
+    "transcription": "адом",
+    "russian": "красный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אֲדַמדַם",
+    "transcription": "адамдам",
+    "russian": "красноватый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַדמוּמִי",
+    "transcription": "адмуми",
+    "russian": "красноватый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַדמוֹנִי",
+    "transcription": "адмони",
+    "russian": "рыжий (о волосах)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "גִ'ינגִ'י",
+    "transcription": "джинджи",
+    "russian": "рыжий (о волосах)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַדמוֹנִית",
+    "transcription": "адмонит",
+    "russian": "пион (бот.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיש",
+    "transcription": "иш",
+    "russian": "человек (человеческое существо)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָדָם",
+    "transcription": "адам",
+    "russian": "человек (человеческое существо)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בֶּן אָדָם",
+    "transcription": "бен адам",
+    "russian": "человек (человеческое существо)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בֶּנאָדָם",
+    "transcription": "бенъадам",
+    "russian": "человек (человеческое существо)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֱנוֹש",
+    "transcription": "энош",
+    "russian": "человек (человеческое существо)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בֶּן אָדָם",
+    "transcription": "бен адам",
+    "russian": "человек (как похвала)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מֶענטש",
+    "transcription": "ментш",
+    "russian": "человек (как похвала)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָדָם הָרִאשוֹן",
+    "transcription": "адам hаришон",
+    "russian": "первый человек",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָדָם הָרִאשוֹן",
+    "transcription": "адам hаришон",
+    "russian": "Адам (первый человек)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הָאָדָם הַקַדמוֹן",
+    "transcription": "hаадам hакадмон",
+    "russian": "первобытный человек",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הָאָרֶץ",
+    "transcription": "hаарэц",
+    "russian": "земля (планета)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "כַּדוּר-הָאָרֶץ",
+    "transcription": "кадур-hаарэц",
+    "russian": "земля (планета)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קַרקַע",
+    "transcription": "карка",
+    "russian": "земля (грунт, слой почвы)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲדָמָה",
+    "transcription": "адама",
+    "russian": "земля (грунт, слой почвы)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "יַבָּשָה",
+    "transcription": "ябаша",
+    "russian": "земля (суша)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קַרקַע",
+    "transcription": "карка",
+    "russian": "почва (земля)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲדָמָה",
+    "transcription": "адама",
+    "russian": "почва (земля)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בָּסִיס",
+    "transcription": "басис",
+    "russian": "почва (основание)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "יְסוֹד",
+    "transcription": "есод",
+    "russian": "почва (основание)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֶרֶץ",
+    "transcription": "эрэц",
+    "russian": "страна (земля, край)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְדִינָה",
+    "transcription": "медина",
+    "russian": "страна (государство)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שֶטַח",
+    "transcription": "шетах",
+    "russian": "территория",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲדָמָה",
+    "transcription": "адама",
+    "russian": "территория",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "טֶרִיטוֹריָה",
+    "transcription": "тэриторйа",
+    "russian": "территория",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "עֲבוֹדַת אֲדָמָה",
+    "transcription": "аводат адама",
+    "russian": "земледелие",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חַקלָאוּת",
+    "transcription": "хаклаут",
+    "russian": "земледелие",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָדֶמֶת",
+    "transcription": "адэмет",
+    "russian": "краснуха (мед.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹדֶם",
+    "transcription": "одэм",
+    "russian": "краснота (красный цвет)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "סוֹמֶק",
+    "transcription": "сомек",
+    "russian": "краснота (красный цвет)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַדמוּמִיוּת",
+    "transcription": "адмумиют",
+    "russian": "краснота (покраснение кожи)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַדמִימוּת",
+    "transcription": "адмимут",
+    "russian": "краснота (покраснение кожи)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שׂפָתוֹן",
+    "transcription": "сфатон",
+    "russian": "помада (губная)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹדֶם",
+    "transcription": "одэм",
+    "russian": "рубин",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "עָצוּם",
+    "transcription": "ацум",
+    "russian": "могучий",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַדִיר",
+    "transcription": "адир",
+    "russian": "могучий",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "כַּבִּיר",
+    "transcription": "кабир",
+    "russian": "могучий",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "רַב-אוֹן",
+    "transcription": "рав-он",
+    "russian": "могучий",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "חָזָק",
+    "transcription": "хазак",
+    "russian": "сильный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "לְהֶיפֶך",
+    "transcription": "леhэфех",
+    "russian": "наоборот",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְהֶפֶך",
+    "transcription": "леhефех",
+    "russian": "наоборот",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "נַהֲפוֹך הוּא",
+    "transcription": "наhафох hу",
+    "russian": "наоборот",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַדְרַבָּה",
+    "transcription": "адераба",
+    "russian": "наоборот",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּבַקָשָה",
+    "transcription": "бевакаша",
+    "russian": "пожалуйста (при просьбе)",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "hebrew": "בְּבַקָשָה מִמךָ",
+    "transcription": "бевакаша мимха",
+    "russian": "пожалуйста (при просьбе)",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "hebrew": "בְּטוּבךָ",
+    "transcription": "бетувха",
+    "russian": "пожалуйста (при просьбе)",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "hebrew": "אָנָא",
+    "transcription": "ана",
+    "russian": "пожалуйста (при просьбе)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "נָא",
+    "transcription": "на",
+    "russian": "пожалуйста (при просьбе)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "תפָאדַל",
+    "transcription": "тфадаль",
+    "russian": "пожалуйста (при просьбе)",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "hebrew": "בְּבַקָשָה",
+    "transcription": "бевакаша",
+    "russian": "пожалуйста (при согласии)",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "hebrew": "בְּרָצוֹן",
+    "transcription": "берацон",
+    "russian": "пожалуйста (при согласии)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּשִׂמחָה",
+    "transcription": "бесимха",
+    "russian": "пожалуйста (при согласии)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אָהַב",
+    "transcription": "аhав",
+    "russian": "любить (испытывать любовь)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חִיבֵּב",
+    "transcription": "хибев",
+    "russian": "любить (иметь пристрастие)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶעֱדִיף",
+    "transcription": "hеэдиф",
+    "russian": "любить (иметь пристрастие)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַהֵב",
+    "transcription": "hитъаhев",
+    "russian": "влюбляться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אַהֲבָה",
+    "transcription": "аhава",
+    "russian": "любовь (сердечное чувство)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָהוּב",
+    "transcription": "аhув",
+    "russian": "любовь (предмет любви)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲהוּבָה",
+    "transcription": "аhува",
+    "russian": "любовь (предмет любви)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָהוּב",
+    "transcription": "аhув",
+    "russian": "любимый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "חָבִיב",
+    "transcription": "хавив",
+    "russian": "любимый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָהוּב",
+    "transcription": "аhув",
+    "russian": "возлюбленный",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹהֵב",
+    "transcription": "оhев",
+    "russian": "любящий",
+    "partOfSpeech": "participle"
+  },
+  {
+    "hebrew": "מְאַהֵב",
+    "transcription": "меаhев",
+    "russian": "любовник",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְאַהֶבֶת",
+    "transcription": "меаhевет",
+    "russian": "любовница",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְאוֹהָב",
+    "transcription": "меоhав",
+    "russian": "влюблённый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָהַד",
+    "transcription": "аhад",
+    "russian": "симпатизировать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חִיבֵּב",
+    "transcription": "хибев",
+    "russian": "симпатизировать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִזדַהָה עִם",
+    "transcription": "hиздаhа им",
+    "russian": "сочувствовать (поддерживать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִשתַתֵף בְּצַעֲרוֹ (שֶל)",
+    "transcription": "hиштатэф бецааро (шель)",
+    "russian": "сочувствовать (соболезновать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "כָּאַב אֶת כְּאֵבוֹ (שֶל)",
+    "transcription": "каав эт кеэво (шель)",
+    "russian": "сочувствовать (соболезновать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נֶחמָד",
+    "transcription": "нэхмад",
+    "russian": "симпатичный (о человеке)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "סִימפָּתִי",
+    "transcription": "симпати",
+    "russian": "симпатичный (о человеке)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "חָמוּד",
+    "transcription": "хамуд",
+    "russian": "симпатичный (о человеке)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נָעִים",
+    "transcription": "наим",
+    "russian": "симпатичный (о человеке)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נֶחמָד",
+    "transcription": "нэхмад",
+    "russian": "симпатичный (о предмете)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אוֹהֵד",
+    "transcription": "оhед",
+    "russian": "симпатизирующий",
+    "partOfSpeech": "participle"
+  },
+  {
+    "hebrew": "אוֹהֶל",
+    "transcription": "оhель",
+    "russian": "палатка (походная)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קִיוֹסק",
+    "transcription": "киоск",
+    "russian": "палатка (торговая)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "דוּכָן",
+    "transcription": "духан",
+    "russian": "палатка (торговая)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הִתאַווָה",
+    "transcription": "hитъава",
+    "russian": "возжелать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חָשַק",
+    "transcription": "хашак",
+    "russian": "возжелать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חָמַד",
+    "transcription": "хамад",
+    "russian": "возжелать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "בְּלַהַט",
+    "transcription": "белаhат",
+    "russian": "страстно (с сильным чувством)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "רָצָה",
+    "transcription": "раца",
+    "russian": "пожелать (захотеть)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "בִּיקֵש",
+    "transcription": "бикеш",
+    "russian": "пожелать (захотеть)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחֵל",
+    "transcription": "ихель",
+    "russian": "пожелать (кому-л. чего-л.)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שוֹטֶה",
+    "transcription": "шотэ",
+    "russian": "глупец",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֱווִיל",
+    "transcription": "эвиль",
+    "russian": "глупец",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "טִיפֵּש",
+    "transcription": "типеш",
+    "russian": "дурак (глупый)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֱווִילוּת",
+    "transcription": "эвилут",
+    "russian": "идиотизм (глупость)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיווֶלֶת",
+    "transcription": "ивелет",
+    "russian": "идиотизм (глупость)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "יָכוֹל לִהיוֹת",
+    "transcription": "яхоль лиhйот",
+    "russian": "может (может быть)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "אוּלַי",
+    "transcription": "улай",
+    "russian": "может (может быть)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "שֶמָא",
+    "transcription": "шема",
+    "russian": "может (может быть)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "אֲבָל",
+    "transcription": "аваль",
+    "russian": "однако (но)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אַך",
+    "transcription": "ах",
+    "russian": "однако (но)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אוּלָם",
+    "transcription": "улам",
+    "russian": "однако (но)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אֶלָא שֶ-",
+    "transcription": "эла ше-",
+    "russian": "однако (но)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "עִם זֹאת",
+    "transcription": "им зот",
+    "russian": "однако (тем не менее)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "בְּכָל זֹאת",
+    "transcription": "бехаль зот",
+    "russian": "однако (тем не менее)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "אוֹמנָם... אַך בְּכָל זֹאת",
+    "transcription": "омнам... ах бехаль зот",
+    "russian": "однако (тем не менее)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "אָמנָם... אַך בְּכָל זֹאת",
+    "transcription": "амнам... ах бехаль зот",
+    "russian": "однако (тем не менее)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "אוּ\"ם",
+    "transcription": "ум",
+    "russian": "ООН (Организация Объединённых Наций)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בַּעַל מְלָאכָה",
+    "transcription": "бааль мелаха",
+    "russian": "ремесленник",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוּמָן",
+    "transcription": "уман",
+    "russian": "мастер (специалист)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְנַהֵל עֲבוֹדָה",
+    "transcription": "менаhель авода",
+    "russian": "мастер (цеха и т.п.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "צַייָר",
+    "transcription": "цаяр",
+    "russian": "художник (живописец)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹמָן",
+    "transcription": "оман",
+    "russian": "художник (деятель искусства)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָמָן",
+    "transcription": "аман",
+    "russian": "художник (деятель искусства)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֳמָן",
+    "transcription": "оман",
+    "russian": "артист",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹמָן",
+    "transcription": "оман",
+    "russian": "артист (мастер своего дела)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְלָאכָה",
+    "transcription": "мелаха",
+    "russian": "ремесло",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִקצוֹעַ",
+    "transcription": "микцоа",
+    "russian": "ремесло",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תחוּם",
+    "transcription": "тхум",
+    "russian": "специальность (отрасль)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שֶטַח",
+    "transcription": "шетах",
+    "russian": "специальность (отрасль)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִקצוֹעַ",
+    "transcription": "микцоа",
+    "russian": "специальность (профессия)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מוּמחִיוּת",
+    "transcription": "мумхиют",
+    "russian": "специальность (профессия)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְיוּמָנוּת",
+    "transcription": "мейуманут",
+    "russian": "искусность",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְיוּמָנוּת",
+    "transcription": "мейуманут",
+    "russian": "умение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "יְכוֹלֶת",
+    "transcription": "ехолет",
+    "russian": "умение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בְּפוֹעַל",
+    "transcription": "бефоаль",
+    "russian": "действительно (реально)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בֶּאֱמֶת",
+    "transcription": "беэмет",
+    "russian": "действительно (истинно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "כֵּן",
+    "transcription": "кен",
+    "russian": "действительно (истинно)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "אוֹמנָם",
+    "transcription": "омнам",
+    "russian": "действительно (истинно)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "בְּתוֹקֶף",
+    "transcription": "бетокеф",
+    "russian": "действительно (в силе)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "נָכוֹן",
+    "transcription": "нахон",
+    "russian": "верно (правильно)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נְכוֹנָה",
+    "transcription": "нехона",
+    "russian": "верно (правильно)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "לַאֲשוּרוֹ",
+    "transcription": "лаашуро",
+    "russian": "верно (правильно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בִּמסִירוּת",
+    "transcription": "бимсирут",
+    "russian": "верно (преданно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּנֶאֱמָנוּת",
+    "transcription": "бенээманут",
+    "russian": "верно (преданно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "כַּנִראֶה",
+    "transcription": "каниръэ",
+    "russian": "верно (вероятно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֶל נָכוֹן",
+    "transcription": "эль нахон",
+    "russian": "верно (вероятно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֱמֶת",
+    "transcription": "эмет",
+    "russian": "правда (истина)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָכֵן",
+    "transcription": "ахен",
+    "russian": "правда (действительно)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "בֶּאֱמֶת",
+    "transcription": "беэмет",
+    "russian": "правда (действительно)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "אוֹמנָם",
+    "transcription": "омнам",
+    "russian": "правда (хотя и)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "אָמנָם",
+    "transcription": "амнам",
+    "russian": "правда (хотя и)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "ספִינָה",
+    "transcription": "сфина",
+    "russian": "корабль (судно)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹנִייָה",
+    "transcription": "ония",
+    "russian": "корабль (судно)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "ספִינָה",
+    "transcription": "сфина",
+    "russian": "судно (плавучее средство)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹנִייָה",
+    "transcription": "ония",
+    "russian": "судно (плавучее средство)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "סִיר",
+    "transcription": "сир",
+    "russian": "судно (горшок)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹצָר",
+    "transcription": "оцар",
+    "russian": "сокровище",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִכמַנִים",
+    "transcription": "михманим",
+    "russian": "сокровище",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מַטמוֹן",
+    "transcription": "матмон",
+    "russian": "сокровище",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹצָר",
+    "transcription": "оцар",
+    "russian": "клад",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מַטמוֹן",
+    "transcription": "матмон",
+    "russian": "клад",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קוּפַּת הַמְדִינָה",
+    "transcription": "купат hамедина",
+    "russian": "казна",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹצָר הַמְדִינָה",
+    "transcription": "оцар hамедина",
+    "russian": "казна",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְלָל",
+    "transcription": "мелаль",
+    "russian": "запас (в одежде)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "רֶזֶרבָה",
+    "transcription": "рэзэрва",
+    "russian": "запас (резерв)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "עֲתוּדָה",
+    "transcription": "атуда",
+    "russian": "запас (резерв)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִילוּאִים",
+    "transcription": "милуим",
+    "russian": "запас (воен.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "רֶזֶרבָה",
+    "transcription": "рэзэрва",
+    "russian": "запас (воен.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִשׂרָד (מֶמשַלתִי)",
+    "transcription": "мисрад (мемшальти)",
+    "russian": "министерство (в Израиле)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שַׂר",
+    "transcription": "сар",
+    "russian": "министр (в Израиле и других странах)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "וָזִיר",
+    "transcription": "вазир",
+    "russian": "министр (в странах ислама)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִינִיסטֶר",
+    "transcription": "министэр",
+    "russian": "министр (не в Израиле)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹצֵר",
+    "transcription": "оцер",
+    "russian": "хранитель (в музее)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "רָץ",
+    "transcription": "рац",
+    "russian": "бежать (двигаться бегом)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "בָּרַח",
+    "transcription": "барах",
+    "russian": "бежать (убежать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נָשָׂא רַגלָיו",
+    "transcription": "наса раглав",
+    "russian": "бежать (убежать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "עָבַר",
+    "transcription": "авар",
+    "russian": "бежать (о времени)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "זָרַם",
+    "transcription": "зарам",
+    "russian": "бежать (о времени)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "מִיהֵר",
+    "transcription": "миhер",
+    "russian": "спешить",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִזדָרֵז",
+    "transcription": "hиздарэз",
+    "russian": "спешить",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָץ רָץ",
+    "transcription": "ац рац",
+    "russian": "спешить",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "רָץ",
+    "transcription": "рац",
+    "russian": "бегун",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "זֵירֵז",
+    "transcription": "зэрэз",
+    "russian": "ускорять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֵאִיץ",
+    "transcription": "hеиц",
+    "russian": "ускорять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "תְאוּצָה",
+    "transcription": "теуца",
+    "russian": "ускорение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הֶאָצָה",
+    "transcription": "hеаца",
+    "russian": "ускорение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "זֵירוּז",
+    "transcription": "зэруз",
+    "russian": "ускорение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "זָהַר",
+    "transcription": "заhар",
+    "russian": "светиться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קָרַן",
+    "transcription": "каран",
+    "russian": "светиться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִסבִּיר",
+    "transcription": "hисбир",
+    "russian": "разъяснять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִבהִיר",
+    "transcription": "hивhир",
+    "russian": "разъяснять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "פֵּירֵש",
+    "transcription": "пэрэш",
+    "russian": "разъяснять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "בֵּיאֵר",
+    "transcription": "бээр",
+    "russian": "разъяснять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הָיָה",
+    "transcription": "hая",
+    "russian": "быть",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אוֹר",
+    "transcription": "ор",
+    "russian": "свет (освещение)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "עוֹלָם",
+    "transcription": "олам",
+    "russian": "свет (мир, вселенная)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תֵבֵל",
+    "transcription": "тэвель",
+    "russian": "свет (мир, вселенная)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "יְקוּם",
+    "transcription": "екум",
+    "russian": "свет (мир, вселенная)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "צִיבּוּר",
+    "transcription": "цибур",
+    "russian": "свет (общество)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חֶברָה",
+    "transcription": "хевра",
+    "russian": "свет (общество)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קָהָל",
+    "transcription": "каhаль",
+    "russian": "свет (общество)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "(הָ)חֶברָה (הַ)גבוֹהָה",
+    "transcription": "(а)хевра (а)гвоhа",
+    "russian": "свет (общество)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "זוֹהַר",
+    "transcription": "зоhар",
+    "russian": "сияние",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "זִיו",
+    "transcription": "зив",
+    "russian": "сияние",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹשֶר",
+    "transcription": "ошер",
+    "russian": "счастье",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מַזָל",
+    "transcription": "мазаль",
+    "russian": "счастье (удача)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תְאוּרָה",
+    "transcription": "теура",
+    "russian": "освещение (о свете)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "כִּיסוּי",
+    "transcription": "кисуй",
+    "russian": "освещение (в прессе)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הֶאָרָה",
+    "transcription": "hеара",
+    "russian": "озарение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תוֹבָנָה",
+    "transcription": "тована",
+    "russian": "озарение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הֶסבֵּר",
+    "transcription": "hесбер",
+    "russian": "объяснение (разъяснение)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בֵּיאוּר",
+    "transcription": "бэур",
+    "russian": "объяснение (разъяснение)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "פֵּירוּש",
+    "transcription": "пэруш",
+    "russian": "объяснение (разъяснение)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מָאוֹר",
+    "transcription": "маор",
+    "russian": "светило (знаменитость)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בַּר-סַמכָה",
+    "transcription": "бар-самха",
+    "russian": "светило (знаменитость)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹר פָּנִים",
+    "transcription": "ор паним",
+    "russian": "приветливость",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הֶאָרַת-פָּנִים",
+    "transcription": "hеарат-паним",
+    "russian": "приветливость",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תְאוּרָה",
+    "transcription": "теура",
+    "russian": "иллюминация",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִילוּמִינַציָה",
+    "transcription": "илуминацйа",
+    "russian": "иллюминация",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוּרווָה",
+    "transcription": "урва",
+    "russian": "конюшня",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיוורוּר",
+    "transcription": "иврур",
+    "russian": "проветривание",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיוורוּר",
+    "transcription": "иврур",
+    "russian": "вентиляция",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲווִיר",
+    "transcription": "авир",
+    "russian": "воздух",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "דוֹאַר אֲווִיר",
+    "transcription": "доар авир",
+    "russian": "авиапочта",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מֶזֶג אֲווִיר",
+    "transcription": "мезэг авир",
+    "russian": "погода",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲווִירָה",
+    "transcription": "авира",
+    "russian": "атмосфера",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַטמוֹספֶרָה",
+    "transcription": "атмосфера",
+    "russian": "атмосфера",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲווִירוֹן",
+    "transcription": "авирон",
+    "russian": "аэроплан (самолёт)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מָטוֹס",
+    "transcription": "матос",
+    "russian": "самолёт",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲווִירוֹן",
+    "transcription": "авирон",
+    "russian": "самолёт",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲווִירִי",
+    "transcription": "авири",
+    "russian": "воздушный (относящийся к воздуху)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "(שֶל) אֲווִיר",
+    "transcription": "(шель) авир",
+    "russian": "воздушный (относящийся к воздуху)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "אַוורִירִי",
+    "transcription": "аврири",
+    "russian": "воздушный (очень лёгкий)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "קַו אֲווִירִי",
+    "transcription": "кав авири",
+    "russian": "авиалиния",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קַל",
+    "transcription": "каль",
+    "russian": "лёгкий (без труда)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "קַל",
+    "transcription": "каль",
+    "russian": "лёгкий (по весу)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַוורִירִי",
+    "transcription": "аврири",
+    "russian": "лёгкий (воздушный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְרוּפרָף",
+    "transcription": "меруфраф",
+    "russian": "лёгкий (поверхностный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "צָלוּל",
+    "transcription": "цалуль",
+    "russian": "прозрачный (о воздухе, воде)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "צַח",
+    "transcription": "цах",
+    "russian": "прозрачный (о воздухе, воде)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "בָּרוּר",
+    "transcription": "барур",
+    "russian": "прозрачный (явный, легко понимаемый)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "שָקוּף",
+    "transcription": "шакуф",
+    "russian": "прозрачный (тонкий, сквозной)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַוורִירִי",
+    "transcription": "аврири",
+    "russian": "прозрачный (тонкий, сквозной)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאַוורֵר",
+    "transcription": "меаврэр",
+    "russian": "вентилятор",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְאוּורָר",
+    "transcription": "меуврар",
+    "russian": "проветренный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "חָרַב",
+    "transcription": "харав",
+    "russian": "иссякать (об источнике)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִגמַר",
+    "transcription": "нигмар",
+    "russian": "иссякать (заканчиваться)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָזַל",
+    "transcription": "азаль",
+    "russian": "иссякать (заканчиваться)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִגמַר",
+    "transcription": "нигмар",
+    "russian": "кончаться (завершаться чем-л.)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִסתַייֵם",
+    "transcription": "hистаем",
+    "russian": "кончаться (завершаться чем-л.)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָזַל",
+    "transcription": "азаль",
+    "russian": "кончаться (иссякать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיזֵן",
+    "transcription": "изэн",
+    "russian": "уравновешивать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיזֵן",
+    "transcription": "изэн",
+    "russian": "сбалансировать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שִימוּר",
+    "transcription": "шимур",
+    "russian": "сохранение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִשמֶרֶת",
+    "transcription": "мишмерэт",
+    "russian": "сохранение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שמִירָה",
+    "transcription": "шмира",
+    "russian": "сохранение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מַאֲזָן",
+    "transcription": "маазан",
+    "russian": "баланс (соотношение)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מַאֲזָן",
+    "transcription": "маазан",
+    "russian": "баланс (итог)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תַזקִיף",
+    "transcription": "тазкиф",
+    "russian": "баланс (итог)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הַשָׂגָה",
+    "transcription": "hасага",
+    "russian": "достижение (чего-то)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הַצלָחָה",
+    "transcription": "hацлаха",
+    "russian": "достижение (успех, удача)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הֶישֵׂג",
+    "transcription": "hэсэг",
+    "russian": "достижение (успех, удача)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִשקָל",
+    "transcription": "мишкаль",
+    "russian": "весы (прибор)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מֹאזנַיִים",
+    "transcription": "мознаим",
+    "russian": "весы (прибор)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "גָבִיעַ",
+    "transcription": "гавиа",
+    "russian": "чаша",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הִקשִיב",
+    "transcription": "hикшив",
+    "russian": "слушать (направлять слух на что-л.)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶאֱזִין",
+    "transcription": "hеэзин",
+    "russian": "слушать (направлять слух на что-л.)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שָמַע",
+    "transcription": "шама",
+    "russian": "слушать (направлять слух на что-л.)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִשמַע",
+    "transcription": "нишма",
+    "russian": "слушать (следовать советам)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שָמַע בְּקוֹל",
+    "transcription": "шама беколь",
+    "russian": "слушать (следовать советам)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִקשִיב",
+    "transcription": "hикшив",
+    "russian": "слушать (следовать советам)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שמִיעָה",
+    "transcription": "шмиа",
+    "russian": "слушание",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הַאֲזָנָה",
+    "transcription": "hаазана",
+    "russian": "слушание",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הַאֲזָנָה",
+    "transcription": "hаазана",
+    "russian": "вслушивание",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קֶשֶב",
+    "transcription": "кешев",
+    "russian": "вслушивание",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מַאֲזִין",
+    "transcription": "маазин",
+    "russian": "слушатель (радио)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תַלמִיד",
+    "transcription": "тальмид",
+    "russian": "слушатель (учащийся)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹזֶן",
+    "transcription": "озэн",
+    "russian": "ухо",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִפֶּה לָאוֹזֶן",
+    "transcription": "мипе лаозэн",
+    "russian": "по секрету",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "בְּסֵתֶר",
+    "transcription": "бесэтэр",
+    "russian": "по секрету",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "מַלשִין",
+    "transcription": "мальшин",
+    "russian": "наушник (доносчик)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "טֶלֶפוֹן",
+    "transcription": "тэлефон",
+    "russian": "телефон",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָזַר",
+    "transcription": "азар",
+    "russian": "опоясывать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חָגַר",
+    "transcription": "хагар",
+    "russian": "опоясывать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חָגַר",
+    "transcription": "хагар",
+    "russian": "подпоясывать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָזַר",
+    "transcription": "азар",
+    "russian": "подпоясывать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַזֵר",
+    "transcription": "hитъазэр",
+    "russian": "подпоясываться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִמתַח",
+    "transcription": "нимтах",
+    "russian": "подтянуться (натянуться)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "עָשָׂה מְתִיחוֹת",
+    "transcription": "аса метихот",
+    "russian": "подтянуться (на руках, спорт.)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִשתַפֵּר",
+    "transcription": "hиштапер",
+    "russian": "подтянуться (улучшиться)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתחַזֵק",
+    "transcription": "hитхазэк",
+    "russian": "укрепиться (стать крепче)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתגַבֵּר",
+    "transcription": "hитгабер",
+    "russian": "укрепиться (стать крепче)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתבַּסֵס",
+    "transcription": "hитбасэс",
+    "russian": "укрепиться (стать крепче)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַזֵר",
+    "transcription": "hитъазэр",
+    "russian": "укрепиться (стать крепче)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתבַּצֵר",
+    "transcription": "hитбацер",
+    "russian": "укрепиться (построить укрепления)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתהַדֵק",
+    "transcription": "hитhадэк",
+    "russian": "укрепиться (о связях)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אֵזוֹר",
+    "transcription": "эзор",
+    "russian": "район (местность, зона)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חֶבֶל",
+    "transcription": "хевель",
+    "russian": "район (местность, зона)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קִיבֵּל",
+    "transcription": "кибель",
+    "russian": "принимать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נָטַל",
+    "transcription": "наталь",
+    "russian": "принимать (лекарства)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נָקַט",
+    "transcription": "накат",
+    "russian": "принимать (меры)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "יִילֵד",
+    "transcription": "йийлед",
+    "russian": "принимать (ребёнка)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אֶזרָחוּת",
+    "transcription": "эзрахут",
+    "russian": "гражданство",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֶזרָח",
+    "transcription": "эзрах",
+    "russian": "гражданин",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֶזרָחִי",
+    "transcription": "эзрахи",
+    "russian": "гражданский (невоенный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָח",
+    "transcription": "ах",
+    "russian": "брат (сын тех же родителей)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָחִי",
+    "transcription": "ахи",
+    "russian": "брат (обращение)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חַבִּיבִּי",
+    "transcription": "хабиби",
+    "russian": "брат (обращение)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קָמִין",
+    "transcription": "камин",
+    "russian": "камин (печь)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָח",
+    "transcription": "ах",
+    "russian": "камин (печь)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תַנוּר חִימוּם",
+    "transcription": "танур химум",
+    "russian": "камин (обогревательный прибор)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָח",
+    "transcription": "ах",
+    "russian": "камин (обогревательный прибор)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָחוֹת",
+    "transcription": "ахот",
+    "russian": "сестра (родственница; медицинская)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָחוֹת",
+    "transcription": "ахот",
+    "russian": "медсестра",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיחוּד",
+    "transcription": "ихуд",
+    "russian": "единение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "לִיכּוּד",
+    "transcription": "ликуд",
+    "russian": "единение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "פֶדֶרַציָה",
+    "transcription": "федэрацйа",
+    "russian": "федерация",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הִתאַחדוּת",
+    "transcription": "hитъахдут",
+    "russian": "федерация",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיחוּד",
+    "transcription": "ихуд",
+    "russian": "федерация",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֶחָד",
+    "transcription": "эхад",
+    "russian": "один (число, цифра)",
+    "partOfSpeech": "numeral"
+  },
+  {
+    "hebrew": "אַחַת",
+    "transcription": "ахат",
+    "russian": "один (число, цифра)",
+    "partOfSpeech": "numeral"
+  },
+  {
+    "hebrew": "יָחִיד",
+    "transcription": "яхид",
+    "russian": "один (в отдельности)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "בּוֹדֵד",
+    "transcription": "бодэд",
+    "russian": "один (в отдельности)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "לְבַד",
+    "transcription": "левад",
+    "russian": "один (в отдельности)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְבַדוֹ",
+    "transcription": "левадо",
+    "russian": "один (в отдельности)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּגַפּוֹ",
+    "transcription": "бегапо",
+    "russian": "один (в отдельности)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "פּלוֹנִי",
+    "transcription": "плони",
+    "russian": "некто",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "פּלוֹנִי-אַלמוֹנִי",
+    "transcription": "плони-альмони",
+    "russian": "некто",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֶחָד",
+    "transcription": "эхад",
+    "russian": "некто",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֶחָד אֶחָד",
+    "transcription": "эхад эхад",
+    "russian": "по одному (друг за другом)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "כָּל",
+    "transcription": "коль",
+    "russian": "каждый (всякий)",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "כָּל אֶחָד",
+    "transcription": "коль эхад",
+    "russian": "каждый (любой человек)",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "כָּל אֶחָד וְאֶחָד",
+    "transcription": "коль эхад веэхад",
+    "russian": "каждый (любой человек)",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "כָּל",
+    "transcription": "коль",
+    "russian": "каждый (о времени)",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "מִדֵי",
+    "transcription": "мидэй",
+    "russian": "каждый (о времени)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "אֵיך",
+    "transcription": "эйх",
+    "russian": "как (каким образом)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "כֵּיצַד",
+    "transcription": "кэцад",
+    "russian": "как (каким образом)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "כְּ-",
+    "transcription": "ке-",
+    "russian": "как (подобно)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "כְּמוֹ",
+    "transcription": "кемо",
+    "russian": "как (подобно)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "כְּפִי",
+    "transcription": "кефи",
+    "russian": "как (согласно)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "כְּפִי שֶ-",
+    "transcription": "кефи ше-",
+    "russian": "как (согласно)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "עַד כַּמָה",
+    "transcription": "ад кама",
+    "russian": "как (до чего)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "מַה",
+    "transcription": "ма",
+    "russian": "как (в вопр. и воскл. оборотах)",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "כְּשֶ-",
+    "transcription": "кеше-",
+    "russian": "как (когда)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "עַל",
+    "transcription": "аль",
+    "russian": "на (сверху на чём-л.)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "עֲלֵי",
+    "transcription": "алэй",
+    "russian": "на (сверху на чём-л.)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בְּ-",
+    "transcription": "бе-",
+    "russian": "на (где-л.)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לְ-",
+    "transcription": "ле-",
+    "russian": "на (куда-л.)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לְשֵם",
+    "transcription": "лешем",
+    "russian": "на (для)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בִּשבִיל",
+    "transcription": "бишвиль",
+    "russian": "на (для)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "עֲבוּר",
+    "transcription": "авур",
+    "russian": "на (для)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לְמַעַן",
+    "transcription": "лемаан",
+    "russian": "на (для)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בִּכדֵי",
+    "transcription": "бихдэй",
+    "russian": "на (для)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "כְּדֵי",
+    "transcription": "кедэй",
+    "russian": "на (для)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "תוֹך כְּדֵי",
+    "transcription": "тох кедэй",
+    "russian": "на (во время)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בַּמָקוֹם",
+    "transcription": "бамаком",
+    "russian": "на (своём) месте",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "פֶּר",
+    "transcription": "пер",
+    "russian": "на (количество на единицу)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בּחִירָה",
+    "transcription": "бхира",
+    "russian": "подбор (выбор)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בּרֵירָה",
+    "transcription": "брэра",
+    "russian": "подбор (отбор)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹסֶף",
+    "transcription": "осэф",
+    "russian": "подбор (собрание)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "לֶקֶט",
+    "transcription": "лекет",
+    "russian": "подбор (собрание)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִבחָר",
+    "transcription": "мивхар",
+    "russian": "подбор (собрание)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "צֵירוּף",
+    "transcription": "цэруф",
+    "russian": "подбор (сочетание)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "יַחַד",
+    "transcription": "яхад",
+    "russian": "вместе",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּיַחַד",
+    "transcription": "беяхад",
+    "russian": "вместе",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּצַוותָא",
+    "transcription": "бецавта",
+    "russian": "вместе",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "יַחדָיו",
+    "transcription": "яхдав",
+    "russian": "вместе",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "גַם יַחַד",
+    "transcription": "гам яхад",
+    "russian": "вместе",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "בִּכפִיפָה אַחַת",
+    "transcription": "бихфифа ахат",
+    "russian": "вместе",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "עַל יַד",
+    "transcription": "аль яд",
+    "russian": "при (около)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לְיַד",
+    "transcription": "леяд",
+    "russian": "при (около)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "אֵצֶל",
+    "transcription": "эцель",
+    "russian": "при (около)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בִּפנֵי-",
+    "transcription": "бифнэй-",
+    "russian": "при (в присутствии)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בְּנוֹכְחוּת",
+    "transcription": "бенохехут",
+    "russian": "при (в присутствии)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "תַחַת",
+    "transcription": "тахат",
+    "russian": "при (в условиях)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בּ-",
+    "transcription": "б-",
+    "russian": "при (в условиях)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "ל-",
+    "transcription": "ле-",
+    "russian": "при (в условиях)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "פֶּה-אֶחָד",
+    "transcription": "пе-эхад",
+    "russian": "единогласно",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "עַל דַעַת הַכּוֹל",
+    "transcription": "аль даат hаколь",
+    "russian": "единогласно",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "פֶּה אֶחָד",
+    "transcription": "пе эхад",
+    "russian": "единодушно",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "אַחַד עָשָׂר",
+    "transcription": "ахад асар",
+    "russian": "одиннадцать",
+    "partOfSpeech": "numeral"
+  },
+  {
+    "hebrew": "אַחַת עֶשׂרֵה",
+    "transcription": "ахат эсрэ",
+    "russian": "одиннадцать",
+    "partOfSpeech": "numeral"
+  },
+  {
+    "hebrew": "אַחדוּת",
+    "transcription": "ахдут",
+    "russian": "единство (неразрывность)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שוּתָפוּת",
+    "transcription": "шутафут",
+    "russian": "единство (общность)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שלֵמוּת",
+    "transcription": "шлемут",
+    "russian": "единство (цельность)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲחָדִים",
+    "transcription": "ахадим",
+    "russian": "несколько",
+    "partOfSpeech": "numeral"
+  },
+  {
+    "hebrew": "מִספָּר",
+    "transcription": "миспар",
+    "russian": "несколько",
+    "partOfSpeech": "numeral"
+  },
+  {
+    "hebrew": "כַּמָה",
+    "transcription": "кама",
+    "russian": "несколько",
+    "partOfSpeech": "numeral"
+  },
+  {
+    "hebrew": "אֲחָדִים",
+    "transcription": "ахадим",
+    "russian": "некоторые",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "מְלוּכָּד",
+    "transcription": "мелукад",
+    "russian": "единый (нераздельный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְשוּתָף",
+    "transcription": "мешутаф",
+    "russian": "единый (общий)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָחִיד",
+    "transcription": "ахид",
+    "russian": "единый (одинаковый)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "הוֹמוֹגֶנִי",
+    "transcription": "hомогени",
+    "russian": "однородный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָחִיד",
+    "transcription": "ахид",
+    "russian": "однородный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "חִיבֵּר",
+    "transcription": "хибер",
+    "russian": "соединять (в одно целое)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחָה",
+    "transcription": "иха",
+    "russian": "соединять (в одно целое)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִידֵק",
+    "transcription": "hидэк",
+    "russian": "соединять (скреплять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיגֵד",
+    "transcription": "игед",
+    "russian": "соединять (скреплять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "צִימֵד",
+    "transcription": "цимед",
+    "russian": "соединять (сочетать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִרכִּיב",
+    "transcription": "hиркив",
+    "russian": "составлять (соединять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חִיבֵּר",
+    "transcription": "хибер",
+    "russian": "составлять (соединять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "צֵירֵף",
+    "transcription": "цэрэф",
+    "russian": "составлять (соединять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִיסֵחַ",
+    "transcription": "нисэах",
+    "russian": "составлять (документ, письмо)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "נִיסַח",
+    "transcription": "нисах",
+    "russian": "составлять (документ, письмо)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "עָרַך",
+    "transcription": "арах",
+    "russian": "составлять (документ, письмо)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָסַף",
+    "transcription": "асаф",
+    "russian": "составлять (собирать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "תָפַר",
+    "transcription": "тафар",
+    "russian": "сшивать (иглой)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחָה",
+    "transcription": "иха",
+    "russian": "сшивать (иглой)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִידֵק",
+    "transcription": "hидэк",
+    "russian": "сшивать (бумаги)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִכלִיב",
+    "transcription": "hихлив",
+    "russian": "сшивать (бумаги)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שִידֵך",
+    "transcription": "шидэх",
+    "russian": "сшивать (бумаги)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַחָה",
+    "transcription": "hитъаха",
+    "russian": "срастаться (о костях, тканях)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "תָפוּר",
+    "transcription": "тафур",
+    "russian": "сшитый (пошитый)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּחֶה",
+    "transcription": "меухе",
+    "russian": "сшитый (вместе)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָחוּי",
+    "transcription": "ахуй",
+    "russian": "сшитый (вместе)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּחֶה",
+    "transcription": "меухе",
+    "russian": "сросшийся",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְחוּבָּר",
+    "transcription": "мехубар",
+    "russian": "слитный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "הֶחזִיק",
+    "transcription": "hехзик",
+    "russian": "держать (взять в руки)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָחַז",
+    "transcription": "ахаз",
+    "russian": "держать (хватать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶחזִיק",
+    "transcription": "hехзик",
+    "russian": "держать (хватать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶחזִיק",
+    "transcription": "hехзик",
+    "russian": "держать (удерживать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶחזִיק",
+    "transcription": "hехзик",
+    "russian": "держать (иметь в хозяйстве)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִספִּיק",
+    "transcription": "hиспик",
+    "russian": "хватать (быть достаточным, сов. хватить)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "תָפַשׂ",
+    "transcription": "тафас",
+    "russian": "хватать (схватывать, сов. схватить)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "תָפַס",
+    "transcription": "тафас",
+    "russian": "хватать (схватывать, сов. схватить)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חָטַף",
+    "transcription": "хатаф",
+    "russian": "хватать (схватывать, сов. схватить)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִשתַלֵט עַל",
+    "transcription": "hишталет аль",
+    "russian": "овладевать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָחַז",
+    "transcription": "ахаз",
+    "russian": "овладевать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתייַשֵב",
+    "transcription": "hитйашев",
+    "russian": "селиться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתנַחֵל",
+    "transcription": "hитнахель",
+    "russian": "селиться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִשתַקֵעַ",
+    "transcription": "hиштакеа",
+    "russian": "селиться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתבַּסֵס",
+    "transcription": "hитбасэс",
+    "russian": "обосновываться (подкрепляться аргументами)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "עֲלֵי אֲדָמוֹת",
+    "transcription": "алэй адамот",
+    "russian": "на земле (на свете)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "אֶרֶץ",
+    "transcription": "эрэц",
+    "russian": "земля (страна)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְדִינָה",
+    "transcription": "медина",
+    "russian": "земля (страна)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָחוּז",
+    "transcription": "ахуз",
+    "russian": "процент",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָחוּז",
+    "transcription": "ахуз",
+    "russian": "охваченный (схваченный, одержимый)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "לָפוּת",
+    "transcription": "лафут",
+    "russian": "охваченный (схваченный, одержимый)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אֲחוּז-",
+    "transcription": "ахуз-",
+    "russian": "одержимый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אוֹבּסֶסִיבִי",
+    "transcription": "обсэсиви",
+    "russian": "одержимый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַחזָקָה",
+    "transcription": "ахзака",
+    "russian": "владение (обладание)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בַּעֲלוּת",
+    "transcription": "баалут",
+    "russian": "владение (обладание)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קִנייָן",
+    "transcription": "киньян",
+    "russian": "владение (обладание)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שלִיטָה",
+    "transcription": "шлита",
+    "russian": "владение (способность распоряжаться)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲחוּזָה",
+    "transcription": "ахуза",
+    "russian": "имение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִשפַּחתִי",
+    "transcription": "мишпахти",
+    "russian": "семейный (относящийся к семье)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "(שֶל) מִשפָּחָה",
+    "transcription": "(шель) мишпаха",
+    "russian": "семейный (относящийся к семье)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "בַּעַל-מִשפָּחָה",
+    "transcription": "бааль-мишпаха",
+    "russian": "семейный (имеющий семью)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "מְעָרַת קבוּרָה",
+    "transcription": "меарат квура",
+    "russian": "склеп",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תִימוּך",
+    "transcription": "тимух",
+    "russian": "опора (поддержка)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִשעָן",
+    "transcription": "мишъан",
+    "russian": "опора (поддержка)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "נְצִיב",
+    "transcription": "нецив",
+    "russian": "опора (моста)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "יַרכָּה",
+    "transcription": "ярка",
+    "russian": "опора (моста)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תִגבּוֹרֶת",
+    "transcription": "тигборэт",
+    "russian": "подкрепление (подмога)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "רָצָה",
+    "transcription": "раца",
+    "russian": "желать (хотеть)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "בִּיקֵש",
+    "transcription": "бикеш",
+    "russian": "желать (хотеть)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שִיקֵף",
+    "transcription": "шикеф",
+    "russian": "выражать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "בִּיטֵא",
+    "transcription": "битэ",
+    "russian": "выражать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִבִּיעַ",
+    "transcription": "hибиа",
+    "russian": "выражать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חִיווָה",
+    "transcription": "хива",
+    "russian": "выражать (мнение)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחוּלִים",
+    "transcription": "ихулим",
+    "russian": "пожелание (кому-л.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בּרָכָה",
+    "transcription": "браха",
+    "russian": "пожелание (кому-л.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בּרָכָה",
+    "transcription": "браха",
+    "russian": "поздравление",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְאוֹד",
+    "transcription": "меод",
+    "russian": "очень",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "מְאֹד",
+    "transcription": "меод",
+    "russian": "очень",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "עַד מְאוֹד",
+    "transcription": "ад меод",
+    "russian": "очень",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "נוֹרָא",
+    "transcription": "нора",
+    "russian": "очень",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּגַאֲווָה",
+    "transcription": "бегаава",
+    "russian": "важно (величаво)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "חָשוּב",
+    "transcription": "хашув",
+    "russian": "важно (ему)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אִישִיוּת",
+    "transcription": "ишиют",
+    "russian": "личность (человек)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִחסֵן",
+    "transcription": "ихсэн",
+    "russian": "складировать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחסֵן",
+    "transcription": "ихсэн",
+    "russian": "складировать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שָמַר עַל",
+    "transcription": "шамар аль",
+    "russian": "хранить",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שִימֵר",
+    "transcription": "шимер",
+    "russian": "хранить",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "מַחסָן",
+    "transcription": "махсан",
+    "russian": "склад (хранилище)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חֶדֶר",
+    "transcription": "хедэр",
+    "russian": "помещение (место)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בִּנייָן",
+    "transcription": "биньян",
+    "russian": "помещение (место)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִשכָּן",
+    "transcription": "мишкан",
+    "russian": "помещение (место)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מַחסָן",
+    "transcription": "махсан",
+    "russian": "кладовая",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְנַהֵל",
+    "transcription": "менаhель",
+    "russian": "заведующий",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מַחסָנַאי",
+    "transcription": "махсанай",
+    "russian": "кладовщик",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מַחסָנִית",
+    "transcription": "махсанит",
+    "russian": "обойма",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חֲנוּת",
+    "transcription": "ханут",
+    "russian": "магазин (для торговли)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "כּוֹל-בּוֹ",
+    "transcription": "коль-бо",
+    "russian": "магазин (для торговли)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מַחסָנִית",
+    "transcription": "махсанит",
+    "russian": "магазин (для автомата)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קַלֶטֶת",
+    "transcription": "калетэт",
+    "russian": "кассета (магнитофонная и т.п.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְכוּלָה",
+    "transcription": "мехула",
+    "russian": "контейнер",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מֵיכָל",
+    "transcription": "мэхаль",
+    "russian": "контейнер",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְכָל",
+    "transcription": "мехаль",
+    "russian": "контейнер",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "פַּטרוֹן",
+    "transcription": "патрон",
+    "russian": "патрон (покровитель)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַפּוֹטרוֹפּוֹס",
+    "transcription": "апотропос",
+    "russian": "патрон (покровитель)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "כַּדוּר",
+    "transcription": "кадур",
+    "russian": "патрон (пуля)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בֵּית נוּרָה",
+    "transcription": "бэт нура",
+    "russian": "патрон (электр.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיחֵר",
+    "transcription": "ихер",
+    "russian": "опаздывать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתעַכֵּב",
+    "transcription": "hитъакев",
+    "russian": "задерживаться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחֵר",
+    "transcription": "ихер",
+    "russian": "задерживаться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתמַהמֵהַּ",
+    "transcription": "hитмаhмеhּа",
+    "russian": "задерживаться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "בּוֹשֵש לָבוֹא",
+    "transcription": "бошеш лаво",
+    "russian": "задерживаться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחֵר (אֶת הַמוֹעֵד)",
+    "transcription": "ихер (эт hамоэд)",
+    "russian": "опоздать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיחוּר",
+    "transcription": "ихур",
+    "russian": "опоздание",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָחוֹר",
+    "transcription": "ахор",
+    "russian": "зад (задняя часть)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲחוֹרַיִים",
+    "transcription": "ахораим",
+    "russian": "зад (седалище)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "יַשבָן",
+    "transcription": "яшван",
+    "russian": "зад (седалище)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תַחַת",
+    "transcription": "тахат",
+    "russian": "зад (седалище)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "כִּיווּן",
+    "transcription": "кивун",
+    "russian": "сторона (направление)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "עֵבֶר",
+    "transcription": "эвер",
+    "russian": "сторона (направление)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "צַד",
+    "transcription": "цад",
+    "russian": "сторона (бок)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "צַד",
+    "transcription": "цад",
+    "russian": "сторона (точка зрения)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בּחִינָה",
+    "transcription": "бхина",
+    "russian": "сторона (точка зрения)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חֲזָרָה",
+    "transcription": "хазара",
+    "russian": "назад (по месту)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בַּחֲזָרָה",
+    "transcription": "бахазара",
+    "russian": "назад (по месту)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֲחוֹרַנִית",
+    "transcription": "ахоранит",
+    "russian": "назад (по направлению)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אָחוֹרָה",
+    "transcription": "ахора",
+    "russian": "назад (по направлению)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְאָחוֹר",
+    "transcription": "леахор",
+    "russian": "назад (по направлению)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "חֲזָרָה",
+    "transcription": "хазара",
+    "russian": "обратно",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בַּחֲזָרָה",
+    "transcription": "бахазара",
+    "russian": "обратно",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אָחוֹרָה",
+    "transcription": "ахора",
+    "russian": "обратно",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְאָחוֹר",
+    "transcription": "леахор",
+    "russian": "обратно",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַחֵר",
+    "transcription": "ахер",
+    "russian": "другой (иной)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "זוּלַת",
+    "transcription": "зулат",
+    "russian": "другой (не сам)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִשנֶה",
+    "transcription": "мишнэ",
+    "russian": "другой (следующий)",
+    "partOfSpeech": "unclassified"
+  },
+  {
+    "hebrew": "אַחֲרֵי",
+    "transcription": "ахарэй",
+    "russian": "после (предлог)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לְאַחַר",
+    "transcription": "леахар",
+    "russian": "после (предлог)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בְּמֶשֶך",
+    "transcription": "бемешех",
+    "russian": "за (в течение, во время)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "תוֹך",
+    "transcription": "тох",
+    "russian": "за (в течение, во время)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בְּעַד",
+    "transcription": "беад",
+    "russian": "за (в пользу)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "אַחַר-כָּך",
+    "transcription": "ахар-ках",
+    "russian": "потом (позже)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְאַחַר מִכֵּן",
+    "transcription": "леахар микен",
+    "russian": "потом (позже)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַחֲרֵי-כֵן",
+    "transcription": "ахарэй-хен",
+    "russian": "потом (позже)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "מְאוּחָר יוֹתֵר",
+    "transcription": "меухар йотэр",
+    "russian": "потом (позже)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַחַר-כָּך",
+    "transcription": "ахар-ках",
+    "russian": "затем (потом, после этого)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַחֲרֵי-כֵן",
+    "transcription": "ахарэй-хен",
+    "russian": "затем (потом, после этого)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְאַחַר מִכֵּן",
+    "transcription": "леахар микен",
+    "russian": "затем (потом, после этого)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "סוֹפִי",
+    "transcription": "софи",
+    "russian": "последний (окончательный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "חָדִיש",
+    "transcription": "хадиш",
+    "russian": "последний (новейший)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְעוּדכָּן",
+    "transcription": "меудкан",
+    "russian": "последний (новейший)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "(הַ)קוֹדֵם",
+    "transcription": "(а)кодэм",
+    "russian": "последний (предыдущий)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "בָּאַחרוֹנָה",
+    "transcription": "баахрона",
+    "russian": "в последнее время",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לָאַחֲרוֹנָה",
+    "transcription": "лаахарона",
+    "russian": "в последнее время",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "סוֹף",
+    "transcription": "соф",
+    "russian": "конец (предел)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "גמָר",
+    "transcription": "гмар",
+    "russian": "конец (предел)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "סִיוּם",
+    "transcription": "сиюм",
+    "russian": "конец (предел)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קֵץ",
+    "transcription": "кец",
+    "russian": "конец (предел)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חֶבֶל",
+    "transcription": "хевель",
+    "russian": "конец (верёвка, морск.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שְאֵרִית",
+    "transcription": "шеэрит",
+    "russian": "остаток",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שִיוּר",
+    "transcription": "шиюр",
+    "russian": "остаток",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שָׂרִיד",
+    "transcription": "сарид",
+    "russian": "остаток",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "סוֹף הָעוֹלָם",
+    "transcription": "соф hаолам",
+    "russian": "конец света",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קֵץ הַיָמִים",
+    "transcription": "кец hаямим",
+    "russian": "конец света",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אַפּוֹקָלִיפּסָה",
+    "transcription": "апокалипса",
+    "russian": "конец света",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "דמוּת",
+    "transcription": "дмут",
+    "russian": "образ (облик)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "צֶלֶם",
+    "transcription": "целем",
+    "russian": "образ (облик)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תמוּנָה",
+    "transcription": "тмуна",
+    "russian": "образ (облик)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיקוֹנִין",
+    "transcription": "иконин",
+    "russian": "образ (икона)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "צֶלֶם",
+    "transcription": "целем",
+    "russian": "образ (икона)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְאוּחָר",
+    "transcription": "меухар",
+    "russian": "поздний",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּחָר",
+    "transcription": "меухар",
+    "russian": "поздно (по времени)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּאִיחוּר",
+    "transcription": "беихур",
+    "russian": "поздно (с опозданием)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "מוּקדָם",
+    "transcription": "мукдам",
+    "russian": "рано (по времени)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לִפנֵי הַמוֹעֵד",
+    "transcription": "лифнэй hамоэд",
+    "russian": "рано (преждевременно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לִפנֵי הַזמַן",
+    "transcription": "лифнэй hазман",
+    "russian": "рано (преждевременно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אוֹ",
+    "transcription": "о",
+    "russian": "или (противопоставление)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אַחַר הַצָהֳרַיִים",
+    "transcription": "ахар hацаhораим",
+    "russian": "после обеда (днем, под вечер)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "מָחָר",
+    "transcription": "махар",
+    "russian": "завтра (на другой день)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לַמָחֳרָת",
+    "transcription": "ламахорат",
+    "russian": "завтра (на другой день)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "יוֹם",
+    "transcription": "йом",
+    "russian": "день (сутки; промежуток времени)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תַאֲרִיך",
+    "transcription": "таарих",
+    "russian": "день (календарное число)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "ב-",
+    "transcription": "в-",
+    "russian": "в",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "ל-",
+    "transcription": "ле-",
+    "russian": "в",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בְּתוֹך",
+    "transcription": "бетох",
+    "russian": "в",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לְתוֹך",
+    "transcription": "летох",
+    "russian": "в",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "ל-",
+    "transcription": "ле-",
+    "russian": "в (по направлению)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "אֶל",
+    "transcription": "эль",
+    "russian": "в (по направлению)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "זמַן",
+    "transcription": "зман",
+    "russian": "время (необратимое движение; промежуток)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "זמַן",
+    "transcription": "зман",
+    "russian": "время (срок)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מוֹעֵד",
+    "transcription": "моэд",
+    "russian": "время (срок)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "עֵת",
+    "transcription": "эт",
+    "russian": "время (срок)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תקוּפָה",
+    "transcription": "ткуфа",
+    "russian": "время (эпоха)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "עִידָן",
+    "transcription": "идан",
+    "russian": "время (эпоха)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "עֵת",
+    "transcription": "эт",
+    "russian": "время (эпоха)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "שָעָה",
+    "transcription": "шаа",
+    "russian": "время (определённый момент)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "רֶגַע",
+    "transcription": "рэга",
+    "russian": "время (определённый момент)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "עֵת",
+    "transcription": "эт",
+    "russian": "время (определённый момент)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מָחֳרָתַיִים",
+    "transcription": "махоратаим",
+    "russian": "послезавтра",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "הֵאֵט",
+    "transcription": "hеэт",
+    "russian": "замедлять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֵאִיט",
+    "transcription": "hеит",
+    "russian": "замедлять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶאָטָה",
+    "transcription": "hеата",
+    "russian": "замедление",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "לְאַט",
+    "transcription": "леат",
+    "russian": "медленно (книжн.)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בַּעֲצַלתַיִים",
+    "transcription": "баацальтаим",
+    "russian": "медленно (книжн.)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַט",
+    "transcription": "ат",
+    "russian": "медленно (книжн.)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּאִיטִיוּת",
+    "transcription": "беитиют",
+    "russian": "не спеша",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְאַט",
+    "transcription": "леат",
+    "russian": "не спеша",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְאִיטוֹ",
+    "transcription": "леито",
+    "russian": "не спеша",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אִיטִי",
+    "transcription": "ити",
+    "russian": "медленный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "זַחלָנִי",
+    "transcription": "захлани",
+    "russian": "медлительный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "שָהוּי",
+    "transcription": "шаhуй",
+    "russian": "медлительный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אִיטִיוּת",
+    "transcription": "итиют",
+    "russian": "медлительность",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֵיזֶה",
+    "transcription": "эйзэ",
+    "russian": "какой",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "מַה",
+    "transcription": "ма",
+    "russian": "какой",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "מֶשֶך",
+    "transcription": "мешех",
+    "russian": "время (продолжительность)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מֶשֶך (הַ)זמַן",
+    "transcription": "мешех (а)зман",
+    "russian": "время (продолжительность)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "זמַן",
+    "transcription": "зман",
+    "russian": "время (глагола, грам.)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֵיזוֹ",
+    "transcription": "эйзо",
+    "russian": "какая",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵילוּ",
+    "transcription": "эйлу",
+    "russian": "какие",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵיזֶה",
+    "transcription": "эйзэ",
+    "russian": "какие",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵיזֶשֶהוּ",
+    "transcription": "эйзэшеhу",
+    "russian": "какой-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵיזֶה",
+    "transcription": "эйзэ",
+    "russian": "какой-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "כָּלשֶהוּ",
+    "transcription": "кальшеhу",
+    "russian": "какой-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵי אֵלוּ",
+    "transcription": "эй элу",
+    "russian": "какие-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵי אֵלֶה",
+    "transcription": "эй эле",
+    "russian": "какие-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵיזֶה",
+    "transcription": "эйзэ",
+    "russian": "какие-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵיזוֹ",
+    "transcription": "эйзо",
+    "russian": "какая-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵיזוֹשֶהִי",
+    "transcription": "эйзошеhи",
+    "russian": "какая-то",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "אֵיכוּת",
+    "transcription": "эйхут",
+    "russian": "качество",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "טִיב",
+    "transcription": "тив",
+    "russian": "качество",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִייֵם",
+    "transcription": "ием",
+    "russian": "угрожать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "ההִפחִיד",
+    "transcription": "hhифхид",
+    "russian": "пугать (вызывать испуг, чувство страха)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶחרִיד",
+    "transcription": "hехрид",
+    "russian": "пугать (вызывать испуг, чувство страха)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִבהִיל",
+    "transcription": "hивhиль",
+    "russian": "пугать (вызывать испуг, чувство страха)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיוּם",
+    "transcription": "июм",
+    "russian": "угроза",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "סַכָּנָה",
+    "transcription": "сакана",
+    "russian": "угроза",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מַפחִיד",
+    "transcription": "мафхид",
+    "russian": "страшный (наводящий страх)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נוֹרָא",
+    "transcription": "нора",
+    "russian": "страшный (наводящий страх)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָיוֹם",
+    "transcription": "айом",
+    "russian": "страшный (наводящий страх)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אֵימתָנִי",
+    "transcription": "эймтани",
+    "russian": "страшный (наводящий страх)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נוֹרָאִי",
+    "transcription": "нораи",
+    "russian": "страшный (наводящий страх)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאַייֵם",
+    "transcription": "меаем",
+    "russian": "угрожающий",
+    "partOfSpeech": "participle"
+  },
+  {
+    "hebrew": "נוֹרָא",
+    "transcription": "нора",
+    "russian": "ужасный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָיוֹם וְנוֹרָא",
+    "transcription": "айом венора",
+    "russian": "ужасный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "נוֹרָאִי",
+    "transcription": "нораи",
+    "russian": "ужасный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מַחרִיד",
+    "transcription": "махрид",
+    "russian": "ужасный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְזַעֲזֵעַ",
+    "transcription": "мезаазэа",
+    "russian": "ужасный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "לֹא",
+    "transcription": "ло",
+    "russian": "не (отриц. частица)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "שוּם דָבָר",
+    "transcription": "шум давар",
+    "russian": "ничто (ничего)",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "כּלוּם",
+    "transcription": "клум",
+    "russian": "ничто (ничего)",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "לֹא כלוּם",
+    "transcription": "ло хлум",
+    "russian": "ничто (ничего)",
+    "partOfSpeech": "pronoun"
+  },
+  {
+    "hebrew": "בּלִי",
+    "transcription": "бли",
+    "russian": "без (указывает на отсутствие)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לְלֹא",
+    "transcription": "лело",
+    "russian": "без (указывает на отсутствие)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בְּלֹא",
+    "transcription": "бело",
+    "russian": "без (указывает на отсутствие)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בְּאֶפֶס-",
+    "transcription": "беэфес-",
+    "russian": "без (указывает на отсутствие)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "בִּלעֲדֵי",
+    "transcription": "билъадэй",
+    "russian": "без (указывает на отсутствие)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "פָּחוֹת",
+    "transcription": "пахот",
+    "russian": "без (за вычетом)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אָסוּר",
+    "transcription": "асур",
+    "russian": "нельзя (запрещается)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אִי-אֶפשָר",
+    "transcription": "и-эфшар",
+    "russian": "нельзя (нет возможности)",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "אֵי-בָּזֶה",
+    "transcription": "эй-базэ",
+    "russian": "где (лит. редко)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֵיפֹה שֶהוּא",
+    "transcription": "эйфо шеhу",
+    "russian": "где-либо (о месте)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֵי-שָם",
+    "transcription": "эй-шам",
+    "russian": "где-либо (о месте)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֵיפֹה שֶהוּא",
+    "transcription": "эйфо шеhу",
+    "russian": "где-нибудь (о месте)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֵיפֹשֶהוּ",
+    "transcription": "эйфошеhу",
+    "russian": "где-нибудь (о месте)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֵיפֹה שֶהוּא",
+    "transcription": "эйфо шеhу",
+    "russian": "где-то (в каком-то месте)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּעֵרֶך",
+    "transcription": "беэрэх",
+    "russian": "где-то (приблизительно)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אֵיפֹה",
+    "transcription": "эйфо",
+    "russian": "где",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "הִשלִים מַעֲרֶכֶת",
+    "transcription": "hишлим маарэхет",
+    "russian": "комплектовать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "קִיבֵּץ",
+    "transcription": "кибец",
+    "russian": "комплектовать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִישִי",
+    "transcription": "иши",
+    "russian": "личный (персональный; присущий кому-либо)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "פּרָטִי",
+    "transcription": "прати",
+    "russian": "личный (собственный; связанный с частной жизнью)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "הֶרכֵּב",
+    "transcription": "hеркев",
+    "russian": "состав (совокупность частей или людей)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תַעֲרוֹבֶת",
+    "transcription": "тааровет",
+    "russian": "состав (смесь)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "רַכֶּבֶת",
+    "transcription": "ракевет",
+    "russian": "состав (поезд)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "נִישׂוּאִים",
+    "transcription": "нисуим",
+    "russian": "замужество",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "נִישׂוּאִין",
+    "transcription": "нисуин",
+    "russian": "замужество",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "נִישׂוּאִים",
+    "transcription": "нисуим",
+    "russian": "женитьба",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "נִישׂוּאִין",
+    "transcription": "нисуин",
+    "russian": "женитьба",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "נִישׂוּאִין",
+    "transcription": "нисуин",
+    "russian": "супружество",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חַיֵי-נִישׂוּאִין",
+    "transcription": "хаяй-нисуин",
+    "russian": "супружество",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִישָה",
+    "transcription": "иша",
+    "russian": "жена",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִישָה",
+    "transcription": "иша",
+    "russian": "женщина",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֵשֶת אִיש",
+    "transcription": "эшет иш",
+    "russian": "замужняя женщина",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "פָּעִיל",
+    "transcription": "паиль",
+    "russian": "активный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַקטִיבִי",
+    "transcription": "активи",
+    "russian": "активный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מָלֵא",
+    "transcription": "мале",
+    "russian": "заполненный (полный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְמוּלָא",
+    "transcription": "мемула",
+    "russian": "заполненный (о бланке и т.п.)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "צֶווֶת",
+    "transcription": "цевет",
+    "russian": "персонал",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "סֶגֶל",
+    "transcription": "сэгель",
+    "russian": "персонал",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "וְכִי?",
+    "transcription": "вехи?",
+    "russian": "а (разве?)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "וְאִילוּ",
+    "transcription": "веилу",
+    "russian": "а (тогда как)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "רַק",
+    "transcription": "рак",
+    "russian": "только (лишь)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "בִּלבַד",
+    "transcription": "бильвад",
+    "russian": "только (лишь)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "אַך וְרַק",
+    "transcription": "ах верак",
+    "russian": "только (лишь)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "גרֵידָא",
+    "transcription": "грэда",
+    "russian": "только (лишь)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "אַך",
+    "transcription": "ах",
+    "russian": "только (едва)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בְּרֶגַע שֶ-",
+    "transcription": "берэга ше-",
+    "russian": "только (едва)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אִכזֵב",
+    "transcription": "ихзэв",
+    "russian": "разочаровать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיכזֵב",
+    "transcription": "ихзэв",
+    "russian": "разочаровать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִכזִיב",
+    "transcription": "hихзив",
+    "russian": "разочаровать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִתאַכזֵב",
+    "transcription": "hитъахзэв",
+    "russian": "разочароваться",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אַכזָבָה",
+    "transcription": "ахзава",
+    "russian": "разочарование",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הִתאַכזְבוּת",
+    "transcription": "hитъахзевут",
+    "russian": "разочарование",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "בָּאסָה",
+    "transcription": "баса",
+    "russian": "разочарование",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְאוּכזָב",
+    "transcription": "меухзав",
+    "russian": "разочарованный",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "יֵש",
+    "transcription": "еш",
+    "russian": "есть (существует)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "כֵּן הַמְפַקֵד!",
+    "transcription": "кен hамефакед!",
+    "russian": "есть (ответ на команду)",
+    "partOfSpeech": "interjection"
+  },
+  {
+    "hebrew": "אָכַל",
+    "transcription": "ахаль",
+    "russian": "есть (кушать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שָׂרַף",
+    "transcription": "сараф",
+    "russian": "сжигать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "חִיסֵל",
+    "transcription": "хисэль",
+    "russian": "уничтожать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִכחִיד",
+    "transcription": "hиххид",
+    "russian": "уничтожать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִכּחִיד",
+    "transcription": "hикхид",
+    "russian": "уничтожать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִשמִיד",
+    "transcription": "hишмид",
+    "russian": "уничтожать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "עִיכֵּל",
+    "transcription": "икель",
+    "russian": "переваривать (в желудке)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיכֵּל",
+    "transcription": "икель",
+    "russian": "разъедать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אוֹכֶל",
+    "transcription": "охель",
+    "russian": "еда (пища)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מָזוֹן",
+    "transcription": "мазон",
+    "russian": "еда (пища)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הֶאֱכִיל",
+    "transcription": "hеэхиль",
+    "russian": "кормить (давать есть)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֵזִין",
+    "transcription": "hезин",
+    "russian": "кормить (давать есть)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "שִיתוּך",
+    "transcription": "шитух",
+    "russian": "коррозия",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קוֹרוֹזיָה",
+    "transcription": "корозйа",
+    "russian": "коррозия",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיכּוּל",
+    "transcription": "икуль",
+    "russian": "коррозия",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אָכִיל",
+    "transcription": "ахиль",
+    "russian": "съедобный (годный в пищу)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "רָאוּי לַאֲכִילָה",
+    "transcription": "рауй лаахила",
+    "russian": "съедобный (годный в пищу)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אַכלָן",
+    "transcription": "ахлан",
+    "russian": "обжора",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "גַרגְרָן",
+    "transcription": "гаргеран",
+    "russian": "обжора",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "פרֶסֶר",
+    "transcription": "фрэсэр",
+    "russian": "обжора",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הַאֲכָלָה",
+    "transcription": "hаахала",
+    "russian": "кормление (людей)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיבּוּס",
+    "transcription": "ибус",
+    "russian": "кормление (животных)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הַאֲבָסָה",
+    "transcription": "hааваса",
+    "russian": "кормление (животных)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִכלֵס",
+    "transcription": "ихлес",
+    "russian": "заселять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיכלֵס",
+    "transcription": "ихлес",
+    "russian": "заселять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "יִישֵב",
+    "transcription": "йийшев",
+    "russian": "заселять",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אוֹכלוּסיָה",
+    "transcription": "охлусйа",
+    "russian": "население",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוֹכלוּסִין",
+    "transcription": "охлусин",
+    "russian": "население",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "יִישוּב",
+    "transcription": "йийшув",
+    "russian": "население",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִיכלוּס",
+    "transcription": "ихлус",
+    "russian": "заселение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "יִישוּב",
+    "transcription": "йийшув",
+    "russian": "заселение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מְיוּשָב",
+    "transcription": "мейушав",
+    "russian": "населённый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּכלָס",
+    "transcription": "меухлас",
+    "russian": "населённый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּכלָס",
+    "transcription": "меухлас",
+    "russian": "заселённый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְיוּשָב",
+    "transcription": "мейушав",
+    "russian": "заселённый",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אוֹרֵחַ",
+    "transcription": "орэах",
+    "russian": "постоялец",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "דַייָר",
+    "transcription": "даяр",
+    "russian": "постоялец",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "נָתַן",
+    "transcription": "натан",
+    "russian": "предоставлять (давать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶעֱנִיק",
+    "transcription": "hеэник",
+    "russian": "предоставлять (давать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֶעֱמִיד לִרשוּת",
+    "transcription": "hеэмид лиршут",
+    "russian": "предоставлять (давать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִפשֵר",
+    "transcription": "ифшер",
+    "russian": "предоставлять (позволять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִיפשֵר",
+    "transcription": "ифшер",
+    "russian": "предоставлять (позволять)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "לִינָה",
+    "transcription": "лина",
+    "russian": "ночлег",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קַבָּלָה",
+    "transcription": "кабала",
+    "russian": "приём (принятие)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קַבָּלַת פָּנִים",
+    "transcription": "кабалат паним",
+    "russian": "приём (официальный сбор приглашённых лиц)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קַבָּלַת קָהָל",
+    "transcription": "кабалат каhаль",
+    "russian": "приём (посетителей, больных)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קלִיטָה",
+    "transcription": "клита",
+    "russian": "приём (радио)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "תַכסִיס",
+    "transcription": "тахсис",
+    "russian": "приём (хитрость, уловка)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "טרִיק",
+    "transcription": "трик",
+    "russian": "приём (хитрость, уловка)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "גִימִיק",
+    "transcription": "гимик",
+    "russian": "приём (хитрость, уловка)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קלִיטָה",
+    "transcription": "клита",
+    "russian": "приём (репатриантов)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מֶשֶק",
+    "transcription": "мешек",
+    "russian": "двор (крестьянский дом)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "חָצֵר",
+    "transcription": "хацер",
+    "russian": "двор (участок)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מָלוֹן",
+    "transcription": "малон",
+    "russian": "гостиница (для временного проживания)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הוֹלִיך",
+    "transcription": "hолих",
+    "russian": "сводить (отводить)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "לִיווָה",
+    "transcription": "лива",
+    "russian": "сводить (отводить)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הִפגִיש",
+    "transcription": "hифгиш",
+    "russian": "сводить (сближать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "הֵסִיר",
+    "transcription": "hесир",
+    "russian": "сводить (выводить, убирать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "לְ-",
+    "transcription": "ле-",
+    "russian": "к (направление)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "כּלַפֵּי",
+    "transcription": "клапэй",
+    "russian": "к (направление)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "אֶל",
+    "transcription": "эль",
+    "russian": "к (кому-л. — ко мне, к тебе, к нему)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "לִידֵי",
+    "transcription": "лидэй",
+    "russian": "к (до)",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "hebrew": "אֱלוֹהִים",
+    "transcription": "элоhим",
+    "russian": "Бог",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֵל",
+    "transcription": "эль",
+    "russian": "Бог",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אֲדוֹנָי",
+    "transcription": "адонай",
+    "russian": "Бог",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הַשֵם",
+    "transcription": "hашем",
+    "russian": "Бог",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מֶלֶך-מַלכֵי-הַמלָכִים",
+    "transcription": "мелех-мальхэй-hамлахим",
+    "russian": "Бог",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "סַדנָה",
+    "transcription": "садна",
+    "russian": "студия (мастерская, театральный коллектив)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "סטוּדיוֹ",
+    "transcription": "студйо",
+    "russian": "студия (мастерская, театральный коллектив)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוּלפָּן",
+    "transcription": "ульпан",
+    "russian": "студия (мастерская, театральный коллектив)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "קוּרס",
+    "transcription": "курс",
+    "russian": "курсы (учебные)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "לִימוּדִים",
+    "transcription": "лимудим",
+    "russian": "курсы (учебные)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אוּלפָּן",
+    "transcription": "ульпан",
+    "russian": "ульпан (курсы иврита)",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "הִכרִיחַ",
+    "transcription": "hихриах",
+    "russian": "заставлять (принуждать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִילֵץ",
+    "transcription": "илец",
+    "russian": "заставлять (принуждать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אָנַס",
+    "transcription": "анас",
+    "russian": "заставлять (принуждать)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "תָפַס",
+    "transcription": "тафас",
+    "russian": "заставлять (чем-л. всю площадь)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "מִילֵא",
+    "transcription": "миле",
+    "russian": "заставлять (чем-л. всю площадь)",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִינוּס",
+    "transcription": "инус",
+    "russian": "принуждение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִילוּץ",
+    "transcription": "илуц",
+    "russian": "принуждение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "כּפִייָה",
+    "transcription": "кфия",
+    "russian": "принуждение",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "כָּפוּי",
+    "transcription": "кафуй",
+    "russian": "вынужденный (не добровольный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אָנוּס",
+    "transcription": "анус",
+    "russian": "вынужденный (не добровольный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּלָץ",
+    "transcription": "меулац",
+    "russian": "вынужденный (не добровольный)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "מְאוּלָץ",
+    "transcription": "меулац",
+    "russian": "вымученный (через силу)",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "hebrew": "אִילתֵר",
+    "transcription": "ильтэр",
+    "russian": "импровизировать",
+    "partOfSpeech": "verb"
+  },
+  {
+    "hebrew": "אִימפּרוֹבִיזַציָה",
+    "transcription": "импровизацйа",
+    "russian": "импровизация",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִילתוּר",
+    "transcription": "ильтур",
+    "russian": "импровизация",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִילתוּר",
+    "transcription": "ильтур",
+    "russian": "экспромт",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "מִייָד",
+    "transcription": "мияд",
+    "russian": "тут же",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "לְאַלתַר",
+    "transcription": "леальтар",
+    "russian": "тут же",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "בּוֹ בַּמָקוֹם",
+    "transcription": "бо бамаком",
+    "russian": "тут же",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "עַל הַמָקוֹם",
+    "transcription": "аль hамаком",
+    "russian": "тут же",
+    "partOfSpeech": "expression"
+  },
+  {
+    "hebrew": "פֹּה",
+    "transcription": "по",
+    "russian": "тут (здесь)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "כָּאן",
+    "transcription": "кан",
+    "russian": "тут (здесь)",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "hebrew": "אַלמָווֶת",
+    "transcription": "альмавет",
+    "russian": "бессмертие",
+    "partOfSpeech": "noun"
+  },
+  {
+    "hebrew": "אִם",
+    "transcription": "им",
+    "russian": "если",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "בְּמִידָה וְ-",
+    "transcription": "бемида ве-",
+    "russian": "если",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "בְּאִם",
+    "transcription": "беим",
+    "russian": "если (офиц.)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "הַאִם",
+    "transcription": "hаим",
+    "russian": "ли (вопрос)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "אִם",
+    "transcription": "им",
+    "russian": "ли (вопрос)",
+    "partOfSpeech": "particle"
+  },
+  {
+    "hebrew": "לוּ",
+    "transcription": "лу",
+    "russian": "если бы",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אִילוּ",
+    "transcription": "илу",
+    "russian": "если бы",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "לַמרוֹת שֶ-",
+    "transcription": "ламрот ше-",
+    "russian": "хотя",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אַף שֶ-",
+    "transcription": "аф ше-",
+    "russian": "хотя",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אַף-עַל-פִּי שֶ-",
+    "transcription": "аф-аль-пи ше-",
+    "russian": "хотя",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אַף כִּי",
+    "transcription": "аф ки",
+    "russian": "хотя",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "hebrew": "אִם כִּי",
+    "transcription": "им ки",
+    "russian": "хотя",
+    "partOfSpeech": "conjunction"
+  }
+].map(function (record) { return Object.freeze(record); }));
+window.HEBREW_RUSSIAN_PARTS = Object.freeze({"verb": "Глаголы", "noun": "Существительные", "adjective": "Прилагательные", "pronoun": "Местоимения", "numeral": "Числительные", "adverb": "Наречия", "preposition": "Предлоги", "conjunction": "Союзы", "particle": "Частицы", "interjection": "Междометия", "participle": "Причастные формы", "expression": "Устойчивые выражения", "unclassified": "Требуют определения части речи"});
