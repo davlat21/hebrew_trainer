@@ -4,8 +4,8 @@
     const mode = document.getElementById('audioMode');
     const info = document.getElementById('audioFilesStatus');
     const manifest = window.TRAINER_AUDIO_MANIFEST;
-    const records = window.GeneralHebrewRussianDatabase.getAll();
-    const valid = manifest && manifest.ready === true && Array.isArray(manifest.records) &&
+    const records = window.GeneralHebrewRussianDatabase?.getAll() || [];
+    const valid = records.length > 0 && manifest && manifest.ready === true && Array.isArray(manifest.records) &&
         manifest.records.length === records.length && manifest.records.every((r, i) =>
             r.russian === records[i].russian && r.hebrew === records[i].hebrew &&
             /^audio\/[a-f0-9]{64}\.mp3$/.test(r.ru) && /^audio\/[a-f0-9]{64}\.mp3$/.test(r.he));
@@ -30,12 +30,6 @@
         get selected() { return mode.value === 'files'; },
         get ready() { return !!valid; },
         stop: abort,
-        prime: function () {
-            if (!valid || mode.value !== 'files' || current || audio.getAttribute('src')) return;
-            // Unlock this same media element during the user's microphone-button tap.
-            audio.src = 'data:audio/wav;base64,UklGRiYAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQIAAACAgA==';
-            try { const result = audio.play(); if (result && result.catch) result.catch(() => {}); } catch (_) {}
-        },
         play: function (state, done, failed) {
             abort(false);
             if (!valid) { failed('Аудиобаза не подготовлена.'); return; }
@@ -54,7 +48,7 @@
                 failed('Не удалось загрузить MP3. Проверьте, загружена ли папка audio на GitHub. Нажмите «Повторить слово».');
             };
             audio.onpause = function () {
-                if (current !== entry || audio.ended || audio.error) return;
+                if (current !== entry || !audio.paused || audio.ended || audio.error) return;
                 // A call, audio focus change, or the visible player's Pause must not leave NEXT blocked.
                 current = null;
                 failed('Воспроизведение приостановлено. Нажмите «Повторить слово».');
