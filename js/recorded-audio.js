@@ -4,23 +4,19 @@
     const mode = document.getElementById('audioMode');
     const info = document.getElementById('audioFilesStatus');
     const manifest = window.TRAINER_AUDIO_MANIFEST;
-    const records = window.GeneralHebrewRussianDatabase?.getAll() || [];
-    const valid = records.length > 0 && manifest && manifest.ready === true && Array.isArray(manifest.records) &&
+    const records = window.GeneralHebrewRussianDatabase.getAll();
+    const valid = manifest && manifest.ready === true && Array.isArray(manifest.records) &&
         manifest.records.length === records.length && manifest.records.every((r, i) =>
             r.russian === records[i].russian && r.hebrew === records[i].hebrew &&
             /^audio\/[a-f0-9]{64}\.mp3$/.test(r.ru) && /^audio\/[a-f0-9]{64}\.mp3$/.test(r.he));
     let current = null;
-    if (valid) mode.value = 'files';
-    else mode.querySelector('option[value="files"]').disabled = true;
-    if (!valid) info.textContent = 'Аудиобаза ещё не подготовлена. На компьютере запустите PREPARE_AUDIO_WINDOWS.cmd из архива.';
+    if (!valid) info.textContent = 'Не удалось загрузить аудиобазу. Проверьте содержимое папки audio.';
     else info.textContent = 'Аудиобаза готова: ' + records.length + ' записей. Фоновую работу проверьте на iPhone.';
-    function abort(reset = true) {
+    function abort() {
         current = null; audio.onended = audio.onerror = audio.onpause = null;
-        audio.pause();
-        if (reset) { audio.removeAttribute('src'); audio.load(); }
+        audio.pause(); audio.removeAttribute('src'); audio.load();
     }
     mode.addEventListener('change', function () {
-        document.querySelector('[data-voice-command="END"]').click();
         if (mode.value === 'files' && !valid) {
             mode.value = 'speech';
             info.textContent = 'Сначала подготовьте MP3 на компьютере. Сейчас оставлено обычное озвучивание.';
@@ -31,9 +27,9 @@
         get ready() { return !!valid; },
         stop: abort,
         play: function (state, done, failed) {
-            abort(false);
+            abort();
             if (!valid) { failed('Аудиобаза не подготовлена.'); return; }
-            const record = manifest.records[state.order[state.position]];
+            const record = manifest.records[state.index];
             const entry = {record, side: state.side, done, failed};
             current = entry;
             audio.src = state.side === 'russian' ? record.ru : record.he;
@@ -48,7 +44,7 @@
                 failed('Не удалось загрузить MP3. Проверьте, загружена ли папка audio на GitHub. Нажмите «Повторить слово».');
             };
             audio.onpause = function () {
-                if (current !== entry || !audio.paused || audio.ended || audio.error) return;
+                if (current !== entry || audio.ended || audio.error) return;
                 // A call, audio focus change, or the visible player's Pause must not leave NEXT blocked.
                 current = null;
                 failed('Воспроизведение приостановлено. Нажмите «Повторить слово».');

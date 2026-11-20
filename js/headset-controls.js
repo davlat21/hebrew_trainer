@@ -31,7 +31,7 @@
             clear(); toggle.checked = false; status.textContent = 'Этот браузер не принимает Play/Pause.'; return;
         }
         enabled = true; received = 0; last = -Infinity;
-        status.textContent = 'Режим включён. Нажмите START на странице, затем Play/Pause на наушнике. Получено нажатий: 0.';
+        status.textContent = 'Режим включён. Запустите первое слово в режиме MP3. Получено нажатий: 0.';
         // No silent audio or artificial background keepalive: delivery depends on the browser.
     });
     window.addEventListener('trainer-speaking', function (event) {
@@ -53,7 +53,9 @@
     });
     window.addEventListener('trainer-command', function (event) {
         if (event.detail.name === 'END' && enabled) {
-            clear(); toggle.checked = false; status.textContent = 'Управление наушником выключено после END.';
+            state('none');
+            try { session.metadata = null; } catch (_) {}
+            status.textContent = 'Занятие завершено. Для нового занятия используйте START.';
         }
     });
     window.addEventListener('pagehide', function () { clear(); toggle.checked = false; status.textContent = 'Управление наушником выключено.'; });
